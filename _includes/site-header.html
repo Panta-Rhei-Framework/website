@@ -1,0 +1,26 @@
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand__mark">{{ site.data.site.brand.mark }}</span>
+      <span class="brand__text">{{ site.data.site.brand.name }}</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+    <nav class="site-nav" aria-label="Primary">
+      {% for item in site.data.navigation.primary %}
+        {% assign current = false %}
+        {% if page.url == item.url %}
+          {% assign current = true %}
+        {% elsif item.url == '/books/' and page.collection == 'books' %}
+          {% assign current = true %}
+        {% elsif item.url == '/updates/' and page.url contains '/updates/' %}
+          {% assign current = true %}
+        {% elsif item.url == '/series/panta-rhei/' and page.url contains '/series/panta-rhei/' %}
+          {% assign current = true %}
+        {% endif %}
+        <a href="{{ item.url | relative_url }}"{% if current %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

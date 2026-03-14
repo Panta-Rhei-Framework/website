@@ -1,0 +1,77 @@
+books:
+  categorical-foundations:
+    toc_label: Table of contents
+    toc_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-I_toc_1st-edition_2025.pdf
+    qa_label: Reader Q&A appendix
+    qa_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-I_qa_1st-edition_2025.pdf
+    bundle_label: Reader bundle
+    bundle_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-I_reader-pack_1st-edition_2025.zip
+    doi: https://doi.org/10.5281/zenodo.18088633
+
+  categorical-holomorphy:
+    toc_label: Table of contents
+    toc_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-II_toc_1st-edition_2025.pdf
+    qa_label: Reader Q&A appendix
+    qa_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-II_qa_1st-edition_2025.pdf
+    bundle_label: Reader bundle
+    bundle_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-II_reader-pack_1st-edition_2025.zip
+    doi: https://doi.org/10.5281/zenodo.18088678
+
+  categorical-spectrum:
+    toc_label: Table of contents
+    toc_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-III_toc_1st-edition_2025.pdf
+    qa_label: Reader Q&A appendix
+    qa_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-III_qa_1st-edition_2025.pdf
+    bundle_label: Reader bundle
+    bundle_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-III_reader-pack_1st-edition_2025.zip
+    doi: https://doi.org/10.5281/zenodo.18091256
+
+  categorical-microcosm:
+    toc_label: Table of contents
+    toc_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-IV_toc_1st-edition_2025.pdf
+    qa_label: Reader Q&A appendix
+    qa_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-IV_qa_1st-edition_2025.pdf
+    bundle_label: Reader bundle
+    bundle_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-IV_reader-pack_1st-edition_2025.zip
+    doi: https://doi.org/10.5281/zenodo.18091302
+
+  categorical-macrocosm:
+    toc_label: Table of contents
+    toc_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-V_toc_1st-edition_2025.pdf
+    qa_label: Reader Q&A appendix
+    qa_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-V_qa_1st-edition_2025.pdf
+    bundle_label: Reader bundle
+    bundle_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-V_reader-pack_1st-edition_2025.zip
+    doi: https://doi.org/10.5281/zenodo.18091393
+
+  categorical-life:
+    toc_label: Table of contents
+    toc_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-VI_toc_1st-edition_2025.pdf
+    qa_label: Reader Q&A appendix
+    qa_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-VI_qa_1st-edition_2025.pdf
+    bundle_label: Reader bundle
+    bundle_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-VI_reader-pack_1st-edition_2025.zip
+    doi: https://doi.org/10.5281/zenodo.18088382
+
+  categorical-metaphysics:
+    toc_label: Table of contents
+    toc_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-VII_toc_1st-edition_2025.pdf
+    qa_label: Reader Q&A appendix
+    qa_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-VII_qa_1st-edition_2025.pdf
+    bundle_label: Reader bundle
+    bundle_url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_book-VII_reader-pack_1st-edition_2025.zip
+    doi: https://doi.org/10.5281/zenodo.18088551
+
+series:
+  all_pdfs:
+    label: All 14 PDFs
+    url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_series_reader-packs_1st-edition_2025.zip
+  all_tocs:
+    label: All TOCs
+    url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_series_toc_1st-edition_2025.zip
+  all_qas:
+    label: All Q&As
+    url: https://github.com/Panta-Rhei-Books/downloads/releases/download/1st-edition_2025/panta-rhei_series_qa_1st-edition_2025.zip
+  release_page:
+    label: Downloads release page
+    url: https://github.com/Panta-Rhei-Books/downloads/releases/tag/1st-edition_2025

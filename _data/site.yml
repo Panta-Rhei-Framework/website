@@ -1,0 +1,45 @@
+brand:
+  name: Panta Rhei
+  mark: "πρ"
+  tagline: One research cosmos. Seven volume worlds.
+
+series:
+  title: Panta Rhei Books
+  eyebrow: Seven-volume series · research editions
+  hero_title: Panta Rhei Books
+  hero_copy: >-
+    A seven-volume research series that follows one continuous arc from
+    mathematical foundations through structure, physics, cosmology, life,
+    and metaphysics — by Dr. Thorsten Fuchs and Anna-Sophie Fuchs.
+
+contact:
+  email: contact@panta-rhei-books.org
+  mailto: mailto:contact@panta-rhei-books.org
+  location: Near Munich, Germany
+
+links:
+  website: https://www.panta-rhei-books.org
+  github_org: https://github.com/Panta-Rhei-Books
+  amazon_series: https://www.amazon.com/dp/B0GBX46DH7
+  downloads_release: https://github.com/Panta-Rhei-Books/downloads/releases/tag/1st-edition_2025
+  press_release: https://github.com/Panta-Rhei-Books/presskit/releases/tag/1st-edition_2025
+  zenodo: https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Fuchs%2C%20Thorsten%22&l=list&p=1&s=10&sort=bestmatch
+
+footer:
+  copy: >-
+    Seven volumes. One structural vocabulary. From axioms to lived reality.
+  utility_links:
+    - label: Citation
+      url: /citation/
+    - label: Contact
+      url: /contact/
+    - label: GitHub
+      url: https://github.com/Panta-Rhei-Books
+    - label: Zenodo
+      url: https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Fuchs%2C%20Thorsten%22&l=list&p=1&s=10&sort=bestmatch
+    - label: Impressum
+      url: /impressum/
+    - label: Privacy
+      url: /privacy/
+    - label: Terms
+      url: /terms/

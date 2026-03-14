@@ -1,0 +1,40 @@
+series:
+  release_page:
+    label: Press release page
+    url: https://github.com/Panta-Rhei-Books/presskit/releases/tag/1st-edition_2025
+  bundle:
+    label: Complete press kit bundle
+    url: https://github.com/Panta-Rhei-Books/presskit/releases/download/1st-edition_2025/panta-rhei_press-kit_bundle_1st-edition_2025.zip
+  one_sheet:
+    label: Series one-sheet
+    url: https://github.com/Panta-Rhei-Books/presskit/releases/download/1st-edition_2025/panta-rhei_press-kit_one-sheet_1st-edition_2025.pdf
+  author_bio:
+    label: Author bio sheet
+    url: https://github.com/Panta-Rhei-Books/presskit/releases/download/1st-edition_2025/panta-rhei_press-kit_author-bio_1st-edition_2025.pdf
+  interview_qa:
+    label: Interview Q&A
+    url: https://github.com/Panta-Rhei-Books/presskit/releases/download/1st-edition_2025/panta-rhei_press-kit_interview-qa_1st-edition_2025.pdf
+  reviewer_start:
+    label: Reviewer start
+    url: https://github.com/Panta-Rhei-Books/presskit/releases/download/1st-edition_2025/panta-rhei_press-kit_reviewer-start_1st-edition_2025.pdf
+  reviewer_notes:
+    label: Reviewer notes
+    url: https://github.com/Panta-Rhei-Books/presskit/releases/download/1st-edition_2025/panta-rhei_press-kit_reviewer-notes_1st-edition_2025.pdf
+  blurbs:
+    label: Blurbs & boilerplate
+    url: https://github.com/Panta-Rhei-Books/presskit/releases/download/1st-edition_2025/panta-rhei_press-kit_blurbs-and-boilerplate_1st-edition_2025.pdf
+  citation_sheet:
+    label: DOI & citation sheet
+    url: https://github.com/Panta-Rhei-Books/presskit/releases/download/1st-edition_2025/panta-rhei_press-kit_doi-and-citation_1st-edition_2025.pdf
+  series_by_parts:
+    label: Series by Parts
+    url: https://github.com/Panta-Rhei-Books/presskit/releases/download/1st-edition_2025/panta-rhei_press-kit_series-by-parts_1st-edition_2025.pdf
+  cover_bundle_web:
+    label: Web covers bundle
+    url: https://github.com/Panta-Rhei-Books/presskit/releases/download/1st-edition_2025/panta-rhei_covers_web_1st-edition_2025.zip
+  cover_bundle_print:
+    label: Print covers bundle
+    url: https://github.com/Panta-Rhei-Books/presskit/releases/download/1st-edition_2025/panta-rhei_covers_print_1st-edition_2025.zip
+  checksum_manifest:
+    label: SHA256 checksums
+    url: https://github.com/Panta-Rhei-Books/presskit/blob/main/presskit/1st-edition_2025/manifests/SHA256SUMS.txt

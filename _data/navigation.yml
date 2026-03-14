@@ -1,0 +1,17 @@
+primary:
+  - label: Home
+    url: /
+  - label: Series
+    url: /series/panta-rhei/
+  - label: Books
+    url: /books/
+  - label: Authors
+    url: /authors/
+  - label: Resources
+    url: /resources/
+  - label: Press Kit
+    url: /press-kit/
+  - label: Updates
+    url: /updates/
+  - label: FAQ
+    url: /faq/

@@ -1,0 +1,18 @@
+{% assign book = include.book %}
+<a class="book-link" href="{{ book.url | relative_url }}"{% if book.track %} data-track="{{ book.track }}"{% endif %}>
+  <article class="book-card" style="--cover: {{ book.cover_gradient }};">
+    {% if book.cover_image %}
+    <picture class="book-card__cover">
+      <source srcset="{{ book.cover_image | append: '.webp' | relative_url }}" type="image/webp" />
+      <img src="{{ book.cover_image | append: '.jpg' | relative_url }}"
+           alt="Cover of {{ book.title }}"
+           loading="lazy"
+           width="400" height="640" />
+    </picture>
+    {% endif %}
+    <div class="book-card__top">{{ book.volume_label }}</div>
+    <div class="book-card__title">{{ book.title }}</div>
+    <div class="book-card__mark">{{ site.data.site.brand.mark }}</div>
+    <div class="book-card__meta"><span>{{ book.entry_hint }}</span><span>{{ book.year }}</span></div>
+  </article>
+</a>

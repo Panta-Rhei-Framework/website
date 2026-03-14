@@ -1,0 +1,103 @@
+books:
+  categorical-foundations:
+    print:
+      us: https://www.amazon.com/dp/B0GCK4713P
+      uk: https://www.amazon.co.uk/dp/B0GCK4713P
+      de: https://www.amazon.de/dp/B0GCK4713P
+      fr: https://www.amazon.fr/dp/B0GCK4713P
+      es: https://www.amazon.es/dp/B0GCK4713P
+    kindle:
+      us: https://www.amazon.com/dp/B0GC2WMFVP
+      uk: https://www.amazon.co.uk/dp/B0GC2WMFVP
+      de: https://www.amazon.de/dp/B0GC2WMFVP
+      fr: https://www.amazon.fr/dp/B0GC2WMFVP
+      es: https://www.amazon.es/dp/B0GC2WMFVP
+
+  categorical-holomorphy:
+    print:
+      us: https://www.amazon.com/dp/B0GCDZJZQC
+      uk: https://www.amazon.co.uk/dp/B0GCDZJZQC
+      de: https://www.amazon.de/dp/B0GCDZJZQC
+      fr: https://www.amazon.fr/dp/B0GCDZJZQC
+      es: https://www.amazon.es/dp/B0GCDZJZQC
+    kindle:
+      us: https://www.amazon.com/dp/B0GBYL3PPD
+      uk: https://www.amazon.co.uk/dp/B0GBYL3PPD
+      de: https://www.amazon.de/dp/B0GBYL3PPD
+      fr: https://www.amazon.fr/dp/B0GBYL3PPD
+      es: https://www.amazon.es/dp/B0GBYL3PPD
+
+  categorical-spectrum:
+    print:
+      us: https://www.amazon.com/dp/B0GCLCCFRJ
+      uk: https://www.amazon.co.uk/dp/B0GCLCCFRJ
+      de: https://www.amazon.de/dp/B0GCLCCFRJ
+      fr: https://www.amazon.fr/dp/B0GCLCCFRJ
+      es: https://www.amazon.es/dp/B0GCLCCFRJ
+    kindle:
+      us: https://www.amazon.com/dp/B0GCL3L1DX
+      uk: https://www.amazon.co.uk/dp/B0GCL3L1DX
+      de: https://www.amazon.de/dp/B0GCL3L1DX
+      fr: https://www.amazon.fr/dp/B0GCL3L1DX
+      es: https://www.amazon.es/dp/B0GCL3L1DX
+
+  categorical-microcosm:
+    print:
+      us: https://www.amazon.com/dp/B0GCFZNPYZ
+      uk: https://www.amazon.co.uk/dp/B0GCFZNPYZ
+      de: https://www.amazon.de/dp/B0GCFZNPYZ
+      fr: https://www.amazon.fr/dp/B0GCFZNPYZ
+      es: https://www.amazon.es/dp/B0GCFZNPYZ
+    kindle:
+      us: https://www.amazon.com/dp/B0GBX24GZR
+      uk: https://www.amazon.co.uk/dp/B0GBX24GZR
+      de: https://www.amazon.de/dp/B0GBX24GZR
+      fr: https://www.amazon.fr/dp/B0GBX24GZR
+      es: https://www.amazon.es/dp/B0GBX24GZR
+
+  categorical-macrocosm:
+    print:
+      us: https://www.amazon.com/dp/B0GCFX89CS
+      uk: https://www.amazon.co.uk/dp/B0GCFX89CS
+      de: https://www.amazon.de/dp/B0GCFX89CS
+      fr: https://www.amazon.fr/dp/B0GCFX89CS
+      es: https://www.amazon.es/dp/B0GCFX89CS
+    kindle:
+      us: https://www.amazon.com/dp/B0GBX5CKLG
+      uk: https://www.amazon.co.uk/dp/B0GBX5CKLG
+      de: https://www.amazon.de/dp/B0GBX5CKLG
+      fr: https://www.amazon.fr/dp/B0GBX5CKLG
+      es: https://www.amazon.es/dp/B0GBX5CKLG
+
+  categorical-life:
+    print:
+      us: https://www.amazon.com/dp/B0GC876XKT
+      uk: https://www.amazon.co.uk/dp/B0GC876XKT
+      de: https://www.amazon.de/dp/B0GC876XKT
+      fr: https://www.amazon.fr/dp/B0GC876XKT
+      es: https://www.amazon.es/dp/B0GC876XKT
+    kindle:
+      us: https://www.amazon.com/dp/B0GBWNTTXF
+      uk: https://www.amazon.co.uk/dp/B0GBWNTTXF
+      de: https://www.amazon.de/dp/B0GBWNTTXF
+      fr: https://www.amazon.fr/dp/B0GBWNTTXF
+      es: https://www.amazon.es/dp/B0GBWNTTXF
+
+  categorical-metaphysics:
+    print:
+      us: https://www.amazon.com/dp/B0GC7SYWVK
+      uk: https://www.amazon.co.uk/dp/B0GC7SYWVK
+      de: https://www.amazon.de/dp/B0GC7SYWVK
+      fr: https://www.amazon.fr/dp/B0GC7SYWVK
+      es: https://www.amazon.es/dp/B0GC7SYWVK
+    kindle:
+      us: https://www.amazon.com/dp/B0GBYH8G2T
+      uk: https://www.amazon.co.uk/dp/B0GBYH8G2T
+      de: https://www.amazon.de/dp/B0GBYH8G2T
+      fr: https://www.amazon.fr/dp/B0GBYH8G2T
+      es: https://www.amazon.es/dp/B0GBYH8G2T
+
+series:
+  amazon_series:
+    label: Amazon series page
+    url: https://www.amazon.com/dp/B0GBX46DH7

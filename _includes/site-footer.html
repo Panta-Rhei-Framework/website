@@ -1,0 +1,25 @@
+<footer class="footer">
+  <div class="content">
+    <div class="panel footer__panel">
+      <div>
+        <div class="brand">
+          <span class="brand__mark">{{ site.data.site.brand.mark }}</span>
+          <span class="brand__text">{{ site.data.site.brand.name }}</span>
+        </div>
+        <div class="footer__copy">{{ site.data.site.footer.copy }}</div>
+      </div>
+
+      <div class="footer-links">
+        {% for item in site.data.site.footer.utility_links %}
+          {% assign href = item.url %}
+          {% unless item.url contains '://' %}
+            {% unless item.url contains 'mailto:' %}
+              {% assign href = item.url | relative_url %}
+            {% endunless %}
+          {% endunless %}
+          <a href="{{ href }}"{% if item.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ item.label }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</footer>

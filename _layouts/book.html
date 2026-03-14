@@ -1,0 +1,138 @@
+---
+layout: default
+---
+{% assign key = page.slug %}
+{% assign resource = site.data.resources.books[key] %}
+{% assign retailer = site.data.retailers.books[key] %}
+
+<section class="page-hero">
+  <div class="content">
+    <div class="page-hero__panel hero-card reveal">
+      <div class="page-hero__grid">
+        <div>
+          <div class="eyebrow">{{ page.volume_label }} · {{ page.theme }} world</div>
+          <h1 class="page-hero__title">{{ page.title }}</h1>
+          <p class="page-hero__copy">{{ page.teaser }}</p>
+
+          <div class="chip-row chip-row--spaced">
+            <span class="chip chip--solid">{{ page.volume_label }}</span>
+            <span class="chip">DOI-linked</span>
+            <span class="chip">{{ page.edition }}</span>
+          </div>
+
+          <div class="hero__actions">
+            <a class="button button--primary" href="#resources">Open reader resources</a>
+            <a class="button button--secondary" href="#metadata">View metadata</a>
+          </div>
+        </div>
+
+        <div class="cover-preview">
+          {% if page.cover_image %}
+          <picture class="cover-preview__image">
+            <source srcset="{{ page.cover_image | append: '-full.webp' | relative_url }}" type="image/webp" />
+            <img src="{{ page.cover_image | append: '-full.jpg' | relative_url }}"
+                 alt="Cover of {{ page.title }}"
+                 width="800" height="1280" />
+          </picture>
+          {% endif %}
+          <div class="cover-preview__meta"><span>{{ page.authors | join: ' · ' }}</span><span>{{ page.volume_label }}</span></div>
+          <div class="cover-preview__title">{{ page.title }}</div>
+          <div class="cover-preview__mark">{{ site.data.site.brand.mark }}</div>
+          <div class="cover-preview__meta"><span>{{ page.subtitle_short }}</span><span>{{ page.year }}</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="description">
+  <div class="content">
+    <div class="book-detail-grid">
+      <article class="paper-block reveal">
+        <h2>About this volume</h2>
+        {{ content }}
+      </article>
+
+      <aside class="meta-panel reveal" id="metadata">
+        <h2>Metadata</h2>
+        <div class="meta-row"><span class="meta-label">DOI</span><span><a href="{{ resource.doi }}">{{ resource.doi }}</a></span></div>
+        <div class="meta-row"><span class="meta-label">Formats</span><span>{{ page.formats }}</span></div>
+        <div class="meta-row"><span class="meta-label">Reader assets</span><span>{{ page.reader_assets }}</span></div>
+        <div class="meta-row"><span class="meta-label">Cross-links</span><span>{{ page.cross_links }}</span></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="resources">
+  <div class="content">
+    <div class="section__intro reveal">
+      <div>
+        <div class="eyebrow">Structured utilities</div>
+        <h2>Resources and actions</h2>
+      </div>
+      <p>Downloads, retailer links, and citation access for this volume.</p>
+    </div>
+
+    <div class="related-grid reveal">
+      <article class="resource-item">
+        <h4>Reader downloads</h4>
+        <p>{{ page.reader_downloads_text }}</p>
+        <div class="chip-row chip-row--tight">
+          <a class="chip" href="{{ resource.toc_url }}" target="_blank" rel="noopener">{{ resource.toc_label }}</a>
+          <a class="chip" href="{{ resource.qa_url }}" target="_blank" rel="noopener">{{ resource.qa_label }}</a>
+          <a class="chip" href="{{ resource.bundle_url }}" target="_blank" rel="noopener">{{ resource.bundle_label }}</a>
+        </div>
+      </article>
+
+      <article class="resource-item">
+        <h4>Retailer links</h4>
+        <p>{{ page.retailer_text }}</p>
+        <div class="chip-row chip-row--tight">
+          <a class="chip" href="{{ retailer.print.us }}" target="_blank" rel="noopener">Print US</a>
+          <a class="chip" href="{{ retailer.print.uk }}" target="_blank" rel="noopener">Print UK</a>
+          <a class="chip" href="{{ retailer.print.de }}" target="_blank" rel="noopener">Print DE</a>
+          <a class="chip" href="{{ retailer.kindle.us }}" target="_blank" rel="noopener">Kindle US</a>
+          <a class="chip" href="{{ retailer.kindle.uk }}" target="_blank" rel="noopener">Kindle UK</a>
+          <a class="chip" href="{{ retailer.kindle.de }}" target="_blank" rel="noopener">Kindle DE</a>
+        </div>
+      </article>
+
+      <article class="resource-item">
+        <h4>Citation &amp; DOI</h4>
+        <p>{{ page.citation_text }}</p>
+        <div class="chip-row chip-row--tight">
+          <a class="chip" href="{{ '/citation/' | relative_url }}">Citation page</a>
+          <a class="chip" href="{{ resource.doi }}" target="_blank" rel="noopener">Zenodo DOI</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="next">
+  <div class="content">
+    <div class="section__intro reveal">
+      <div>
+        <div class="eyebrow">Reading guidance</div>
+        <h2>Next steps after {{ page.volume_label }}</h2>
+      </div>
+      <p>Where this volume sits in the arc and how to continue from here.</p>
+    </div>
+
+    <div class="related-grid reveal">
+      <article class="link-item">
+        <h4>Why start here</h4>
+        <p>{{ page.why_start_here }}</p>
+      </article>
+      <article class="link-item">
+        <h4>Continue forward</h4>
+        <p>{{ page.next_step }}</p>
+      </article>
+      <article class="link-item">
+        <h4>Return to the series map</h4>
+        <p>{{ page.series_return }}</p>
+      </article>
+    </div>
+  </div>
+</section>

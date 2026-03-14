@@ -1,0 +1,47 @@
+title: Panta Rhei Books
+description: >-
+  A seven-volume research book series spanning mathematics, holomorphy,
+  spectrum, quantum structure, cosmology, life, and metaphysics.
+url: "https://panta-rhei-books.org"
+baseurl: ""
+lang: en
+timezone: Europe/Berlin
+
+markdown: kramdown
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      theme: metaphysics
+      image: /assets/images/og/og-default.jpg
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: book
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+collections:
+  books:
+    output: true
+    permalink: /books/:name/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
