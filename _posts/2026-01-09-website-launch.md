@@ -1,5 +1,5 @@
 ---
-title: "Website Launch: www.panta-rhei-books.org — Books, DOIs, Press Kit, and Updates"
+title: "Website Launch: panta-rhei-books.org — Books, DOIs, Press Kit, and Updates"
 description: Public note for the website launch and materials rollout.
 theme: spectrum
 ---

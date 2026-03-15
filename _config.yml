@@ -27,6 +27,7 @@ defaults:
       type: posts
     values:
       layout: post
+      permalink: /updates/:year/:month/:day/:title/
 
 collections:
   books:
