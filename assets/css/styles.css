@@ -951,14 +951,11 @@ button,input,textarea,select { font: inherit; }
   }
   .site-nav.is-open {
     display: flex;
-    position: fixed;
-    top: 72px;
-    left: 0; right: 0;
-    bottom: 0;
+    min-height: calc(100vh - 72px);
+    min-height: calc(100dvh - 72px);
     background: var(--void-950);
-    z-index: 55;
     overflow-y: auto;
-    padding: 16px 24px 32px;
+    padding-bottom: 32px;
   }
   .site-nav a { background: rgba(255,255,255,.04); }
   .nav-toggle {
@@ -979,7 +976,7 @@ button,input,textarea,select { font: inherit; }
     opacity: .7;
   }
   .book-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
-  .book-grid .book-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .book-grid > :last-child:nth-child(odd) { grid-column: 1 / -1; }
 }
 /* Stretched link — make entire post card clickable */
 .post-grid .card { position: relative; }
