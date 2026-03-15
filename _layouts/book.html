@@ -45,12 +45,26 @@ layout: default
         {% if page.cover_image %}
         <div class="book-mockup">
           <div class="book-mockup__body">
+            <div class="book-mockup__spine">
+              <picture>
+                <source srcset="{{ page.cover_image | append: '-spine.webp' | relative_url }}" type="image/webp" />
+                <img src="{{ page.cover_image | append: '-spine.jpg' | relative_url }}"
+                     alt="" width="200" height="1280" />
+              </picture>
+            </div>
             <div class="book-mockup__front">
               <picture>
                 <source srcset="{{ page.cover_image | append: '-full.webp' | relative_url }}" type="image/webp" />
                 <img src="{{ page.cover_image | append: '-full.jpg' | relative_url }}"
                      alt="Cover of {{ page.title }}"
                      width="800" height="1280" />
+              </picture>
+            </div>
+            <div class="book-mockup__back">
+              <picture>
+                <source srcset="{{ page.cover_image | append: '-back.webp' | relative_url }}" type="image/webp" />
+                <img src="{{ page.cover_image | append: '-back.jpg' | relative_url }}"
+                     alt="" width="800" height="1280" />
               </picture>
             </div>
           </div>
