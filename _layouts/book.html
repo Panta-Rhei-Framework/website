@@ -5,6 +5,22 @@ layout: default
 {% assign resource = site.data.resources.books[key] %}
 {% assign retailer = site.data.retailers.books[key] %}
 
+{% assign sorted_books = site.books | sort: 'order' %}
+{% assign prev_book = nil %}
+{% assign next_book = nil %}
+{% for b in sorted_books %}
+  {% if b.order == page.order %}
+    {% if forloop.index0 > 0 %}
+      {% assign prev_index = forloop.index0 | minus: 1 %}
+      {% assign prev_book = sorted_books[prev_index] %}
+    {% endif %}
+    {% unless forloop.last %}
+      {% assign next_index = forloop.index0 | plus: 1 %}
+      {% assign next_book = sorted_books[next_index] %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
 <section class="page-hero">
   <div class="content">
     <div class="page-hero__panel hero-card reveal">
@@ -26,20 +42,27 @@ layout: default
           </div>
         </div>
 
+        {% if page.cover_image %}
+        <div class="book-mockup">
+          <div class="book-mockup__body">
+            <div class="book-mockup__front">
+              <picture>
+                <source srcset="{{ page.cover_image | append: '-full.webp' | relative_url }}" type="image/webp" />
+                <img src="{{ page.cover_image | append: '-full.jpg' | relative_url }}"
+                     alt="Cover of {{ page.title }}"
+                     width="800" height="1280" />
+              </picture>
+            </div>
+          </div>
+        </div>
+        {% else %}
         <div class="cover-preview">
-          {% if page.cover_image %}
-          <picture class="cover-preview__image">
-            <source srcset="{{ page.cover_image | append: '-full.webp' | relative_url }}" type="image/webp" />
-            <img src="{{ page.cover_image | append: '-full.jpg' | relative_url }}"
-                 alt="Cover of {{ page.title }}"
-                 width="800" height="1280" />
-          </picture>
-          {% endif %}
           <div class="cover-preview__meta"><span>{{ page.authors | join: ' · ' }}</span><span>{{ page.volume_label }}</span></div>
           <div class="cover-preview__title">{{ page.title }}</div>
           <div class="cover-preview__mark">{{ site.data.site.brand.mark }}</div>
           <div class="cover-preview__meta"><span>{{ page.subtitle_short }}</span><span>{{ page.year }}</span></div>
         </div>
+        {% endif %}
       </div>
     </div>
   </div>
@@ -58,7 +81,14 @@ layout: default
         <div class="meta-row"><span class="meta-label">DOI</span><span><a href="{{ resource.doi }}">{{ resource.doi }}</a></span></div>
         <div class="meta-row"><span class="meta-label">Formats</span><span>{{ page.formats }}</span></div>
         <div class="meta-row"><span class="meta-label">Reader assets</span><span>{{ page.reader_assets }}</span></div>
-        <div class="meta-row"><span class="meta-label">Cross-links</span><span>{{ page.cross_links }}</span></div>
+        <div class="meta-row">
+          <span class="meta-label">Cross-links</span>
+          <span>
+            <a href="{{ '/series/panta-rhei/' | relative_url }}">Series</a> &middot;
+            <a href="{{ '/citation/' | relative_url }}">Citation</a> &middot;
+            <a href="{{ '/press-kit/' | relative_url }}">Press Kit</a>
+          </span>
+        </div>
       </aside>
     </div>
   </div>
@@ -128,11 +158,48 @@ layout: default
       <article class="link-item">
         <h4>Continue forward</h4>
         <p>{{ page.next_step }}</p>
+        {% if next_book %}
+          <a class="chip chip--solid" href="{{ next_book.url | relative_url }}">{{ next_book.volume_label }}: {{ next_book.title }}</a>
+        {% else %}
+          <a class="chip chip--solid" href="{{ sorted_books.first.url | relative_url }}">Return to {{ sorted_books.first.volume_label }}</a>
+        {% endif %}
       </article>
       <article class="link-item">
         <h4>Return to the series map</h4>
         <p>{{ page.series_return }}</p>
+        <div class="chip-row chip-row--tight">
+          <a class="chip" href="{{ '/books/' | relative_url }}">Books index</a>
+          <a class="chip" href="{{ '/series/panta-rhei/' | relative_url }}">Series overview</a>
+        </div>
       </article>
     </div>
   </div>
 </section>
+
+<nav class="section book-nav" aria-label="Volume navigation">
+  <div class="content">
+    <div class="book-nav__row">
+      {% if prev_book %}
+      <a class="book-nav__link book-nav__link--prev" href="{{ prev_book.url | relative_url }}">
+        <span class="book-nav__label">Previous volume</span>
+        <span class="book-nav__title">{{ prev_book.volume_label }} &mdash; {{ prev_book.title }}</span>
+      </a>
+      {% else %}
+      <span class="book-nav__link book-nav__link--prev book-nav__link--disabled"></span>
+      {% endif %}
+
+      <a class="book-nav__link book-nav__link--index" href="{{ '/books/' | relative_url }}">
+        All books
+      </a>
+
+      {% if next_book %}
+      <a class="book-nav__link book-nav__link--next" href="{{ next_book.url | relative_url }}">
+        <span class="book-nav__label">Next volume</span>
+        <span class="book-nav__title">{{ next_book.volume_label }} &mdash; {{ next_book.title }}</span>
+      </a>
+      {% else %}
+      <span class="book-nav__link book-nav__link--next book-nav__link--disabled"></span>
+      {% endif %}
+    </div>
+  </div>
+</nav>

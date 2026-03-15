@@ -50,18 +50,24 @@ theme: spectrum
       <p>Each volume offers a table of contents PDF, a Q&amp;A appendix PDF, and a combined reader pack.</p>
     </div>
 
-    <div class="section-grid section-grid--2 reveal">
+    <div class="faq-list reveal">
       {% for book in sorted_books %}
         {% assign resource = site.data.resources.books[book.slug] %}
-        <article class="card">
-          <h3>{{ book.title }}</h3>
-          <div class="chip-row">
-            <a class="chip" href="{{ resource.toc_url }}">TOC</a>
-            <a class="chip" href="{{ resource.qa_url }}">Q&amp;A</a>
-            <a class="chip" href="{{ resource.bundle_url }}">Reader pack</a>
-            <a class="chip" href="{{ resource.doi }}">DOI</a>
+        <details class="faq-item">
+          <summary>
+            <span class="chip chip--solid">{{ book.volume_label }}</span>
+            {{ book.title }}
+          </summary>
+          <div>
+            <p>{{ book.subtitle_short }}</p>
+            <div class="chip-row chip-row--tight">
+              <a class="chip" href="{{ resource.toc_url }}" target="_blank" rel="noopener">TOC</a>
+              <a class="chip" href="{{ resource.qa_url }}" target="_blank" rel="noopener">Q&amp;A</a>
+              <a class="chip" href="{{ resource.bundle_url }}" target="_blank" rel="noopener">Reader pack</a>
+              <a class="chip" href="{{ resource.doi }}" target="_blank" rel="noopener">DOI</a>
+            </div>
           </div>
-        </article>
+        </details>
       {% endfor %}
     </div>
   </div>
