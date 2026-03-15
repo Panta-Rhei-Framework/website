@@ -37,8 +37,8 @@ layout: default
           </div>
 
           <div class="hero__actions">
-            <a class="button button--primary" href="#resources">Open reader resources</a>
-            <a class="button button--secondary" href="#metadata">View metadata</a>
+            <a class="button button--primary" href="#contents">Browse contents</a>
+            <a class="button button--secondary" href="#resources">Open reader resources</a>
           </div>
         </div>
 
@@ -104,6 +104,48 @@ layout: default
           </span>
         </div>
       </aside>
+    </div>
+  </div>
+</section>
+
+{% assign contents = site.data.contents[key] %}
+{% if contents %}
+<section class="section" id="contents">
+  <div class="content">
+    <div class="section__intro reveal">
+      <div>
+        <div class="eyebrow">Part-level overview</div>
+        <h2>Table of Contents</h2>
+      </div>
+      <p>{{ page.volume_label }} spans {{ contents.parts | size }} parts.</p>
+    </div>
+
+    <div class="toc-grid reveal">
+      {% for part in contents.parts %}
+      <div class="toc-entry">
+        <div class="toc-entry__number">{{ part.number }}.</div>
+        <div>
+          <h4 class="toc-entry__title">{{ part.title }}</h4>
+          <p class="toc-entry__desc">{{ part.description }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="section" id="preview">
+  <div class="content">
+    <div class="preview-panel reveal">
+      <div>
+        <h3>Preview this book</h3>
+        <p>Browse inside {{ page.title }} with Amazon's free sample preview.</p>
+      </div>
+      <div class="chip-row">
+        <a class="button button--primary" href="{{ retailer.kindle.us }}" target="_blank" rel="noopener">Read sample (US)</a>
+        <a class="button button--secondary" href="{{ retailer.kindle.de }}" target="_blank" rel="noopener">Read sample (DE)</a>
+      </div>
     </div>
   </div>
 </section>
