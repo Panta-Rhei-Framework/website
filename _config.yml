@@ -2,8 +2,8 @@ title: Panta Rhei Books
 description: >-
   A seven-volume research book series spanning mathematics, holomorphy,
   spectrum, quantum structure, cosmology, life, and metaphysics.
-url: "https://panta-rhei-framework.github.io"
-baseurl: "/website"
+url: "https://panta-rhei-books.org"
+baseurl: ""
 lang: en
 timezone: Europe/Berlin
 
