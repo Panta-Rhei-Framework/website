@@ -18,7 +18,7 @@ layout: default
         {% if qa.epigraph.size > 0 %}
         <blockquote class="qa-epigraph">{{ qa.epigraph }}{% if qa.epigraph_attribution.size > 0 %}<cite>— {{ qa.epigraph_attribution }}</cite>{% endif %}</blockquote>
         {% endif %}
-        <p class="page-hero__copy">{{ qa.intro }}</p>
+        <div class="page-hero__copy">{{ qa.intro | markdownify }}</div>
 
         <div class="chip-row chip-row--spaced">
           <span class="chip chip--solid">{{ total_questions }} questions</span>
