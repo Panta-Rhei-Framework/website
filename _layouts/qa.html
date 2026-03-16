@@ -14,9 +14,9 @@ layout: default
     <div class="page-hero__panel hero-card reveal">
       <div>
         <div class="eyebrow">{{ page.volume_label }} · Questions &amp; Answers</div>
-        <h1 class="page-hero__title">{{ qa.title }}{% if qa.subtitle %}: {{ qa.subtitle }}{% endif %}</h1>
-        {% if qa.epigraph %}
-        <blockquote class="qa-epigraph">{{ qa.epigraph }}{% if qa.epigraph_attribution %}<cite>— {{ qa.epigraph_attribution }}</cite>{% endif %}</blockquote>
+        <h1 class="page-hero__title">{{ qa.title }}{% if qa.subtitle.size > 0 %}: {{ qa.subtitle }}{% endif %}</h1>
+        {% if qa.epigraph.size > 0 %}
+        <blockquote class="qa-epigraph">{{ qa.epigraph }}{% if qa.epigraph_attribution.size > 0 %}<cite>— {{ qa.epigraph_attribution }}</cite>{% endif %}</blockquote>
         {% endif %}
         <p class="page-hero__copy">{{ qa.intro }}</p>
 
@@ -53,7 +53,7 @@ layout: default
         <div class="eyebrow">Section {{ forloop.index }} of {{ qa.sections | size }}</div>
         <h2>{{ section.title }}</h2>
       </div>
-      <p>{{ section.questions | size }} question{{ section.questions | size | minus: 1 | at_least: 1 | divided_by: 1 | plus: 0 }}{% if section.questions.size != 1 %}s{% endif %}</p>
+      <p>{{ section.questions | size }} question{% if section.questions.size != 1 %}s{% endif %}</p>
     </div>
 
     <div class="faq-list reveal">
@@ -63,7 +63,7 @@ layout: default
         <summary>
           <span class="qa-number">{{ q_counter }}.</span>
           {{ item.q }}
-          {% if item.ref %}<span class="qa-ref">{{ item.ref }}</span>{% endif %}
+          {% if item.ref.size > 0 %}<span class="qa-ref">{{ item.ref }}</span>{% endif %}
         </summary>
         <div>{{ item.a | markdownify }}</div>
       </details>
@@ -73,12 +73,12 @@ layout: default
 </section>
 {% endfor %}
 
-{% if qa.closing %}
+{% if qa.closing.size > 0 %}
 <section class="section">
   <div class="content">
     <div class="qa-closing reveal">
       {{ qa.closing | markdownify }}
-      {% if qa.closing_attribution %}
+      {% if qa.closing_attribution.size > 0 %}
       <p class="qa-closing__attr">{{ qa.closing_attribution }}</p>
       {% endif %}
     </div>
