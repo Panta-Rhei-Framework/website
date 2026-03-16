@@ -853,18 +853,7 @@ button,input,textarea,select { font: inherit; }
   transform: rotateY(90deg) translateZ(calc(var(--book-w) / 2));
   border-radius: 0 2px 2px 0;
 }
-/* Top edge — closes the box, cream paper strip */
-.book-mockup__body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: var(--book-depth);
-  background: linear-gradient(180deg, #f5f2ec, #e8e4dc);
-  transform-origin: center top;
-  transform: rotateX(90deg) translateZ(calc(var(--book-depth) / 2));
-}
+/* Top edge removed — the 3D transform caused a visible gap above the cover */
 
 /* Volume navigation */
 .book-nav { padding: 30px 0 72px; }
