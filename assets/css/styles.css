@@ -979,6 +979,75 @@ button,input,textarea,select { font: inherit; }
   color: var(--ink-200);
 }
 
+/* --- Q&A page styles --- */
+.qa-epigraph {
+  font-style: italic;
+  color: var(--ink-200);
+  border-left: 2px solid var(--accent, var(--ink-300));
+  padding-left: 16px;
+  margin: 12px 0 20px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.qa-epigraph cite {
+  display: block;
+  font-style: normal;
+  font-size: 0.85rem;
+  color: var(--ink-300);
+  margin-top: 6px;
+}
+
+.qa-nav-bar { padding-top: 0; padding-bottom: 0; }
+.qa-nav-bar .chip-row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 4px;
+}
+.qa-nav-bar .chip-row::-webkit-scrollbar { display: none; }
+.qa-nav-bar .chip { white-space: nowrap; flex-shrink: 0; }
+
+.qa-item summary {
+  display: flex;
+  align-items: baseline;
+  gap: 0;
+}
+.qa-number {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--accent, var(--ink-050));
+  margin-right: 8px;
+  min-width: 28px;
+  flex-shrink: 0;
+}
+.qa-ref {
+  font-size: 0.78rem;
+  color: var(--ink-300);
+  font-weight: 400;
+  margin-left: auto;
+  padding-left: 12px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.qa-section + .qa-section { padding-top: 0; }
+
+.qa-closing {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+  color: var(--ink-200);
+  font-style: italic;
+  line-height: 1.7;
+}
+.qa-closing__attr {
+  font-style: normal;
+  font-weight: 700;
+  color: var(--ink-050);
+  margin-top: 16px;
+}
+
 @media (max-width: 1100px) {
   .hero__grid,
   .page-hero__grid,
@@ -1041,6 +1110,8 @@ button,input,textarea,select { font: inherit; }
     text-align: center;
     padding: 24px;
   }
+  .qa-nav-bar .chip { font-size: 0.78rem; padding: 6px 12px; }
+  .qa-ref { display: none; }
 }
 /* Stretched link — make entire post card clickable */
 .post-grid .card { position: relative; }

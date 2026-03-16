@@ -166,7 +166,8 @@ layout: default
         <p>{{ page.reader_downloads_text }}</p>
         <div class="chip-row chip-row--tight">
           <a class="chip" href="{{ resource.toc_url }}" target="_blank" rel="noopener">{{ resource.toc_label }}</a>
-          <a class="chip" href="{{ resource.qa_url }}" target="_blank" rel="noopener">{{ resource.qa_label }}</a>
+          <a class="chip chip--solid" href="{{ '/books/' | append: key | append: '/qa/' | relative_url }}">Browse Q&amp;A</a>
+          <a class="chip" href="{{ resource.qa_url }}" target="_blank" rel="noopener">Q&amp;A PDF</a>
           <a class="chip" href="{{ resource.bundle_url }}" target="_blank" rel="noopener">{{ resource.bundle_label }}</a>
         </div>
       </article>
