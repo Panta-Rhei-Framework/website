@@ -37,7 +37,7 @@ layout: default
           </div>
 
           <div class="hero__actions">
-            <a class="button button--primary" href="#contents">Browse contents</a>
+            <a class="button button--primary" href="{{ '/books/' | append: key | append: '/toc/' | relative_url }}">Browse contents</a>
             <a class="button button--secondary" href="#resources">Open reader resources</a>
           </div>
         </div>
@@ -165,6 +165,7 @@ layout: default
         <h4>Reader downloads</h4>
         <p>{{ page.reader_downloads_text }}</p>
         <div class="chip-row chip-row--tight">
+          <a class="chip chip--solid" href="{{ '/books/' | append: key | append: '/toc/' | relative_url }}">Browse contents</a>
           <a class="chip" href="{{ resource.toc_url }}" target="_blank" rel="noopener">{{ resource.toc_label }}</a>
           <a class="chip chip--solid" href="{{ '/books/' | append: key | append: '/qa/' | relative_url }}">Browse Q&amp;A</a>
           <a class="chip" href="{{ resource.qa_url }}" target="_blank" rel="noopener">Q&amp;A PDF</a>

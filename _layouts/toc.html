@@ -1,0 +1,102 @@
+---
+layout: default
+---
+{% assign toc = site.data.toc[page.book_slug] %}
+{% assign resource = site.data.resources.books[page.book_slug] %}
+
+<section class="page-hero">
+  <div class="content">
+    <div class="page-hero__panel hero-card reveal">
+      <div>
+        <div class="eyebrow">{{ page.volume_label }} · Table of Contents</div>
+        <h1 class="page-hero__title">{{ page.book_title }}</h1>
+        <div class="page-hero__copy">{{ toc.intro | markdownify }}</div>
+
+        <div class="chip-row chip-row--spaced">
+          <span class="chip chip--solid">{{ toc.chapter_count }} chapters</span>
+          <span class="chip">{{ toc.part_count }} parts</span>
+        </div>
+
+        <div class="hero__actions">
+          <a class="button button--primary" href="{{ '/books/' | append: page.book_slug | append: '/' | relative_url }}">← Back to {{ page.book_title }}</a>
+          <a class="button button--secondary" href="{{ resource.toc_url }}" target="_blank" rel="noopener">Download PDF</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<nav class="section toc-nav-bar" aria-label="Table of contents parts">
+  <div class="content">
+    <div class="chip-row chip-row--scroll reveal">
+      {% for part in toc.parts %}
+      <a class="chip" href="#part-{{ forloop.index }}">{% if part.number == "Prologue" or part.number == "Epilogue" %}{{ part.number }}{% else %}{{ part.number }}. {{ part.title }}{% endif %}</a>
+      {% endfor %}
+    </div>
+  </div>
+</nav>
+
+{% assign ch_counter = 0 %}
+{% for part in toc.parts %}
+<section class="section toc-part-section" id="part-{{ forloop.index }}">
+  <div class="content">
+    <div class="section__intro reveal">
+      <div>
+        <div class="eyebrow">{% if part.number == "Prologue" or part.number == "Epilogue" %}{{ part.number }}{% else %}Part {{ part.number }} of {{ toc.part_count }}{% endif %}</div>
+        <h2>{% if part.number != "Prologue" and part.number != "Epilogue" %}{{ part.number }}. {% endif %}{{ part.title }}</h2>
+      </div>
+      <p>{{ part.chapters | size }} chapter{% if part.chapters.size != 1 %}s{% endif %}</p>
+    </div>
+
+    {% if part.abstract.size > 0 %}
+    <div class="toc-part-abstract reveal">
+      {{ part.abstract | markdownify }}
+    </div>
+    {% endif %}
+
+    <div class="faq-list reveal">
+      {% for chapter in part.chapters %}
+      {% assign ch_counter = ch_counter | plus: 1 %}
+      <details class="faq-item toc-chapter-item">
+        <summary>
+          <span class="toc-chapter-number">{{ chapter.number }}.</span>
+          {{ chapter.title }}
+        </summary>
+        {% if chapter.abstract.size > 0 %}
+        <div>{{ chapter.abstract | markdownify }}</div>
+        {% endif %}
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+<section class="section">
+  <div class="content">
+    <div class="preview-panel reveal">
+      <div>
+        <h3>Download as PDF</h3>
+        <p>Get the full table of contents for {{ page.book_title }} as a printable PDF.</p>
+      </div>
+      <a class="button button--primary" href="{{ resource.toc_url }}" target="_blank" rel="noopener">Download PDF</a>
+    </div>
+  </div>
+</section>
+
+<nav class="section book-nav" aria-label="Navigation">
+  <div class="content">
+    <div class="book-nav__row">
+      <a class="book-nav__link book-nav__link--prev" href="{{ '/books/' | append: page.book_slug | append: '/' | relative_url }}">
+        <span class="book-nav__label">Return to</span>
+        <span class="book-nav__title">{{ page.volume_label }} — {{ page.book_title }}</span>
+      </a>
+
+      <a class="book-nav__link book-nav__link--index" href="{{ '/books/' | relative_url }}">
+        All books
+      </a>
+
+      <span class="book-nav__link book-nav__link--next book-nav__link--disabled"></span>
+    </div>
+  </div>
+</nav>

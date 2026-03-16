@@ -1063,6 +1063,49 @@ button,input,textarea,select { font: inherit; }
   margin-top: 16px;
 }
 
+/* TOC page styles */
+.toc-nav-bar { padding-top: 0; padding-bottom: 0; }
+.toc-nav-bar .chip-row {
+  padding: 12px 0;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  flex-wrap: nowrap;
+}
+.toc-nav-bar .chip-row::-webkit-scrollbar { display: none; }
+.toc-nav-bar .chip { white-space: nowrap; flex-shrink: 0; }
+.toc-nav-bar .content { position: relative; }
+.toc-nav-bar .content::after {
+  content: "";
+  position: absolute;
+  right: 0; top: 0; bottom: 0;
+  width: 48px;
+  background: linear-gradient(90deg, transparent, var(--void-900));
+  pointer-events: none;
+  border-radius: 0 var(--radius-pill) var(--radius-pill) 0;
+}
+.toc-part-section + .toc-part-section { padding-top: 12px; }
+.toc-part-abstract {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  color: var(--ink-200);
+  line-height: 1.75;
+  padding: 20px 28px;
+  margin-bottom: 24px;
+  border-radius: var(--radius-card);
+  background: var(--gradient-glass);
+  border: 1px solid rgba(255,255,255,.06);
+}
+.toc-part-abstract p { margin: 0; }
+.toc-part-abstract p + p { margin-top: 12px; }
+.toc-chapter-number {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--accent);
+  min-width: 2.5em;
+  display: inline-block;
+}
+
 @media (max-width: 1100px) {
   .hero__grid,
   .page-hero__grid,
@@ -1129,6 +1172,9 @@ button,input,textarea,select { font: inherit; }
   .qa-nav-bar .content::after { width: 32px; }
   .qa-ref { display: none; }
   .qa-closing { padding: 24px; }
+  .toc-nav-bar .chip { font-size: 0.78rem; padding: 6px 12px; }
+  .toc-nav-bar .content::after { width: 32px; }
+  .toc-part-abstract { padding: 16px 20px; font-size: 0.92rem; }
 }
 /* Stretched link — make entire post card clickable */
 .post-grid .card { position: relative; }
