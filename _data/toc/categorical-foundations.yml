@@ -68,7 +68,7 @@ parts:
   - number: 8
     title: Algebraic Orthogonality
     abstract: "The monoidal product × induces a natural **orthogonality relation** ⊥ on τ: we say A ⊥ B if A × B = A or A\
-      \ × B = B. This simple algebraic definition creates a structured ``axis-based'' orthogonality where α ⊥ everything,\
+      \ × B = B. This simple algebraic definition creates a structured \"axis-based\" orthogonality where α ⊥ everything,\
       \ ω ⊥ everything, and most remarkably, **every α_m ⊥ every π_n** — radial is perpendicular to angular! This chapter\
       \ develops the orthogonality structure and its geometric interpretation as discrete polar coordinates on a Riemann sphere."
 - number: II
@@ -80,11 +80,11 @@ parts:
   chapters:
   - number: 9
     title: "The Label-Independence Theorem"
-    abstract: "We prove that τ's structure is invariant under relabeling. The names ``α'', ``π'', ``π''', ``π'''', ``ω'' are\
+    abstract: "We prove that τ's structure is invariant under relabeling. The names \"α\", \"π\", \"π\"', \"π\"'', \"ω\" are\
       \ entirely dispensable: each of the **five generators** is uniquely determined by its **structural behavior** under\
       \ ρ, ×, and ∧. The ω is the unique ρ-fixed point; α is the unique non-fixed ×-idempotent; and the three solenoidal generators\
       \ π, π', π'' are distinguished by the **κ-selector** order induced by mixed products. Moreover, once a root generator\
-      \ is identified, all higher indices can be reconstructed by iterating the predecessor/source operator ο (Chapter ch:rho)."
+      \ is identified, all higher indices can be reconstructed by iterating the predecessor/source operator ο (Chapter)."
   - number: 10
     title: "Rigidity: Aut(τ) = \\"
     abstract: "We prove the remarkable **rigidity theorem**: the only automorphism of τ (preserving ρ, ×, ∧) is the identity.\
@@ -101,7 +101,7 @@ parts:
     title: Implications for Foundation
     abstract: "Categoricity has profound implications for τ as a mathematical foundation. Every sentence has a **determinate**\
       \ truth value in the intended structure τ_0. Categoricity ensures that this truth value is invariant across models in\
-      \ Mod(T_τ), so model-relative ``independence'' disappears at the semantic level. We clarify how this interacts (and\
+      \ Mod(T_τ), so model-relative \"independence\" disappears at the semantic level. We clarify how this interacts (and\
       \ does not conflict) with Gödel and Tarski: incompleteness is a phenomenon of *effective axiom systems*, not of a fixed\
       \ structure."
 - number: III
@@ -120,7 +120,7 @@ parts:
     title: "The ∈ Functor: Divisibility = Membership"
     abstract: "We define the membership relation ∈_τ on Set(τ) through a small list of canonical rules. On the α-orbit, membership\
       \ is **divisibility**: α_m ∈_τ α_n m | n. In parallel, we record the **prime support** of α_n via prime-indicators π_k\
-      \ ∈_τ α_n p_k | n. The **prime hinge rule** inserts a structural ``kink'' at each prime, linking α_p_n-1 to π_n and\
+      \ ∈_τ α_n p_k | n. The **prime hinge rule** inserts a structural \"kink\" at each prime, linking α_p_n-1 to π_n and\
       \ π_n to α_p_n, and the extended rules for the π' and π'' orbits encode exponentiation and tetration data. No unrestricted\
       \ comprehension operation is postulated; membership is fixed by the given objects of τ."
   - number: 15
@@ -131,7 +131,7 @@ parts:
   - number: 16
     title: Genealogical Decomposition Trees D(N)
     abstract: |-
-      Every natural number N admits a canonical **divisor graph** D(N): the directed acyclic graph of α-objects corresponding to the divisors of N. This is the visible α-skeleton of ∈_τ-membership: on the α-orbit, membership is divisibility (Chapter ch:membership).
+      Every natural number N admits a canonical **divisor graph** D(N): the directed acyclic graph of α-objects corresponding to the divisors of N. This is the visible α-skeleton of ∈_τ-membership: on the α-orbit, membership is divisibility (Chapter).
 
       In parallel, the full ∈_τ-structure provides computable probes and extensions: **prime indicators** π_k ∈_τ α_N record which primes divide N, **maximal prime powers** single out the highest pe N, and the **hinge** connects each prime p to its predecessor p-1, enabling a terminating recursion that supplies genealogical context beyond the divisor set itself.
 
@@ -149,7 +149,7 @@ parts:
     title: Boolean Algebra 𝔅_τ
     abstract: "The α-orbit of τ, ordered by ⊂eq_τ, is the classical divisibility lattice: meet is and join is lcm. By restricting\
       \ to divisors of a fixed N, we obtain finite bounded distributive lattices \U0001D505_τ(N) in which *complements exist\
-      \ exactly in the squarefree case*. These divisor-lattice fragments support precise ``Boolean-style'' reasoning inside\
+      \ exactly in the squarefree case*. These divisor-lattice fragments support precise \"Boolean-style\" reasoning inside\
       \ τ without any powerset construction and hence without the cardinality explosion of classical set theory."
   - number: 19
     title: Foundational Properties of Set(τ)
@@ -162,28 +162,28 @@ parts:
   title: Metric Geometry and Canonicity
   abstract: "The **canonical decomposition (word) metric** d=d_dec(X,Y)=ℓ(X)+ℓ(Y)-2ℓ(LCA(X,Y)) turns Obj(τ)\\ω\\ into a metric\
     \ space with δ-genealogical distance. The **S-chain interleaving** α_1, π_1, π'_(1,1), π''_(1,1), α_2, provides a canonical\
-    \ total order extending the poset structure. The metric geometry supplies a robust ``barcode'' of canonical decomposition\
+    \ total order extending the poset structure. The metric geometry supplies a robust \"barcode\" of canonical decomposition\
     \ features, while full rigidity is recovered only at the level of the complete Cayley graph."
   chapters:
   - number: 20
     title: "The Word-Metric: Full Development"
-    abstract: "We develop the metric geometry induced by the canonical reduction map δ (Definition def:canonical-reduction).\
-      \ This yields the canonical decomposition (word) metric d_dec on Obj(τ)\\ω\\ (Theorem thm:cayley-metric). We characterize\
-      \ geodesics in the induced decomposition tree, record the basic finiteness phenomena of metric balls, exhibit the resulting\
-      \ (non-trivial) isometry structure, and isolate the associated genealogical ultrametric d_U."
+    abstract: "We develop the metric geometry induced by the canonical reduction map δ (Definition). This yields the canonical\
+      \ decomposition (word) metric d_dec on Obj(τ)\\ω\\ (Theorem). We characterize geodesics in the induced decomposition\
+      \ tree, record the basic finiteness phenomena of metric balls, exhibit the resulting (non-trivial) isometry structure,\
+      \ and isolate the associated genealogical ultrametric d_U."
   - number: 21
     title: "Cayley-Graph: Structural Theorems"
     abstract: "We establish structural properties of the Cayley-type graphs associated to τ. We work primarily with the decomposition\
-      \ adjacency induced by the canonical edge families E1–E7 (Definition def:six-edge-types), and focus on the core vertex\
-      \ set Obj(τ)\\ω\\. We prove connectivity, record the (generally infinite) degree structure, analyze orbit subgraphs,\
-      \ and formulate the graph rigidity program (Conjecture conj:graph-rigid), relating these combinatorial properties to\
-      \ the tree metric geometry of the word-metric d=d_dec developed in Chapter ch:word-metric."
+      \ adjacency induced by the canonical edge families E1–E7 (Definition), and focus on the core vertex set Obj(τ)\\ω\\\
+      . We prove connectivity, record the (generally infinite) degree structure, analyze orbit subgraphs, and formulate the\
+      \ graph rigidity program (Conjecture conj:graph-rigid), relating these combinatorial properties to the tree metric geometry\
+      \ of the word-metric d=d_dec developed in Chapter."
   - number: 22
     title: Canonicity and Categoricity
     abstract: "We establish the **canonicity** and **categoricity** of τ—the deepest foundational properties that distinguish\
       \ τ from classical set theories. Canonicity ensures each object has a unique canonical representation; categoricity\
       \ ensures the structure itself is unique up to isomorphism. We prove that α_1 is initial and ω is terminal in appropriate\
-      \ categories, and demonstrate that τ admits no ``independence phenomena''—every well-formed statement is decidable.\
+      \ categories, and demonstrate that τ admits no \"independence phenomena\"—every well-formed statement is decidable.\
       \ This is the philosophical heart of τ's advantage over ZFC."
 - number: V
   title: Total Order and Decidability
@@ -199,9 +199,9 @@ parts:
       \ countable structure."
   - number: 24
     title: Compatibility with Poset Structure
-    abstract: "We prove that the Cayley total order <_W (Chapter ch:total-order) is **compatible** with the raw poset structure\
-      \ < from the axioms: the poset embeds into the total order via x < y ⇒ x <_W y. Equivalently, <_W is a **linear extension**\
-      \ of the partial order."
+    abstract: "We prove that the Cayley total order <_W (Chapter) is **compatible** with the raw poset structure < from the\
+      \ axioms: the poset embeds into the total order via x < y ⇒ x <_W y. Equivalently, <_W is a **linear extension** of\
+      \ the partial order."
   - number: 25
     title: Computability and Decidability
     abstract: "All primitive operations and relations of τ are computable and terminate: we can decide order, membership,\
@@ -231,19 +231,19 @@ parts:
       \ keeping the canonical decomposition metric d_dec (Part IV) separate."
   - number: 29
     title: Verification of All 10 Core Axioms
-    abstract: "We record the status of Tarski's 10 axioms under our τ-interpretation of the primitives from Chapters ch:points-lines–ch:betweenness.\
-      \ The congruence axioms (A1–A3) and the identity axiom (A6) follow directly from the skeleton distance d_skel. Some\
-      \ higher axioms require additional geometric structure beyond the (ρ,σ)-skeleton and are deferred as explicit reduction\
-      \ targets for the subsequent chapters."
+    abstract: "We record the status of Tarski's 10 axioms under our τ-interpretation of the primitives from Chapters. The\
+      \ congruence axioms (A1–A3) and the identity axiom (A6) follow directly from the skeleton distance d_skel. Some higher\
+      \ axioms require additional geometric structure beyond the (ρ,σ)-skeleton and are deferred as explicit reduction targets\
+      \ for the subsequent chapters."
   - number: 30
     title: Parallel Postulate as Theorem
     abstract: "The parallel postulate — for 2000 years the most controversial axiom of geometry — becomes a **theorem** for\
-      \ the basic τ-line families of Chapter ch:points-lines. The unique compactification point ω forces a canonical notion\
-      \ of ``meeting at infinity'' for the orbit rays, and level-circles provide genuinely disjoint parallels. This yields\
-      \ a Playfair-style uniqueness statement in the basic discrete geometry."
+      \ the basic τ-line families of Chapter. The unique compactification point ω forces a canonical notion of \"meeting at\
+      \ infinity\" for the orbit rays, and level-circles provide genuinely disjoint parallels. This yields a Playfair-style\
+      \ uniqueness statement in the basic discrete geometry."
   - number: 31
     title: Categoricity as 2D Euclidean Space
-    abstract: "We clarify what ``universality'' can mean in the geometric part of Book I. We summarize the finitely specified\
+    abstract: "We clarify what \"universality\" can mean in the geometric part of Book I. We summarize the finitely specified\
       \ τ-geometry built in Part VI, record the current status of the Tarski program, and formulate the intended initiality\
       \ claim for full Euclidean (Tarski) geometry as an explicit completion target."
   - number: 32
@@ -268,9 +268,9 @@ parts:
   - number: 34
     title: Yoneda Embedding
     abstract: "We construct the **Yoneda embedding** y: τ → PSh(τ), the canonical fully faithful functor from τ into its presheaf\
-      \ category. This embedding is the gateway to topos theory: it allows τ to ``see itself'' through the lens of contravariant\
-      \ functors. Since τ is a thin category (Chapter ch:poset), its Hom-sets are subterminal; representable presheaves become\
-      \ principal down-set predicates, and the Yoneda lemma reduces many statements to explicit restriction maps between sets."
+      \ category. This embedding is the gateway to topos theory: it allows τ to \"see itself\" through the lens of contravariant\
+      \ functors. Since τ is a thin category (Chapter), its Hom-sets are subterminal; representable presheaves become principal\
+      \ down-set predicates, and the Yoneda lemma reduces many statements to explicit restriction maps between sets."
   - number: 35
     title: The Grothendieck Topos PSh(τ)
     abstract: "We record the fundamental fact that the presheaf category PSh(τ)=Setτ^op is a Grothendieck topos. Equivalently,\
@@ -279,21 +279,21 @@ parts:
       \ sieves. In the thin-category setting of τ, sieves reduce to down-closed subsets of principal down-sets."
   - number: 36
     title: "Self-Enrichment via Presheaves"
-    abstract: "We make precise in what sense τ can be said to ``enrich itself''. The ambient topos is the presheaf topos PSh(τ)\
-      \ (Chapter ch:grothendieck-topos), which is cartesian closed and therefore has internal Hom objects (exponentials).\
-      \ Using the Yoneda embedding y:τ→PSh(τ) (Chapter ch:yoneda), we define for objects A,B∈τ the mapping object \\[ \\mathrmHom(A,B)\\\
-      ;:=\\;y(B)^y(A) PSh(τ), \\] whose global points recover the ordinary Hom-set Hom_τ(A,B)."
+    abstract: "We make precise in what sense τ can be said to \"enrich itself\". The ambient topos is the presheaf topos PSh(τ)\
+      \ (Chapter), which is cartesian closed and therefore has internal Hom objects (exponentials). Using the Yoneda embedding\
+      \ y:τ→PSh(τ) (Chapter), we define for objects A,B∈τ the mapping object \\[ \\mathrmHom(A,B)\\;:=\\;y(B)^y(A) PSh(τ),\
+      \ \\] whose global points recover the ordinary Hom-set Hom_τ(A,B)."
   - number: 37
     title: "∞-Self-Enrichment as a Segal Nerve"
-    abstract: "Chapter ch:self-enrichment internalizes _τ(A,B) as a mapping object (A,B)=y(B)y(A) in the presheaf topos PSh(τ).\
-      \ In this chapter we package *all* iterated compositions into a single simplicial object N_(τ) in PSh(τ), whose n-simplices\
-      \ are formal strings of n composable 1-morphisms. By construction N_(τ) satisfies the Segal condition, hence presents\
-      \ an internal category object of PSh(τ). We use the phrase ``∞-self-enrichment'' only in this precise sense: higher\
-      \ ``cells'' are not postulated; rather, higher simplices encode iterated composition."
+    abstract: "Chapter internalizes _τ(A,B) as a mapping object (A,B)=y(B)y(A) in the presheaf topos PSh(τ). In this chapter\
+      \ we package *all* iterated compositions into a single simplicial object N_(τ) in PSh(τ), whose n-simplices are formal\
+      \ strings of n composable 1-morphisms. By construction N_(τ) satisfies the Segal condition, hence presents an internal\
+      \ category object of PSh(τ). We use the phrase \"∞-self-enrichment\" only in this precise sense: higher \"cells\" are\
+      \ not postulated; rather, higher simplices encode iterated composition."
   - number: 38
     title: Internal Logic and Subobject Classifier
-    abstract: "We describe the subobject classifier and internal logic of the presheaf topos PSh(τ)=Setτ^op (Chapter ch:grothendieck-topos).\
-      \ Truth values are sieves; in the thin-category situation of τ, sieves reduce to down-closed subsets of principal down-sets.\
+    abstract: "We describe the subobject classifier and internal logic of the presheaf topos PSh(τ)=Setτ^op (Chapter). Truth\
+      \ values are sieves; in the thin-category situation of τ, sieves reduce to down-closed subsets of principal down-sets.\
       \ Accordingly, the internal logic is generally intuitionistic: PSh(τ) need not be Boolean, and the Law of Excluded Middle\
       \ typically fails. We record the resulting Heyting-algebra operations and the specialized form of Kripke–Joyal semantics\
       \ for J_triv."
@@ -311,28 +311,28 @@ parts:
   chapters:
   - number: 40
     title: "The α-Orbit as Canonical NNO: ℕ_τ"
-    abstract: "In the presheaf topos PSh(τ) (Chapter ch:grothendieck-topos), there is a natural numbers object. We present\
-      \ it using τ's distinguished α-orbit: the chain α_1=α,α_2=ρ(α),α_3=ρ²(α), serves as a canonical numeral system, with\
-      \ successor given by ρ. Addition and multiplication are then defined by recursion and agree with the index arithmetic\
-      \ induced by the orbit, while τ's monoidal product × recovers multiplication on the α-orbit (Theorem thm:alpha-mult)."
+    abstract: "In the presheaf topos PSh(τ) (Chapter), there is a natural numbers object. We present it using τ's distinguished\
+      \ α-orbit: the chain α_1=α,α_2=ρ(α),α_3=ρ²(α), serves as a canonical numeral system, with successor given by ρ. Addition\
+      \ and multiplication are then defined by recursion and agree with the index arithmetic induced by the orbit, while τ's\
+      \ monoidal product × recovers multiplication on the α-orbit (Theorem)."
   - number: 41
     title: Internal Integers ℤ_τ
     abstract: "Working in the presheaf topos PSh(τ), we construct the internal integers ℤ_τ as the Grothendieck group completion\
-      \ of the additive monoid ℕ_τ from Chapter ch:nno. Concretely, ℤ_τ is the quotient of formal difference pairs (m,n) by\
-      \ the usual relation (m_1,n_1)(m_2,n_2) m_1+_τ n_2=m_2+_τ n_1. Since ℕ_τ is a constant presheaf on the α-orbit, this\
-      \ construction is computed stagewise and yields a constant presheaf isomorphic to Δ(ℤ)."
+      \ of the additive monoid ℕ_τ from Chapter. Concretely, ℤ_τ is the quotient of formal difference pairs (m,n) by the usual\
+      \ relation (m_1,n_1)(m_2,n_2) m_1+_τ n_2=m_2+_τ n_1. Since ℕ_τ is a constant presheaf on the α-orbit, this construction\
+      \ is computed stagewise and yields a constant presheaf isomorphic to Δ(ℤ)."
   - number: 42
     title: Internal Rationals ℚ_τ
     abstract: "Working in the presheaf topos PSh(τ), we construct the internal rationals ℚ_τ as the field of fractions of\
-      \ ℤ_τ (Chapter ch:integers). Since ℤ_τ≅Δ(ℤ) is constant, the resulting object is constant as well and identifies with\
-      \ Δ(ℚ). This provides the ``rational scalars'' used throughout the arithmetic layer and, later, as a codomain component\
-      \ in Book II."
+      \ ℤ_τ (Chapter). Since ℤ_τ≅Δ(ℤ) is constant, the resulting object is constant as well and identifies with Δ(ℚ). This\
+      \ provides the \"rational scalars\" used throughout the arithmetic layer and, later, as a codomain component in Book\
+      \ II."
   - number: 43
     title: Computable Reals ℝ_τ
     abstract: "We define the computable reals ℝ_τ as (equivalence classes of) computable Cauchy sequences in ℚ_τ with an explicit\
-      \ modulus of convergence. Since ℚ_τ≅Δ(ℚ) is constant (Chapter ch:rationals), this is an effective completion of the\
-      \ usual rationals, yielding a countable set of global elements. We record the induced ordered field structure and the\
-      \ form of completeness appropriate to computable analysis."
+      \ modulus of convergence. Since ℚ_τ≅Δ(ℚ) is constant (Chapter), this is an effective completion of the usual rationals,\
+      \ yielding a countable set of global elements. We record the induced ordered field structure and the form of completeness\
+      \ appropriate to computable analysis."
 - number: IX
   title: The Canonical Calibration
   abstract: "The **master invariant** ι_τ = 2/(π + e) emerges from τ's structure and calibrates all transcendental constants.\
@@ -348,15 +348,15 @@ parts:
   - number: 45
     title: Transcendental Constants from τ
     abstract: "The constants e, π, and i are **FORCED** by τ structure, not arbitrarily chosen. They emerge from categorical\
-      \ necessity: e from growth, π from circulation, i from the complex structure on L. The ``two-layer architecture'' (arithmetic\
-      \ vs.\\ transcendental) explains why these constants appear. Euler's identity eiπ + 1 = 0 becomes a **theorem**, not\
-      \ a miraculous coincidence."
+      \ necessity: e from growth, π from circulation, i from the complex structure on L. The \"two-layer architecture\" (arithmetic\
+      \ vs. transcendental) explains why these constants appear. Euler's identity eiπ + 1 = 0 becomes a **theorem**, not a\
+      \ miraculous coincidence."
   - number: 46
     title: The Calibration Dictionary
     abstract: "We establish the **calibration dictionary** — the systematic mapping from τ-objects to numerical values. The\
       \ NNO ℕ_τ maps to natural numbers, with the successor ρ generating e through limits. The lemniscate L generates π through\
       \ its circular structure. This assignment is **FORCED** by categorical structure, not chosen arbitrarily. The dictionary\
-      \ provides the ``Rosetta Stone'' translating between abstract τ and concrete numbers."
+      \ provides the \"Rosetta Stone\" translating between abstract τ and concrete numbers."
   - number: 47
     title: The Complex Field ℂ_τ
     abstract: "We construct the **τ-complex field** ℂ_τ = ℝ_τ[i] by adjoining the imaginary unit i = -1 to the computable\
@@ -370,8 +370,8 @@ parts:
       \ structure**: one radial (real) direction plus three angular (imaginary) directions."
   - number: 49
     title: "Preview: Categorical Holomorphy (Book II)"
-    abstract: "Book I developed τ ``in the small'' — the Cayley side: algebraic structure, discrete geometry, word-metric,\
-      \ combinatorial aspects. Book II develops τ ``in the large'' — the CR (Cauchy-Riemann) side: fibration, compactification,\
+    abstract: "Book I developed τ \"in the small\" — the Cayley side: algebraic structure, discrete geometry, word-metric,\
+      \ combinatorial aspects. Book II develops τ \"in the large\" — the CR (Cauchy-Riemann) side: fibration, compactification,\
       \ spectral algebra, holomorphic structure. This chapter previews the transition from algebraic foundation to analytic\
       \ completion."
 - number: X
@@ -388,10 +388,10 @@ parts:
       \ open and closed). The Lebesgue covering dimension is 0. This topology is fundamental for p-adic analysis and τ-holomorphy."
   - number: 51
     title: "Solenoidal Topology on π-Orbits"
-    abstract: "The π-orbits (generated by the prime factorization structures) carry a **solenoidal topology**: an ``all-adic''\
-      \ refinement that is dense yet totally disconnected, with Cantor-like structure. While the α-orbit (Chapter ch:ultrametric)\
-      \ has ultrametric topology indexed by 2-adic valuations, the π-orbits have **simultaneous** p-adic structure for all\
-      \ primes p — this is the solenoid."
+    abstract: "The π-orbits (generated by the prime factorization structures) carry a **solenoidal topology**: an \"all-adic\"\
+      \ refinement that is dense yet totally disconnected, with Cantor-like structure. While the α-orbit (Chapter) has ultrametric\
+      \ topology indexed by 2-adic valuations, the π-orbits have **simultaneous** p-adic structure for all primes p — this\
+      \ is the solenoid."
   - number: 52
     title: τ as Stone Space
     abstract: "The category τ is a **Stone space**: compact, Hausdorff, and totally disconnected. This arises from Stone duality\
@@ -402,19 +402,19 @@ parts:
     title: "0-Dimensional Hausdorff Structure"
     abstract: "As a Stone substrate, τ is **0-dimensional** in the sense of Lebesgue covering dimension. The combination of\
       \ ultrametric (α) and solenoidal (π) topologies preserves 0-dimensionality while creating rich structure. This is the\
-      \ ``**ontic**'' topology — the topology of pure existence without geometric extension. Zero-dimensionality is not a\
+      \ \"**ontic**\" topology — the topology of pure existence without geometric extension. Zero-dimensionality is not a\
       \ limitation but a feature: it provides the discrete foundation upon which higher-dimensional structures are built."
   - number: 54
     title: "1-Dimensional Cayley Structure"
     abstract: "At the **coarse** (large-scale) level, τ is 1-dimensional and path-connected. The **Cayley graph** of the generating\
-      \ morphisms is quasi-isometric to the α-orbit (a line). This ``coarse geometry'' perspective captures the global shape\
+      \ morphisms is quasi-isometric to the α-orbit (a line). This \"coarse geometry\" perspective captures the global shape\
       \ of τ while ignoring fine details. The transition from 0-dimensional (ontic) to 1-dimensional (coarse) represents the\
-      \ emergence of ``direction'' and ``path.''"
+      \ emergence of \"direction\" and \"path.\""
   - number: 55
     title: "2-Dimensional Euclidean Structure"
     abstract: "Via the **Tarski program** (Part V), τ carries a 2-dimensional Euclidean structure at the **local/infinitesimal**\
       \ level. The metric comes from word length in the Cayley graph, which induces Euclidean geometry when interpreted through\
-      \ the real continuum ℝ_τ. The slogan is: ``τ in the small is 2D.'' This completes the dimensional hierarchy: 0-dimensional\
+      \ the real continuum ℝ_τ. The slogan is: \"τ in the small is 2D.\" This completes the dimensional hierarchy: 0-dimensional\
       \ (ontic), 1-dimensional (coarse), 2-dimensional (local)."
 - number: XI
   title: "τ-Computation"
@@ -435,7 +435,7 @@ parts:
       \ compositional wiring)."
   - number: 57
     title: "Observation-Finite Machines"
-    abstract: "What the machine can ``see'' is bounded. We formalize **observation-finite** TTMs where the observable configuration\
+    abstract: "What the machine can \"see\" is bounded. We formalize **observation-finite** TTMs where the observable configuration\
       \ has constant width K. This makes the Cook-Levin tableau finite-width by construction—the key to compositional compilation.\
       \ The distinction between *magnitude* (unbounded) and *observation* (bounded) is the source of tractability."
   - number: 58
@@ -484,10 +484,10 @@ parts:
   chapters:
   - number: 64
     title: "The 117-Year Illusion"
-    abstract: "ZFC has been the ``foundation of mathematics'' since Zermelo's 1908 axiomatization — 117 years of dominance.\
+    abstract: "ZFC has been the \"foundation of mathematics\" since Zermelo's 1908 axiomatization — 117 years of dominance.\
       \ During this period, non-categoricity, forcing, and independence results have accumulated as phenomena that any foundational\
       \ program must interpret. We review why these phenomena complicate the idea that ZFC uniquely pins down a single mathematical\
-      \ universe, and why a categorical framework such as τ motivates a different ``structural'' approach."
+      \ universe, and why a categorical framework such as τ motivates a different \"structural\" approach."
   - number: 65
     title: "Why τ Succeeds: Architectural Innovations"
     abstract: "For over a century, mathematicians have sought alternatives to ZFC: constructive mathematics, intuitionistic\
@@ -500,7 +500,7 @@ parts:
     abstract: "We present a categorical argument that highlights a *tension* between two foundational narratives: ZFC is often\
       \ presented as a universal reduction target, while τ is presented as a categorical/minimal structural core. The argument\
       \ uses two interpretability directions (ZFC can model τ, and τ can interpret a bounded ZFC-fragment) and then asks what\
-      \ follows if one insists that both systems are ``initial'' in a shared sense. The result is not a formal proof of inconsistency;\
+      \ follows if one insists that both systems are \"initial\" in a shared sense. The result is not a formal proof of inconsistency;\
       \ rather, it is a metatheoretic diagnostic that clarifies what must be weakened (initiality, isomorphism expectations,\
       \ or formation principles) for the two viewpoints to coexist coherently."
   - number: 67
@@ -510,13 +510,13 @@ parts:
 
       We propose a stronger thesis: that τ may be not merely *a* consistent foundation but *the canonical* foundation for applicable mathematics. This is a research program, not a proven theorem, but one with significant evidence in its favor.
   - number: 68
-    title: "Gödel Reinterpreted: Structure vs.\\ Theory"
+    title: "Gödel Reinterpreted: Structure vs. Theory"
     abstract: "Gödel's incompleteness theorems have been interpreted as fundamental limits on mathematical knowledge. We offer\
       \ an alternative perspective: the key distinction is between *theories* (which are subject to Gödel) and *structures*\
       \ (which are the semantic targets of theories). The category τ is presented in this book primarily as a canonical structure\
       \ rather than as a particular recursively axiomatized proof system. This does not refute Gödel: any sufficiently expressive\
       \ formal theory *about* τ will still face incompleteness. But the distinction clarifies what Gödel does (and does not)\
-      \ constrain, and why some ``Gödelian'' anxieties are really anxieties about formalization choices (especially reflection\
+      \ constrain, and why some \"Gödelian\" anxieties are really anxieties about formalization choices (especially reflection\
       \ and truth predicates)."
   - number: 69
     title: "Bishop Revisited: Constructive Analysis and the τ-Core"
@@ -535,14 +535,14 @@ parts:
     title: "Global Wiring Primitives: An Icon System"
     abstract: "We introduce a compact **icon system** to classify which *global wiring primitives* each ZFC result relies\
       \ on. Under τ-ontology, these icons mark the boundary between (i) τ-realizable core results, (ii) counterfactual halo\
-      \ results, and (iii) reflection/collision points. The same structural diagnosis that explains hardness (Chapter ch:interface-width-principle)\
-      \ also illuminates foundational paradoxes: **global wiring at near-zero explicit cost** is a unifying driver."
+      \ results, and (iii) reflection/collision points. The same structural diagnosis that explains hardness (Chapter) also\
+      \ illuminates foundational paradoxes: **global wiring at near-zero explicit cost** is a unifying driver."
   - number: 72
     title: The Gluing Dichotomy
     abstract: "There are two regimes for local-to-global coherence: **additive homogenization** (coarse, translation-driven)\
       \ and **holomorphic continuation** (coherence-driven, structure-preserving). Many classical frameworks lean heavily\
       \ on the former, while the τ program is engineered around the latter. This chapter formalizes the dichotomy and motivates\
-      \ the **Asymmetry Principle**: coherence is preserved by construction but not generally recoverable by ``patching later''\
+      \ the **Asymmetry Principle**: coherence is preserved by construction but not generally recoverable by \"patching later\"\
       \ without changing the primitives. The difference is not the ingredients—it is the **assembly order**."
   - number: 73
     title: The Keystone Bundle
@@ -561,12 +561,12 @@ parts:
     abstract: "We summarize what Book I has established: the axioms give categorical structure; the algebraic core provides\
       \ ℕ_τ, ℤ_τ, ℚ_τ; the topological structure yields 0D/1D/2D dimensions; calibration (ι_τ, e, π, i) anchors transcendentals;\
       \ and Part XII develops a foundational perspective (core/extension accounting, wiring primitives, and a research program).\
-      \ This is τ ``in the small'' — the arithmetic, algebraic, and structural core before the fibration and holomorphy developments\
+      \ This is τ \"in the small\" — the arithmetic, algebraic, and structural core before the fibration and holomorphy developments\
       \ of Book II."
   - number: 75
     title: "Preview: τ in the Large"
-    abstract: "This chapter closes Book I with a programmatic preview of Book II. The guiding idea is to extend the ``local''\
-      \ foundations of τ (arithmetic, topology, and the τ-core / τ-extension split) into a ``global'' three-dimensional setting\
+    abstract: "This chapter closes Book I with a programmatic preview of Book II. The guiding idea is to extend the \"local\"\
+      \ foundations of τ (arithmetic, topology, and the τ-core / τ-extension split) into a \"global\" three-dimensional setting\
       \ τ³, and to organize τ-holomorphic structure via a compact curve L (the lemniscate). The discussion here is intentionally\
       \ non-technical: Book II supplies the definitions, hypotheses, and proofs, while later volumes explore optional interpretive\
       \ layers."

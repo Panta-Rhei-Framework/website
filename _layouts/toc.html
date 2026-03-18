@@ -28,7 +28,7 @@ layout: default
 
 <nav class="section toc-nav-bar" aria-label="Table of contents parts">
   <div class="content">
-    <div class="chip-row chip-row--scroll reveal">
+    <div class="chip-row reveal">
       {% for part in toc.parts %}
       <a class="chip" href="#part-{{ forloop.index }}">{% if part.number == "Prologue" or part.number == "Epilogue" %}{{ part.number }}{% else %}{{ part.number }}. {{ part.title }}{% endif %}</a>
       {% endfor %}

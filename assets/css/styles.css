@@ -696,6 +696,24 @@ button,input,textarea,select { font: inherit; }
   padding: 18px 20px;
   font-weight: 700;
   letter-spacing: -.02em;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.faq-item summary::after {
+  content: "+";
+  flex-shrink: 0;
+  margin-left: auto;
+  font-size: 1.1em;
+  font-weight: 300;
+  color: var(--ink-300);
+  transition: transform var(--transition-fast), opacity var(--transition-fast);
+}
+.faq-item[open] summary::after {
+  content: "\2212";
+}
+.faq-item summary:hover {
+  color: var(--ink-050);
 }
 .faq-item summary::-webkit-details-marker { display: none; }
 .faq-item > div {

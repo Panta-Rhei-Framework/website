@@ -36,7 +36,7 @@ layout: default
 
 <nav class="section qa-nav-bar" aria-label="Q&amp;A sections">
   <div class="content">
-    <div class="chip-row chip-row--scroll reveal">
+    <div class="chip-row reveal">
       {% for section in qa.sections %}
       <a class="chip" href="#section-{{ forloop.index }}">{{ section.title }}</a>
       {% endfor %}

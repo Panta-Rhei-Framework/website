@@ -21,7 +21,7 @@ theme: foundations
   <div class="content">
     <article class="paper-block reveal">
       <h2>Overview</h2>
-      <p>The website <strong>panta-rhei-books.org</strong> is a static informational site with no user accounts, no forms, no comment systems, and no tracking. We take your privacy seriously and have designed this site to minimise data processing.</p>
+      <p>The website <strong>panta-rhei-books.org</strong> is a static informational site with no user accounts, no forms, no comment systems, and no tracking. We take your privacy seriously and have designed this site to minimize data processing.</p>
     </article>
   </div>
 </section>

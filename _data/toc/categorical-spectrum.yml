@@ -32,7 +32,7 @@ parts:
   - number: 4
     title: "Eight Forces, One Spectrum"
     abstract: "The spectrum of is used as a unifying language. In this book we organize seven classical Millennium themes\
-      \ as seven ``forces'' (finite, spatial, temporal, eternal, rational, existential, regular), and we add an eighth force\
+      \ as seven \"forces\" (finite, spatial, temporal, eternal, rational, existential, regular), and we add an eighth force\
       \ (Langlands) as the prism that compares arithmetic and automorphic projections. This chapter is a map: it records how\
       \ the later parts fit together and it makes explicit which claims are τ-effective, which are conjectural, and which\
       \ are metaphors."
@@ -45,7 +45,7 @@ parts:
 
     **Categorical**: The τ-Tower Machine compiles verification into ported components with bounded interface width K. The **Interface Width Principle** yields polynomial-time decidability.
 
-    The equivalence N_spec = K_ reveals these as dual views of the same structural constraint: **bounded complexity by construction**. Classical hardness mechanisms are diagnosed as *width escape*—unbounded ``global wiring'' that lies outside the τ-admissible regime.
+    The equivalence N_spec = K_ reveals these as dual views of the same structural constraint: **bounded complexity by construction**. Classical hardness mechanisms are diagnosed as *width escape*—unbounded "global wiring" that lies outside the τ-admissible regime.
   chapters:
   - number: 5
     title: The First Force — Finite
@@ -82,9 +82,9 @@ parts:
   - number: 11
     title: Width Escape and Classical ZFC
     abstract: "Why doesn't the τ-collapse resolve classical P vs NP? Because ZFC permits **width escape**—moves that create\
-      \ unbounded interface requirements. We identify the five ``forbidden moves'' legal in ZFC but illegal in τ, prove the\
+      \ unbounded interface requirements. We identify the five \"forbidden moves\" legal in ZFC but illegal in τ, prove the\
       \ Separator-Bag Lemma giving internal lower bounds on K_, and exhibit canonical families that escape τ-admissibility.\
-      \ The gap is ``global wiring at zero cost.''"
+      \ The gap is \"global wiring at zero cost.\""
   - number: 12
     title: Causal Mediation and Physical Interpretation
     abstract: "What does the τ-collapse mean physically? We introduce the **Causal Mediation Postulate**: identity constraints\
@@ -144,7 +144,7 @@ parts:
 - number: IV
   title: The Temporal Force (Riemann Hypothesis)
   abstract: "The **third spectral force**: time. Part III develops an operator-theoretic translation of zeta phenomena and\
-    \ isolates the self-adjointness mechanisms that motivate critical-line symmetry. Determinant identities and ``zero/eigenvalue''\
+    \ isolates the self-adjointness mechanisms that motivate critical-line symmetry. Determinant identities and \"zero/eigenvalue\"\
     \ correspondences are stated, when possible, in τ-effective form (finite cutoffs and regularizations), and otherwise treated\
     \ as programmatic bridges whose proof work is made explicit."
   chapters:
@@ -201,7 +201,7 @@ parts:
     abstract: "The classical **explicit formula** expresses prime counting in terms of zeros of ζ (equivalently ξ) via logarithmic\
       \ derivatives and residue calculus. In our Part III program, the determinant identity of Chapter 37 recasts the logarithmic\
       \ derivative of ξ as a **spectral resolvent trace** of H_L. In the τ-effective regime, restricting to a fixed cutoff\
-      \ N_ yields a **band-limited** (finite) version of the zero sum, with the ``visible'' zeros parametrized by the τ-effective\
+      \ N_ yields a **band-limited** (finite) version of the zero sum, with the \"visible\" zeros parametrized by the τ-effective\
       \ eigenvalues of H_L."
   - number: 30
     title: "Polynomial-Time Evaluation"
@@ -239,13 +239,12 @@ parts:
       \ gap becomes a finite, arithmetic problem and closes within the stated scope."
   - number: 34
     title: Complex Structure from τ³ Fiber Product
-    abstract: "The (p,q)-decomposition central to Hodge theory requires complex geometry: it lives on complex manifolds, and\
-      \ in particular on compact Kähler varieties. In Part IV we use two compatible geometric models arising from the fiber\
-      \ product τ³=τ¹×_fτ²: enumerate **τ-complexified charts** modeled on ℂ× T², which carry a product complex structure\
-      \ and hence a genuine (p,q)-type calculus on Kähler T-varieties; **A boundary model** τ³_sph≅ S³⊂ℂ², which carries a\
-      \ canonical CR structure and a CR bidegree for tangential forms. enumerate The fiber product projections organize *which*\
-      \ complex directions come from the base and which come from the fiber; the holomorphic/antiholomorphic split is determined\
-      \ by the complex structure itself, not by the base/fiber split."
+    abstract: |-
+      The (p,q)-decomposition central to Hodge theory requires complex geometry: it lives on complex manifolds, and in particular on compact Kähler varieties. In Part IV we use two compatible geometric models arising from the fiber product τ³=τ¹×_fτ²:
+
+      **τ-complexified charts** modeled on ℂ× T², which carry a product complex structure and hence a genuine (p,q)-type calculus on Kähler T-varieties; **A boundary model** τ³_sph≅ S³⊂ℂ², which carries a canonical CR structure and a CR bidegree for tangential forms.
+
+      The fiber product projections organize *which* complex directions come from the base and which come from the fiber; the holomorphic/antiholomorphic split is determined by the complex structure itself, not by the base/fiber split.
   - number: 35
     title: Finite Spectral Support on τ³
     abstract: "We isolate the precise sense in which the τ-framework has **finite spectral support**. The full Laplace spectrum\
@@ -256,25 +255,25 @@ parts:
   - number: 36
     title: Rational Periods from ι_τ Arithmetic
     abstract: "We show that **τ-visible periods are arithmetically rigid**. Classically, periods ∈t_γ ω of algebraic varieties\
-      \ are typically transcendental and encode subtle analytic information. In our framework, the τ-effective cutoff (Chapter\
-      \ ch:finite-spectral) restricts attention to a finite character span; on that span, one can choose natural τ-normalized\
-      \ character forms whose periods on τ-visible cycle generators are integral. Consequently, the τ-visible periods relevant\
-      \ to the later algebraicity mechanism lie in a fixed arithmetic field (canonically ℚ after τ-normalization, or ℚ(ι_τ)\
-      \ if calibration factors are kept explicit)."
+      \ are typically transcendental and encode subtle analytic information. In our framework, the τ-effective cutoff (Chapter)\
+      \ restricts attention to a finite character span; on that span, one can choose natural τ-normalized character forms\
+      \ whose periods on τ-visible cycle generators are integral. Consequently, the τ-visible periods relevant to the later\
+      \ algebraicity mechanism lie in a fixed arithmetic field (canonically ℚ after τ-normalization, or ℚ(ι_τ) if calibration\
+      \ factors are kept explicit)."
   - number: 37
     title: "Algebraicity via Product-Meet Collapse"
     abstract: |-
-      The classical Hodge Conjecture concerns smooth projective (hence Kähler) varieties. Our τ-framework does not claim that the real 3-manifold τ³_sph ≅ S³ is itself a complex algebraic variety. Instead, τ³ acts as a **universal boundary target** whose finite τ-effective spectral band (Chapter ch:finite-spectral) and τ-visible period control (Chapter ch:rational-periods) constrain a distinguished subspace of cohomology on algebraic varieties equipped with τ-structure maps.
+      The classical Hodge Conjecture concerns smooth projective (hence Kähler) varieties. Our τ-framework does not claim that the real 3-manifold τ³_sph ≅ S³ is itself a complex algebraic variety. Instead, τ³ acts as a **universal boundary target** whose finite τ-effective spectral band (Chapter) and τ-visible period control (Chapter) constrain a distinguished subspace of cohomology on algebraic varieties equipped with τ-structure maps.
 
       In this chapter we prove the **τ-constrained Hodge principle** for a mathematically explicit class of targets: **smooth projective toric varieties** (with a compatible τ-structure map). On such a τ-toric T-variety (X,φ), every rational (p,p)-class that lies in the τ-visible sector is represented by an explicit ℚ-linear combination of algebraic cycles. The mechanism is the Product-Meet Collapse (×→∧) from Part I: once both the analytic generators and the algebraic generators are finite and explicitly matched, verification reduces to finite arithmetic linear algebra.
   - number: 38
     title: The Eternal Force Resolved
     abstract: "We synthesize the Hodge mechanism as the **Eternal Force**. In the τ-framework, the substantive theorem is\
-      \ a τ-constrained Hodge principle on an explicit target class (Chapter ch:algebraicity): for τ-toric T-varieties, within\
-      \ the τ-visible sector, rational Hodge classes admit explicit algebraic cycle representatives. We position this result\
-      \ within the four-force narrative chain (Finite, Spatial, Temporal, Eternal), compare with classical approaches, and\
-      \ preview how the same τ-visible discipline guides the remaining forces: Birch–Swinnerton-Dyer (Rational), Yang–Mills\
-      \ (Existential), and Navier–Stokes (Regular)."
+      \ a τ-constrained Hodge principle on an explicit target class (Chapter): for τ-toric T-varieties, within the τ-visible\
+      \ sector, rational Hodge classes admit explicit algebraic cycle representatives. We position this result within the\
+      \ four-force narrative chain (Finite, Spatial, Temporal, Eternal), compare with classical approaches, and preview how\
+      \ the same τ-visible discipline guides the remaining forces: Birch–Swinnerton-Dyer (Rational), Yang–Mills (Existential),\
+      \ and Navier–Stokes (Regular)."
 - number: VI
   title: "The Rational Force (Birch & Swinnerton-Dyer Conjecture)"
   abstract: "The **fifth spectral force**: rationality. Part V connects rank-type data for elliptic curves to spectral multiplicities\
@@ -288,14 +287,14 @@ parts:
       \ we frame BSD as a (×, ∧)-tension between **L-functions** (×-structure, analytic) and **rational points** (∧-structure,\
       \ algebraic). The classical conjecture asks when the analytic rank equals the algebraic rank. In the τ-framework we\
       \ define a τ-spectral analogue L_τ(E,s) (Chapter ch:L-functions-spectral) and a τ-visible Mordell–Weil sector. The substantive\
-      \ statement proved in this Part is a **τ-constrained BSD mechanism**: within the τ-visible sector, the relevant ``analytic\
-      \ multiplicity'' and ``algebraic multiplicity'' are identified by finite-dimensional spectral linear algebra."
+      \ statement proved in this Part is a **τ-constrained BSD mechanism**: within the τ-visible sector, the relevant \"analytic\
+      \ multiplicity\" and \"algebraic multiplicity\" are identified by finite-dimensional spectral linear algebra."
   - number: 40
     title: Elliptic Curves in τ³
     abstract: |-
       An elliptic curve E is intrinsically a complex 1-manifold (a compact Riemann surface) whose underlying real manifold is a torus E(ℂ)≅ T². In the τ-framework, Part V works with **τ-structured elliptic curves**: a classical elliptic curve together with a chosen τ-structure map φ:E(ℂ)→τ³ and an associated finite-dimensional τ-visible sector on which a normalized τ-operator H_E acts.
 
-      For geometric intuition (and only for intuition), we also use the spherical reference sector τ³_sph≅ S³ and a model ``Clifford torus'' embedding T² S³ compatible with the Hopf fibration.
+      For geometric intuition (and only for intuition), we also use the spherical reference sector τ³_sph≅ S³ and a model "Clifford torus" embedding T² S³ compatible with the Hopf fibration.
   - number: 41
     title: "L-Functions as Spectral Determinants"
     abstract: |-
@@ -307,9 +306,9 @@ parts:
     abstract: "Classically, BSD Part 1 asserts that the algebraic rank of E(ℚ) equals the analytic order of vanishing of L(E,s)\
       \ at s=1. In the τ-framework, we work on the **τ-visible sector**: the distinguished eigenspace \\[ K_E := (H_E-I)=(H_E-ι_τ^2\
       \ I) \\] and its rational subspace K_Erat. The τ-structure data supplies a bridge between the τ-visible Mordell–Weil\
-      \ sector and this rational kernel (Chapter ch:elliptic-curves-tau3), and the resulting **τ-algebraic rank** is measured\
-      \ by _ℚK_Erat. Combining with Chapter ch:L-functions-spectral, this yields the **τ-constrained BSD Part 1** identity:\
-      \ \\[ rank(E(Q)_τ)=ord_s=1L_τ(E,s). \\]"
+      \ sector and this rational kernel (Chapter), and the resulting **τ-algebraic rank** is measured by _ℚK_Erat. Combining\
+      \ with Chapter ch:L-functions-spectral, this yields the **τ-constrained BSD Part 1** identity: \\[ rank(E(Q)_τ)=ord_s=1L_τ(E,s).\
+      \ \\]"
   - number: 43
     title: "The BSD Formula via Product-Meet Collapse"
     abstract: |-
@@ -347,29 +346,28 @@ parts:
       \ a clean setting for the τ-effective truncations used in Part VI."
   - number: 47
     title: The Yang–Mills Operator
-    abstract: "We define a Yang–Mills operator H_YM on the τ-effective gauge-invariant sector of the lemniscate model (Chapter\
-      \ ch:gauge-fields-tau3). On each τ-effective sector, the operator is self-adjoint, positive semi-definite, and has a\
-      \ **finite** spectrum (finite-dimensional spectral problem). This provides the technical foundation for the τ-constrained\
-      \ mass gap statement in Chapter ch:mass-gap."
+    abstract: "We define a Yang–Mills operator H_YM on the τ-effective gauge-invariant sector of the lemniscate model (Chapter).\
+      \ On each τ-effective sector, the operator is self-adjoint, positive semi-definite, and has a **finite** spectrum (finite-dimensional\
+      \ spectral problem). This provides the technical foundation for the τ-constrained mass gap statement in Chapter."
   - number: 48
     title: Mass Gap as Spectral Gap
-    abstract: "We formulate the Yang–Mills ``mass gap'' in the τ-effective lemniscate model as a **spectral gap** of the Yang–Mills\
+    abstract: "We formulate the Yang–Mills \"mass gap\" in the τ-effective lemniscate model as a **spectral gap** of the Yang–Mills\
       \ operator H_YM on a finite-dimensional, gauge-invariant sector. On each τ-effective sector H_phys,N, H_YM is a self-adjoint,\
       \ positive operator with a finite spectrum, hence admits a well-defined smallest positive eigenvalue Δ_N."
   - number: 49
     title: "Confinement via Product-Meet Collapse"
-    abstract: "We interpret the τ-effective spectral gap Δ_N (Chapter ch:mass-gap) through the monograph's **Product-Meet\
-      \ Collapse** pattern. In the lemniscate graph model, the ``collapse'' is simply the passage from gauge-covariant data\
-      \ to *gauge-invariant* states. We record what this kinematic collapse establishes rigorously inside the model, and we\
-      \ separate it from the genuinely dynamical claims (area law, linear potential, continuum confinement) that would require\
-      \ a constructive 4D Yang–Mills theory."
+    abstract: "We interpret the τ-effective spectral gap Δ_N (Chapter) through the monograph's **Product-Meet Collapse** pattern.\
+      \ In the lemniscate graph model, the \"collapse\" is simply the passage from gauge-covariant data to *gauge-invariant*\
+      \ states. We record what this kinematic collapse establishes rigorously inside the model, and we separate it from the\
+      \ genuinely dynamical claims (area law, linear potential, continuum confinement) that would require a constructive 4D\
+      \ Yang–Mills theory."
   - number: 50
     title: The Existential Force Resolved
     abstract: "We synthesize Part VI in its τ-constrained form. The categorical move is to replace the analytically open infinite-dimensional\
       \ continuum problem by a compact gauge configuration model on the lemniscate graph and then to work on τ-effective sectors.\
       \ On each such sector, the Yang–Mills operator becomes a finite-dimensional, gauge-invariant spectral problem with a\
       \ well-defined positive gap Δ_N. We then position this result honestly relative to the Clay Institute problem and bridge\
-      \ to Part VII (Navier–Stokes), where the same ``τ-effective spectral control'' theme reappears."
+      \ to Part VII (Navier–Stokes), where the same \"τ-effective spectral control\" theme reappears."
 - number: VIII
   title: "The Regular Force (Navier-Stokes Equation)"
   abstract: "The **seventh spectral force**: regularity. Part VII translates Navier–Stokes regularity into the language of\
@@ -385,11 +383,11 @@ parts:
       \ sector, Navier–Stokes becomes a globally well-posed ODE with a strict energy identity."
   - number: 52
     title: "The Stokes Operator and τ-Effective Truncation"
-    abstract: "We identify the viscous linear part of incompressible Navier–Stokes on τ³ with the **Stokes operator**, i.e.\\\
+    abstract: "We identify the viscous linear part of incompressible Navier–Stokes on τ³ with the **Stokes operator**, i.e.\
       \ the Hodge Laplacian restricted to divergence-free 1-forms. On a compact manifold this operator has a discrete spectrum.\
       \ The categorical move used in this Part is to work on a **τ-effective finite-dimensional sector** spanned by finitely\
       \ many Stokes eigenmodes. This turns the Navier–Stokes evolution into a finite-dimensional ODE system (Galerkin truncation),\
-      \ providing a mathematically precise setting for the ``no blow-up in finite modes'' mechanism used later."
+      \ providing a mathematically precise setting for the \"no blow-up in finite modes\" mechanism used later."
   - number: 53
     title: Vorticity and Mode Growth
     abstract: "Vorticity controls the nonlinear threat in 3D Navier–Stokes through the vortex-stretching term. In the τ-effective\
@@ -406,7 +404,7 @@ parts:
     title: "Global Regularity on τ-Effective Sectors"
     abstract: "We state the precise τ-constrained regularity result proved in Part VII: for each cutoff N, the Galerkin-truncated\
       \ Navier–Stokes system on the τ-effective Stokes sector V_N has a unique global smooth solution. This captures a rigorous\
-      \ mechanism by which ``finite modes'' prevent blow-up. We also make explicit what is not proved here: the continuum\
+      \ mechanism by which \"finite modes\" prevent blow-up. We also make explicit what is not proved here: the continuum\
       \ limit N→∞ and any equivalence to the Clay problem on ℝ³."
   - number: 56
     title: The Regular Force Synthesis
@@ -419,7 +417,7 @@ parts:
   title: The Spectral Force (Langlands Program)
   abstract: "The **eighth force**: the spectrum as prism. Part VIII treats Langlands as a τ-effective comparison principle:\
     \ automorphic and Galois data appear as two compatible sectorial restrictions of the same spectral structure, formulated\
-    \ in finite windows as H_ρ, N ≃ H_π, N. This ``spectral force'' is not one color among seven—it is the prism that organizes\
+    \ in finite windows as H_ρ, N ≃ H_π, N. This \"spectral force\" is not one color among seven—it is the prism that organizes\
     \ how the seven colors are compared and related."
   chapters:
   - number: 57
@@ -443,12 +441,12 @@ parts:
     title: Galois Representations as Spectral Automorphisms
     abstract: "The absolute Galois group Gal(ℚ/ℚ) acts naturally on cyclotomic torsion data (roots of unity), and therefore\
       \ on finite character data of the lemniscate. We record the corresponding τ-effective picture: Galois actions permute\
-      \ finite character sectors, and Frobenius elements act as shifts on these sectors. Any stronger claim about ``Galois\
-      \ acting on eigenvalues of '' requires an explicit operator model and comparison theorem."
+      \ finite character sectors, and Frobenius elements act as shifts on these sectors. Any stronger claim about \"Galois\
+      \ acting on eigenvalues of \" requires an explicit operator model and comparison theorem."
   - number: 61
     title: "The Langlands Correspondence: H_ρ = H_π"
-    abstract: "In the categorical setting, the slogan ``H_ρ=H_π'' becomes a precise τ-effective statement: on finite truncations,\
-      \ both the ``Galois'' and ``automorphic'' views induce the same restriction of the universal operator to the same character\
+    abstract: "In the categorical setting, the slogan \"H_ρ=H_π\" becomes a precise τ-effective statement: on finite truncations,\
+      \ both the \"Galois\" and \"automorphic\" views induce the same restriction of the universal operator to the same character\
       \ sector. As a consequence, the associated τ-effective determinant invariants match. Comparing this to the classical\
       \ Langlands correspondence is a separate comparison problem (independent constructions + analytic/local theory)."
   - number: 62
@@ -491,7 +489,7 @@ parts:
     abstract: "A Copernican revolution in mathematical perspective. For 160+ years, seven problems resisted classical approaches.\
       \ Category argues that the bottleneck is often not the problems themselves but the foundations: the (×,∧)-tension, the\
       \ role of the continuum, and the cost of treating seven themes with seven unrelated toolkits. This chapter frames the\
-      \ ``categorical revolution'' as a compression and unification proposal, while staying explicit about τ-effective scope\
+      \ \"categorical revolution\" as a compression and unification proposal, while staying explicit about τ-effective scope\
       \ versus classical limits."
   - number: 68
     title: "Post-Millennium Mathematics"

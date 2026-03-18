@@ -12,7 +12,7 @@ parts:
   chapters:
   - number: 1
     title: Introduction to Categorical Holomorphy
-    abstract: "We introduce the central theme of Book II: the transition from τ ``in the small'' (Book I) to τ ``in the large.''\
+    abstract: "We introduce the central theme of Book II: the transition from τ \"in the small\" (Book I) to τ \"in the large.\"\
       \ Book I established τ as the categorical foundation—the dual axiom systems (8 topos + 9 structural), number systems,\
       \ calibration via ι_τ = 2/(π + e), and the 0D/1D/2D dimensional hierarchy. Book II now extends this to τ³, the global\
       \ holomorphic structure, culminating in the central identity: τ-holomorphy = spectral algebra on the lemniscate L. This\
@@ -31,7 +31,7 @@ parts:
     abstract: "We revisit the dimensional hierarchy established in Book I and extend it to three dimensions. Book I showed\
       \ that τ has covering dimension 0 (Stone), coarse dimension 1 (Cayley), and local dimension 2 (Euclidean). Now we build\
       \ τ³ with global 3-dimensional structure. The dimensions add: 1 + 2 = 3, corresponding to the categorical fiber product\
-      \ τ³ = τ¹ ×_f τ². This chapter explains why 3 is the ``Goldilocks dimension'' — too few is trivial, too many is non-canonical."
+      \ τ³ = τ¹ ×_f τ². This chapter explains why 3 is the \"Goldilocks dimension\" — too few is trivial, too many is non-canonical."
 - number: I
   title: The τ³ Fibration
   abstract: "The **τ³ fibration** is the geometric heart of categorical holomorphy: a τ¹ base (the radial line) fibered by\
@@ -50,7 +50,7 @@ parts:
   - number: 5
     title: "τ¹ as Base: The Categorical Riemann Sphere"
     abstract: "We study τ¹ as the base of the fibration τ³ = τ¹ × τ². Contrary to the notation suggesting 1-dimensionality,\
-      \ τ¹ is **2-dimensional**, carrying coordinates (r, θ_1) from the (α, π) orbits. The superscript ``1'' refers to τ¹\
+      \ τ¹ is **2-dimensional**, carrying coordinates (r, θ_1) from the (α, π) orbits. The superscript \"1\" refers to τ¹\
       \ being the **first factor** of the product decomposition, not its dimension. The space τ¹ has the structure of a discrete\
       \ Riemann sphere with south pole (α_1, π_1) and north pole (ω, ω). The asymmetric mixing of ultrametric (r) and solenoidal\
       \ (θ_1) structures is governed by the spectral invariant ι_τ = 2/(π + e)."
@@ -70,12 +70,14 @@ parts:
   - number: 8
     title: The Dimensional Ladder of τ
     abstract: |-
-      We establish the complete **dimensional ladder** of τ, clarifying how multiple notions of dimension coexist and interrelate. The space τ³ has: itemize[nosep] **4 real coordinates**: (r, θ_1, θ_2, θ_3) in spherical-polar form **3 complex coordinates**: z_1 = (r, θ_1), z_2 = θ_2, z_3 = θ_3 with τ-CR coupling **3 topological dimensions**: After compactification (boundary degeneration) itemize
+      We establish the complete **dimensional ladder** of τ, clarifying how multiple notions of dimension coexist and interrelate. The space τ³ has:
+
+      **4 real coordinates**: (r, θ_1, θ_2, θ_3) in spherical-polar form **3 complex coordinates**: z_1 = (r, θ_1), z_2 = θ_2, z_3 = θ_3 with τ-CR coupling **3 topological dimensions**: After compactification (boundary degeneration)
 
       A crucial clarification: the four coordinates (r, θ_1, θ_2, θ_3) are **discrete and solenoidal**—they do not directly map to our perceived 3D Cartesian space ℝ³. The emergence of classical 3D space requires the **holographic Hartogs projection** (Part VI), where our perceived spatial bulk emerges from the 2D toroidal fiber structure.
   - number: 9
     title: Quaternionic Structure of τ³
-    abstract: "We show that τ³ carries a natural quaternionic structure ℍ_τ. The three angular coordinates from Chapter ch:one-plus-three—θ_1\
+    abstract: "We show that τ³ carries a natural quaternionic structure ℍ_τ. The three angular coordinates from Chapter—θ_1\
       \ ∈ O_π, θ_2 ∈ O_π', θ_3 ∈ O_π''—correspond to three imaginary units i, j, k satisfying Hamilton's relations. This extends\
       \ Book I's complex structure ℂ_τ to the quaternions, completing the tower ℝ_τ ⊂ ℂ_τ ⊂ ℍ_τ. The unit quaternions form\
       \ S³ ≅ SU(2), providing spin degrees of freedom essential for physics. The CR constraint governs how this quaternionic\
@@ -91,8 +93,8 @@ parts:
     abstract: "We construct the **canonical compactification** of τ³. Unlike classical compactifications (which often involve\
       \ arbitrary choices), the compactification of τ³ is *forced* by categorical structure. The key insight: the categorical\
       \ fiber product τ³ = τ¹ ×_f τ² (with a two-coordinate base τ¹ carrying (r, θ_1) and a two-coordinate fiber τ² carrying\
-      \ (θ_2, θ_3)) dictates exactly how the degeneration locus must look. The result is not ``a compactification'' but ``THE\
-      \ compactification'' — categorically unique."
+      \ (θ_2, θ_3)) dictates exactly how the degeneration locus must look. The result is not \"a compactification\" but \"\
+      THE compactification\" — categorically unique."
   - number: 11
     title: "The Lemniscate L = S¹ ∨ S¹"
     abstract: "We give a rigorous construction of the **lemniscate** L, the boundary curve that makes τ-holomorphy possible.\
@@ -110,11 +112,11 @@ parts:
     abstract: "We analyze the complete degeneration locus ∂(τ³) = \\(ω,ω)\\ × L of compactified τ³. This locus is the product\
       \ of the limit ordinal ω (a single point from the radial direction) and the lemniscate L (from the degenerate torus\
       \ fiber). We prove that this structure is **categorically necessary**: any boundary compatible with the τ-axioms must\
-      \ have exactly this form. The boundary is where all spectral data lives — it is the ``control surface'' of τ-holomorphy."
+      \ have exactly this form. The boundary is where all spectral data lives — it is the \"control surface\" of τ-holomorphy."
   - number: 14
     title: Why the Lemniscate Matters
     abstract: "This chapter answers the central question: *Why is the lemniscate L essential?* Without L, compactness would\
-      \ force all holomorphic functions to be constant (Liouville's theorem). With L, we get ``spectral escape'' — a rich\
+      \ force all holomorphic functions to be constant (Liouville's theorem). With L, we get \"spectral escape\" — a rich\
       \ character algebra that enables nontrivial τ-holomorphic functions. The lemniscate is truly **the spectral key** to\
       \ unlocking holomorphy on τ³. We explain the Liouville problem, show how L solves it, and trace the connection to classical\
       \ elliptic functions."
@@ -135,8 +137,8 @@ parts:
     title: "The CR-Compatible Index Cone"
     abstract: "We make precise what it means for a boundary character on the lemniscate L = S¹_π' ∨ S¹_π'' to be *CR-compatible*.\
       \ The τ-CR equations impose a lobe-wise mode selection: holomorphic modes on the π'-lobe and anti-holomorphic modes\
-      \ on the π''-lobe (Part V, Definition def:cr-compatible). This selects a canonical additive cone of spectral indices,\
-      \ which will index the spectral character algebra A_spec(L)."
+      \ on the π''-lobe (Part V, Definition). This selects a canonical additive cone of spectral indices, which will index\
+      \ the spectral character algebra A_spec(L)."
   - number: 17
     title: The Spectral Character Algebra
     abstract: "We construct the spectral character algebra A_spec(L) on the lemniscate L. CR-compatible characters form a\
@@ -172,18 +174,18 @@ parts:
       \ equations into difference equations, revealing the arithmetic foundation of holomorphy."
   - number: 21
     title: The Discrete Fueter Operator
-    abstract: "We introduce the discrete Fueter operator D_τ on τ³, the quaternionic generalization of the Cauchy-Riemann\
-      \ operator. While Chapter ch:tau-cr-equations presented the discrete τ-CR equations as three separate conditions ∂_aτ\
-      \ f = 0, the Fueter operator provides a complementary quaternionic viewpoint. The discrete version D_τ acts on the τ-lattice\
-      \ and connects our holomorphy story to the classical theory of quaternionic regular functions on ℍ. In this book, we\
-      \ distinguish: itemize τ-regularity: quaternion-valued solutions of D_τ f = 0 τ-holomorphy: complex-valued solutions\
-      \ of the discrete τ-CR system (Chapter ch:tau-cr-equations) itemize The two notions are related but not identical."
+    abstract: |-
+      We introduce the discrete Fueter operator D_τ on τ³, the quaternionic generalization of the Cauchy-Riemann operator. While Chapter presented the discrete τ-CR equations as three separate conditions ∂_aτ f = 0, the Fueter operator provides a complementary quaternionic viewpoint. The discrete version D_τ acts on the τ-lattice and connects our holomorphy story to the classical theory of quaternionic regular functions on ℍ. In this book, we distinguish:
+
+      τ-regularity: quaternion-valued solutions of D_τ f = 0 τ-holomorphy: complex-valued solutions of the discrete τ-CR system (Chapter)
+
+      The two notions are related but not identical.
   - number: 22
     title: "τ-Holomorphic Functions"
     abstract: "We define the space O(τ³) of τ-holomorphic functions as the complex-valued solutions of the discrete τ-CR system\
-      \ ∂_aτ f = 0 for a=1,2,3 (Chapter ch:tau-cr-equations). The key structural result is the *spectral characterization*:\
-      \ a function is τ-holomorphic if and only if its boundary restriction to the lemniscate lies in the finite spectral\
-      \ character algebra (Central Theorem, Chapter ch:central-theorem)."
+      \ ∂_aτ f = 0 for a=1,2,3 (Chapter). The key structural result is the *spectral characterization*: a function is τ-holomorphic\
+      \ if and only if its boundary restriction to the lemniscate lies in the finite spectral character algebra (Central Theorem,\
+      \ Chapter)."
   - number: 23
     title: "The Central Theorem: Holomorphy = Characters"
     abstract: "We prove the **Central Theorem of Book II**: the space of τ-holomorphic functions on τ³ is canonically isomorphic\
@@ -207,14 +209,14 @@ parts:
   - number: 25
     title: "The τ-Hartogs Theorem"
     abstract: "We prove the τ-Hartogs theorem: τ-holomorphic functions on certain domains automatically extend to larger domains.\
-      \ This ``automatic extension'' phenomenon is characteristic of function theory in several complex variables and reflects\
+      \ This \"automatic extension\" phenomenon is characteristic of function theory in several complex variables and reflects\
       \ the over-determined nature of the τ-CR system. Unlike classical complex analysis where isolated singularities can\
-      \ be essential, the rigidity of τ³ forces holomorphic functions to extend across ``thin'' sets — those of codimension\
+      \ be essential, the rigidity of τ³ forces holomorphic functions to extend across \"thin\" sets — those of codimension\
       \ at least 2. The discrete structure of τ³ makes these extension results particularly clean and combinatorial."
   - number: 26
     title: Hartogs Figures in τ³
     abstract: "We study Hartogs figures — the specific geometric configurations where automatic extension occurs. The classical\
-      \ Hartogs figure is a bidisc with part of a smaller bidisc removed, creating an ``H-shaped'' domain where holomorphic\
+      \ Hartogs figure is a bidisc with part of a smaller bidisc removed, creating an \"H-shaped\" domain where holomorphic\
       \ functions automatically extend to fill the gap. On τ³, we identify the analogous configurations: certain combinations\
       \ of cells where removal does not prevent holomorphic extension. The discrete structure makes these figures particularly\
       \ concrete and amenable to combinatorial analysis. We classify all τ-Hartogs figures and connect them to the boundary\
@@ -251,15 +253,15 @@ parts:
     title: Residue Theory on τ³
     abstract: "We develop residue theory for τ-meromorphic functions. The discrete structure of τ³ makes residues algebraic\
       \ objects: they are coefficient extractions in finite principal parts of τ-Laurent expansions. We define poles on the\
-      \ CW complex, define residues as the \\(a_-1\\)-coefficient, and state the residue theorem as a boundary invariance\
-      \ principle on \\(L\\)."
+      \ CW complex, define residues as the a_-1-coefficient, and state the residue theorem as a boundary invariance principle\
+      \ on L."
   - number: 31
     title: Laurent Series on τ³
     abstract: "We develop Laurent series expansions for τ-meromorphic functions near their poles. The discrete structure of\
       \ τ³ yields a remarkable simplification: principal parts are always *finite*. Unlike classical complex analysis where\
       \ principal parts can have infinitely many negative powers, the combinatorial nature of τ³ forces truncation. We establish\
       \ convergence in discrete annular regions, characterize poles by their Laurent coefficients, and connect to the residue\
-      \ theory of Chapter ch:residue-theory."
+      \ theory of Chapter."
   - number: 32
     title: Meromorphic Functions on τ³
     abstract: "We study the field M(τ³) of τ-meromorphic functions. These are ratios of holomorphic functions, forming a field\
@@ -323,31 +325,31 @@ parts:
   - number: 39
     title: Physical Interpretation
     abstract: "We give an interpretive reading of τ³ as a compactified spacetime toy model. The fibration structure τ¹ → τ³\
-      \ → τ² supplies a distinguished ``time'' fiber and ``space'' base, while τ-holomorphic functions \\(f(τ^3)\\) play the\
-      \ role of fields. Boundary restriction to the lemniscate L is the mechanism for bulk-to-boundary observables via the\
-      \ Central Theorem from Book I. Statements that require additional geometric input (Lorentzian metrics, actions, trace\
-      \ formulae) are recorded as programs rather than theorems."
+      \ → τ² supplies a distinguished \"time\" fiber and \"space\" base, while τ-holomorphic functions f∈O(τ³) play the role\
+      \ of fields. Boundary restriction to the lemniscate L is the mechanism for bulk-to-boundary observables via the Central\
+      \ Theorem from Book I. Statements that require additional geometric input (Lorentzian metrics, actions, trace formulae)\
+      \ are recorded as programs rather than theorems."
   - number: 40
     title: Quantum Structure from τ
-    abstract: "We present the parts of the \\(τ\\)-framework that naturally resemble quantum mechanical structure: characters\
-      \ of \\(F_2=π_1(L)\\) provide discrete label sets, and \\(O(τ^3)\\) is a complex vector space (supporting linear superposition).\
-      \ Physical postulates that require additional analytic or geometric structure (Hilbert space completions, dynamics,\
-      \ Born rule, uncertainty relations) are recorded as programs. The calibration constant \\(ι_τ=2/(π+e)\\) is introduced\
-      \ as a dimensionless parameter for later physical scaling."
+    abstract: "We present the parts of the τ-framework that naturally resemble quantum mechanical structure: characters of\
+      \ F_2=π_1(L) provide discrete label sets, and O(τ³) is a complex vector space (supporting linear superposition). Physical\
+      \ postulates that require additional analytic or geometric structure (Hilbert space completions, dynamics, Born rule,\
+      \ uncertainty relations) are recorded as programs. The calibration constant ι_τ=2/(π+e) is introduced as a dimensionless\
+      \ parameter for later physical scaling."
   - number: 41
     title: The Holographic Principle
     abstract: "We explore the holographic principle in τ-theory: the boundary L encodes all information about the bulk τ³.\
       \ The Central Theorem provides a precise holographic correspondence: O(τ³) ≅ A_spec(L). Unlike AdS/CFT, this correspondence\
-      \ is internal to the \\(τ\\)-theory and is established earlier in the series. We examine information storage and record\
-      \ entropy/geometry statements as programs that require additional physical and analytic structure. τ-holography, building\
-      \ on the pioneering ideas of 't Hooft and Susskind ."
+      \ is internal to the τ-theory and is established earlier in the series. We examine information storage and record entropy/geometry\
+      \ statements as programs that require additional physical and analytic structure. τ-holography, building on the pioneering\
+      \ ideas of 't Hooft and Susskind ."
   - number: 42
     title: Towards the Categorical Forces
-    abstract: "We preview how gauge-theoretic and gravitational language can be attached to \\(τ\\)-structure. The rigorous\
-      \ core in this chapter is group-theoretic: for a target group \\(G\\), representations of \\(F_2= a,b\\) are pairs \\\
-      ((g_a,g_b) G G\\), and the conjugation quotient \\((G G)/G\\) is the corresponding character variety. Physical identifications\
-      \ (electromagnetism, Yang–Mills dynamics, Einstein equations, anomaly cancellation) require additional geometric input\
-      \ and are recorded as programs."
+    abstract: "We preview how gauge-theoretic and gravitational language can be attached to τ-structure. The rigorous core\
+      \ in this chapter is group-theoretic: for a target group G, representations of F_2=⟨ a,b⟩ are pairs (g_a,g_b)∈ G× G,\
+      \ and the conjugation quotient (G× G)/G is the corresponding character variety. Physical identifications (electromagnetism,\
+      \ Yang–Mills dynamics, Einstein equations, anomaly cancellation) require additional geometric input and are recorded\
+      \ as programs."
 - number: IX
   title: Categoricity
   abstract: "The τ³ holomorphic structure is **categorical**: any model of the axioms is isomorphic to ours. We prove τ³ is\
@@ -384,7 +386,7 @@ parts:
     title: "Why This Universe?"
     abstract: "We revisit the ultimate question: why this universe and not another? Within the axiomatic framework of Part\
       \ X, the Categoricity Theorem shows that there is a single structure (up to unique structure-preserving isomorphism).\
-      \ This chapter draws out interpretive consequences: how ``fine-tuning'' and multiverse talk changes when the underlying\
+      \ This chapter draws out interpretive consequences: how \"fine-tuning\" and multiverse talk changes when the underlying\
       \ model admits no internal degrees of freedom."
 - number: X
   title: "τ-Manifold Geometry"
@@ -399,87 +401,91 @@ parts:
 
       We now develop the theory of **τ-manifolds**—smooth manifolds carrying τ-holomorphic structure. A crucial distinction must be made:
 
-      itemize[nosep] **Abstract categorical τ³**: The categorical fiber product τ³ = τ¹ ×_f τ² from Part II, where τ¹ is the 2-dimensional Riemann sphere (from (α, π) orbits) and τ² is the 2-dimensional bi-torus (from (π', π'') orbits). **Concrete model space**: Smooth manifolds used for local charts in manifold theory. itemize
+      **Abstract categorical τ³**: The categorical fiber product τ³ = τ¹ ×_f τ² from Part II, where τ¹ is the 2-dimensional Riemann sphere (from (α, π) orbits) and τ² is the 2-dimensional bi-torus (from (π', π'') orbits). **Concrete model space**: Smooth manifolds used for local charts in manifold theory.
 
-      The categorical τ³ has **four coordinates** (r, θ_1, θ_2, θ_3), but the topological dimension after compactification is 3 (due to boundary degeneration). This chapter establishes: enumerate[nosep] **τ-Manifold definition**: Smooth manifolds with τ-analytic transition functions. **Connection to fibration**: How the categorical fiber product τ¹ ×_f τ² structure governs manifold theory. **Compactness program**: Structural constraints and toy-model classification statements for compact τ-manifolds. **Functorial structure**: Category Man_τ of τ-manifolds. enumerate
+      The categorical τ³ has **four coordinates** (r, θ_1, θ_2, θ_3), but the topological dimension after compactification is 3 (due to boundary degeneration). This chapter establishes:
+
+      **τ-Manifold definition**: Smooth manifolds with τ-analytic transition functions. **Connection to fibration**: How the categorical fiber product τ¹ ×_f τ² structure governs manifold theory. **Compactness program**: Structural constraints and toy-model classification statements for compact τ-manifolds. **Functorial structure**: Category Man_τ of τ-manifolds.
   - number: 49
     title: "τ-Calculus on Manifolds"
     abstract: |-
-      Chapter ch:tau-manifold-foundations established τ-manifolds as smooth manifolds with τ-analytic transition functions. We now extend the τ-calculus developed in Parts IV–V to this manifold setting.
+      Chapter established τ-manifolds as smooth manifolds with τ-analytic transition functions. We now extend the τ-calculus developed in Parts IV–V to this manifold setting.
 
       We ask: **How does differentiation and integration work on general τ-manifolds?**
 
       This chapter develops a τ-calculus on manifolds, emphasizing the finite-type (finite spectral support) regime:
 
-      enumerate[nosep] **τ-Derivatives on manifolds**: Coordinate-free differential operators. **τ-Gradient, divergence, curl**: Vector calculus operations on τ³. **τ-Integration**: Integration of finite-type forms via modewise formulas on the angular model. **τ-Stokes theorem**: Fundamental theorem relating forms and boundaries. **Algebraic character**: All operations preserve finite spectral support. enumerate
+      **τ-Derivatives on manifolds**: Coordinate-free differential operators. **τ-Gradient, divergence, curl**: Vector calculus operations on τ³. **τ-Integration**: Integration of finite-type forms via modewise formulas on the angular model. **τ-Stokes theorem**: Fundamental theorem relating forms and boundaries. **Algebraic character**: All operations preserve finite spectral support.
 
       The guiding point is that, under finite-type hypotheses, many operations reduce to finite mode bookkeeping (Fourier/character coefficients) rather than limiting processes.
   - number: 50
     title: "τ-Sheaves and τ-Cohomology"
     abstract: |-
-      Chapters ch:tau-manifold-foundations–ch:tau-calculus-manifolds established τ-manifolds and τ-calculus. We now develop the sheaf-theoretic foundations that unify local and global τ-analytic data.
+      Chapters established τ-manifolds and τ-calculus. We now develop the sheaf-theoretic foundations that unify local and global τ-analytic data.
 
       We ask: **How do local τ-analytic constructions glue to global objects?**
 
       This chapter develops τ-sheaf theory:
 
-      enumerate[nosep] **τ-Sheaf definition**: Presheaves of τ-analytic functions with gluing. **τ-Čech cohomology**: Čech cohomology with an emphasis on finite-type regimes. **τ-de Rham comparison**: A program relating τ-de Rham and τ-Čech under suitable hypotheses. **Coherent τ-sheaves**: Finite-type sheaves with effective local descriptions. **Vanishing theorems**: Conditions for cohomology to vanish. enumerate
+      **τ-Sheaf definition**: Presheaves of τ-analytic functions with gluing. **τ-Čech cohomology**: Čech cohomology with an emphasis on finite-type regimes. **τ-de Rham comparison**: A program relating τ-de Rham and τ-Čech under suitable hypotheses. **Coherent τ-sheaves**: Finite-type sheaves with effective local descriptions. **Vanishing theorems**: Conditions for cohomology to vanish.
 
       The guiding point is that, under finite-type hypotheses and with suitable covers, many cohomology computations reduce to finite linear algebra on coefficients.
   - number: 51
     title: "τ-Connections and τ-Parallel Transport"
     abstract: |-
-      Chapters ch:tau-manifold-foundations–ch:tau-sheaves-cohomology established τ-manifolds, τ-calculus, and τ-cohomology. We now develop the theory of connections on τ-vector bundles.
+      Chapters established τ-manifolds, τ-calculus, and τ-cohomology. We now develop the theory of connections on τ-vector bundles.
 
       We ask: **How do we parallel transport vectors along curves in τ-manifolds?**
 
       This chapter develops τ-connection theory, with emphasis on the finite-type (finite spectral support) regime:
 
-      enumerate[nosep] **τ-Connection definition**: Covariant derivatives preserving τ-analyticity. **Character expansion**: Connections as A = _χ A_χ χ with finite support. **τ-Parallel transport**: Transport along curves with explicit formulas. **τ-Holonomy**: Holonomy as a modewise, finite-type invariant (in favorable regimes). **τ-Curvature**: Curvature as obstruction to path-independence. enumerate
+      **τ-Connection definition**: Covariant derivatives preserving τ-analyticity. **Character expansion**: Connections as A = _χ A_χ χ with finite support. **τ-Parallel transport**: Transport along curves with explicit formulas. **τ-Holonomy**: Holonomy as a modewise, finite-type invariant (in favorable regimes). **τ-Curvature**: Curvature as obstruction to path-independence.
 
       The guiding point is that, for finite-type connections, many constructions reduce to finite mode bookkeeping in the character lattice Λ_τ.
   - number: 52
     title: "τ-Metric Geometry"
     abstract: |-
-      Chapter ch:tau-connections developed τ-connections on vector bundles. We now specialize to metric connections, developing Riemannian geometry in the τ-holomorphic setting.
+      Chapter developed τ-connections on vector bundles. We now specialize to metric connections, developing Riemannian geometry in the τ-holomorphic setting.
 
       We ask: **What is the natural metric structure on τ-manifolds?**
 
       This chapter develops τ-metric geometry:
 
-      enumerate[nosep] **τ-Riemannian metrics**: Metrics with τ-analytic coefficients. **τ-Levi-Civita connection**: Unique metric-compatible torsion-free connection. **τ-Geodesics**: Extremal curves with explicit equations. **τ-Riemann curvature**: Curvature tensor and its character expansion. **τ-Einstein equations**: Finite-type reduction to finitely many algebraic constraints. enumerate
+      **τ-Riemannian metrics**: Metrics with τ-analytic coefficients. **τ-Levi-Civita connection**: Unique metric-compatible torsion-free connection. **τ-Geodesics**: Extremal curves with explicit equations. **τ-Riemann curvature**: Curvature tensor and its character expansion. **τ-Einstein equations**: Finite-type reduction to finitely many algebraic constraints.
 
       The guiding point is that, on finite-type truncations in the angular model, the Einstein equations reduce to finitely many algebraic constraints on the character coefficients of the metric.
   - number: 53
     title: "τ-Hodge Theory"
     abstract: |-
-      Chapter ch:tau-metric-geometry developed τ-Riemannian metrics and curvature. We now develop Hodge theory—the interplay between the metric, the exterior derivative, and harmonic forms.
+      Chapter developed τ-Riemannian metrics and curvature. We now develop Hodge theory—the interplay between the metric, the exterior derivative, and harmonic forms.
 
       We ask: **What is the structure of harmonic forms on τ-manifolds?**
 
       This chapter develops τ-Hodge theory:
 
-      enumerate[nosep] **τ-Hodge star**: The metric-induced duality operator. **τ-Codifferential**: The formal adjoint δ_τ = -*d_τ*. **τ-Laplacian on forms**: Δ_τ = d_τ δ_τ + δ_τ d_τ. **τ-Hodge decomposition**: Ωk = im(d_τ) ⊕ Hk_τ ⊕ im(δ_τ). **Harmonic representatives**: Unique harmonic form in each cohomology class. enumerate
+      **τ-Hodge star**: The metric-induced duality operator. **τ-Codifferential**: The formal adjoint δ_τ = -*d_τ*. **τ-Laplacian on forms**: Δ_τ = d_τ δ_τ + δ_τ d_τ. **τ-Hodge decomposition**: Ωk = im(d_τ) ⊕ Hk_τ ⊕ im(δ_τ). **Harmonic representatives**: Unique harmonic form in each cohomology class.
 
       The guiding point is that, on the flat angular torus model underlying character expansions, harmonic forms and spectral data can be computed modewise. For general τ-manifolds, we treat the full Hodge package as a program whose validity depends on the analytic properties of the τ-Laplacian.
   - number: 54
     title: "τ-Wilson Loops and τ-Holonomy"
     abstract: |-
-      We develop the theory of τ-Wilson loops and τ-holonomy on τ-manifolds, building on τ-connections from Chapter ch:tau-connections. Our focus is the *finite-type* (finite spectral support) regime on the angular model, where many constructions reduce to finite mode bookkeeping.
+      We develop the theory of τ-Wilson loops and τ-holonomy on τ-manifolds, building on τ-connections from Chapter. Our focus is the *finite-type* (finite spectral support) regime on the angular model, where many constructions reduce to finite mode bookkeeping.
 
-      We isolate what is rigorous on the flat angular τ³-model (or in commuting sectors) and state the remaining gauge-theoretic claims as programs for the full τ-manifold setting. This chapter provides the gauge-theoretic interface for Chapter ch:tau-gauge-theory.
+      We isolate what is rigorous on the flat angular τ³-model (or in commuting sectors) and state the remaining gauge-theoretic claims as programs for the full τ-manifold setting. This chapter provides the gauge-theoretic interface for Chapter.
   - number: 55
     title: "τ-Gauge Theory and τ-Yang-Mills"
     abstract: |-
-      We develop τ-gauge theory and formulate the τ-Yang–Mills equations on τ-manifolds, building on τ-connections and τ-Hodge theory from Chapters ch:tau-connections–ch:tau-hodge-theory.
+      We develop τ-gauge theory and formulate the τ-Yang–Mills equations on τ-manifolds, building on τ-connections and τ-Hodge theory from Chapters.
 
       Our emphasis is the finite-type (finite spectral support) regime on the angular model, where a spectral cutoff turns the space of connection coefficients into a finite-dimensional parameter space. This provides a clean setting to state the Euler–Lagrange equations, self-duality conditions in four dimensions, and the BRST differential at an algebraic level. Claims about quantization, path integrals, and the mass gap are treated as programs.
   - number: 56
     title: "τ-Knot Theory"
     abstract: |-
-      We discuss knots and links in τ-manifolds with an emphasis on the angular model used throughout Part XI. Our goal is to separate: itemize what can be computed concretely on the flat angular T³-model (e.g.\ winding data and finite-type truncations), from the broader quantum-topological claims (Chern–Simons, skein modules, TQFT packages, categorification), which we treat as programs contingent on a precise quantization input. itemize
+      We discuss knots and links in τ-manifolds with an emphasis on the angular model used throughout Part XI. Our goal is to separate:
 
-      The main role of this chapter is organizational: it records how the gauge-theory structures of Chapters ch:tau-wilson-loops–ch:tau-gauge-theory are intended to interface with classical knot invariants.
+      what can be computed concretely on the flat angular T³-model (e.g. winding data and finite-type truncations), from the broader quantum-topological claims (Chern–Simons, skein modules, TQFT packages, categorification), which we treat as programs contingent on a precise quantization input.
+
+      The main role of this chapter is organizational: it records how the gauge-theory structures of Chapters are intended to interface with classical knot invariants.
   - number: 57
     title: "τ-Causal Structure"
     abstract: |-
@@ -489,9 +495,11 @@ parts:
   - number: 58
     title: "τ-Classical Emergence"
     abstract: |-
-      We discuss how familiar continuum approximations can arise from the finite-type angular models used throughout Part XI. The guiding idea is that: itemize at scales much smaller than the torus radius, local observations cannot detect global identifications, and as the spectral cutoff is raised, trigonometric-polynomial truncations approximate smooth functions in standard norms. itemize
+      We discuss how familiar continuum approximations can arise from the finite-type angular models used throughout Part XI. The guiding idea is that:
 
-      We keep the rigorous analytic statements (e.g.\ Fourier approximation on tori) and present the broader ``classical physics emerges'' narrative as a program that depends on additional physical and continuum-limit input.
+      at scales much smaller than the torus radius, local observations cannot detect global identifications, and as the spectral cutoff is raised, trigonometric-polynomial truncations approximate smooth functions in standard norms.
+
+      We keep the rigorous analytic statements (e.g. Fourier approximation on tori) and present the broader "classical physics emerges" narrative as a program that depends on additional physical and continuum-limit input.
 - number: XI
   title: Synthesis and Bridge
   abstract: "We synthesize Book II: from the τ³ fibration through holomorphy to number theory and physics. Open questions\
@@ -501,7 +509,7 @@ parts:
   - number: 59
     title: Synthesis
     abstract: |-
-      We synthesize the major constructions of Book II into a single picture. The technical core is the identification between τ-holomorphic data on the bulk τ³ and spectral character data on the lemniscate boundary L. We distinguish rigorous statements proved in earlier parts from broader arithmetic and physical interpretations, which we treat as programs that require additional input (e.g.\ analytic continuation, operator-theoretic hypotheses, or a physical dictionary).
+      We synthesize the major constructions of Book II into a single picture. The technical core is the identification between τ-holomorphic data on the bulk τ³ and spectral character data on the lemniscate boundary L. We distinguish rigorous statements proved in earlier parts from broader arithmetic and physical interpretations, which we treat as programs that require additional input (e.g. analytic continuation, operator-theoretic hypotheses, or a physical dictionary).
 
       This chapter weaves together the threads of Parts I–XI into a coherent whole.
   - number: 60
@@ -513,6 +521,6 @@ parts:
   - number: 61
     title: Bridge to Book III
     abstract: "We preview Book III: *Categorical Spectrum*. Book II developed τ³, its lemniscate boundary L, and the spectral\
-      \ character algebra that organizes τ-holomorphic data (Chapters ch:spectral-algebra and ch:central-theorem). Book III\
-      \ builds on this boundary-spectral viewpoint by developing a systematic operator-theoretic and trace-formula framework,\
-      \ with applications to ζ- and L-functions and to the ``spectral spine'' of several classical problems."
+      \ character algebra that organizes τ-holomorphic data (Chapters and ). Book III builds on this boundary-spectral viewpoint\
+      \ by developing a systematic operator-theoretic and trace-formula framework, with applications to ζ- and L-functions\
+      \ and to the \"spectral spine\" of several classical problems."

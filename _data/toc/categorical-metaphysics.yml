@@ -12,7 +12,7 @@ parts:
     title: "Prologue: The Categorical Stance"
     abstract: "Book VII adopts a single guiding stance: many philosophical oppositions become clearer when expressed as structural\
       \ distinctions. Three recurring moves organize the inquiry: **relations before relata** (objects as stabilized patterns\
-      \ in morphism networks), **coherence as gluing** (local success vs.\\ global integration), and **levels and interfaces**\
+      \ in morphism networks), **coherence as gluing** (local success vs. global integration), and **levels and interfaces**\
       \ (separating internal from external, description from evaluation). Parts I–VIII apply this categorical vocabulary—objects,\
       \ morphisms, functors, sheaves, topoi—to ontology, phenomenology, aesthetics, language, logic, ethics, societies, and\
       \ mind."
@@ -27,7 +27,7 @@ parts:
   - number: 2
     title: Relational Primacy and the Reconstruction Principle
     abstract: "Traditional ontology treats entities as self-subsistent bearers of properties. Categorical ontology shifts\
-      \ the explanatory direction: **relations and transformations come first**, and ``objects'' are stabilized patterns within\
+      \ the explanatory direction: **relations and transformations come first**, and \"objects\" are stabilized patterns within\
       \ that web. This chapter introduces a reconstruction principle for identity, a structural account of objecthood and\
       \ persistence, and an invariance-based approach to universals and essence."
   - number: 3
@@ -38,13 +38,13 @@ parts:
       \ on what can count as fundamental."
   - number: 4
     title: "Existence Inside τ: Internal Set Ontology and Boundedness"
-    abstract: "Ontology requires criteria: what counts as an entity, how collections are formed, and what kinds of ``infinity''\
-      \ are admissible. In the τ-framework, ``membership'' is not a primitive relation but a derived notion, and the formation\
+    abstract: "Ontology requires criteria: what counts as an entity, how collections are formed, and what kinds of \"infinity\"\
+      \ are admissible. In the τ-framework, \"membership\" is not a primitive relation but a derived notion, and the formation\
       \ of powersets is bounded. This chapter explains how those constraints function ontologically, and why they matter for\
-      \ modality, paradox avoidance, and the meaning of ``there exists'' in later parts."
+      \ modality, paradox avoidance, and the meaning of \"there exists\" in later parts."
   - number: 5
     title: "Worlds as Internal Domains: Topos Structure and Truthmakers"
-    abstract: "Book VII needs an ontology of truth, predication, and ``context'' that does not rest on a separate substance\
+    abstract: "Book VII needs an ontology of truth, predication, and \"context\" that does not rest on a separate substance\
       \ called a possible world. The relevant replacement is internal: domains of discourse are treated as structured contexts\
       \ with their own admissible predicates, and truth is grounded by internal constructions (sections, subobjects, invariants).\
       \ This chapter states the conceptual role of topos structure without reproducing the full technical development."
@@ -53,7 +53,7 @@ parts:
     abstract: "Space is often treated as a container in which relations occur. Categorical ontology treats spatial notions\
       \ as derived from generative structure: distance, neighborhood, and locality arise from constrained reachability under\
       \ the framework's primitive operations. This chapter explains that derivation at the conceptual level and clarifies\
-      \ how ``dimension'' functions as an organizational invariant rather than an ontic ingredient."
+      \ how \"dimension\" functions as an organizational invariant rather than an ontic ingredient."
   - number: 7
     title: "The Arena τ³ = τ¹ ×_f τ²: Base, Fiber, and Ontological Roles"
     abstract: "Books II–V develop τ³ as the canonical arena where categorical structure becomes world-like: a fibered product\
@@ -80,7 +80,7 @@ parts:
   - number: 11
     title: Modality and Necessity
     abstract: "Modal vocabulary expresses three ideas: what is possible, what is necessary, and what is merely contingent.\
-      \ This book treats these notions ontologically, not as talk about separate ``possible worlds'' substances. Possibility\
+      \ This book treats these notions ontologically, not as talk about separate \"possible worlds\" substances. Possibility\
       \ becomes *feasibility under constraints*: a claim is possible when there is an admissible construction that witnesses\
       \ it. Necessity becomes *closure and invariance*: a claim is necessary when it is preserved under the relevant structure-preserving\
       \ transformations and extensions."
@@ -114,20 +114,20 @@ parts:
   chapters:
   - number: 15
     title: Knowledge as Sections Over Covers—Beyond JTB
-    abstract: "Knowledge is not best understood as ``justified true belief'' (JTB), but as sections of a sheaf over a perspective\
+    abstract: "Knowledge is not best understood as \"justified true belief\" (JTB), but as sections of a sheaf over a perspective\
       \ cover. On this view, justification becomes satisfaction of gluing constraints, and truth becomes the existence and\
-      \ coherence of global sections. Many classical pathologies (Gettier cases, certain skeptical setups, and the ``access''\
+      \ coherence of global sections. Many classical pathologies (Gettier cases, certain skeptical setups, and the \"access\"\
       \ framing) are reinterpreted as artifacts of treating knowledge and reality as separate."
   - number: 16
     title: Justification as Gluing Constraints—The Force of the Better Argument
     abstract: "Justification is not best understood as an external warrant added to belief, but as satisfaction of categorical\
       \ gluing constraints. On this view, reasons do not form a linear chain; local sections constrain each other through\
-      \ naturality, overlap-compatibility, and flatness. The ``better argument'' has force because it reduces incoherence\
+      \ naturality, overlap-compatibility, and flatness. The \"better argument\" has force because it reduces incoherence\
       \ and tension in the overall system."
   - number: 17
     title: Perception and Experience—The Functor of Consciousness
-    abstract: "How do distinct sensory channels yield unified, meaningful experience, and what is the status of the ``what\
-      \ it is like'' of perception? This chapter proposes a categorical account: perception is an active functor from sensory\
+    abstract: "How do distinct sensory channels yield unified, meaningful experience, and what is the status of the \"what\
+      \ it is like\" of perception? This chapter proposes a categorical account: perception is an active functor from sensory\
       \ situations to an experience sheaf, and qualia are treated as fibers—objective yet perspectival structure within τ.\
       \ On this view, several traditional puzzles (binding, qualia ineffability, inverted spectrum, explanatory gap, and the\
       \ representative/direct realism dispute) are reinterpreted as artifacts of treating experience as a private substance\
@@ -149,7 +149,7 @@ parts:
   - number: 20
     title: "Embodiment and Flesh: The Lived Body as Phenomenological Ground"
     abstract: "Experience is not disembodied: it is always experience *of* a body that is also experienced *through* and *as*\
-      \ a body. This chapter develops Merleau-Ponty's phenomenology of the lived body (*Leib* vs.\\ *Körper*) in categorical\
+      \ a body. This chapter develops Merleau-Ponty's phenomenology of the lived body (*Leib* vs. *Körper*) in categorical\
       \ terms. The body is modeled as a *zero-point* of spatial orientation, a motor-intentional structure that shapes perception,\
       \ and the medium through which world and self are co-constituted. Flesh (*chair*) names the reversible intertwining\
       \ of touching and touched, seeing and seen—a chiasmic structure that dissolves the subject/object divide at its most\
@@ -157,9 +157,9 @@ parts:
   - number: 21
     title: The Ontology–Epistemology Dissolution—A Categorical Reframing
     abstract: "For much of the tradition, ontology (what exists) and epistemology (what we can know) are treated as distinct\
-      \ inquiries, a separation that generates the familiar ``access problem'': how knowledge relates to reality if the two\
+      \ inquiries, a separation that generates the familiar \"access problem\": how knowledge relates to reality if the two\
       \ are placed in different domains. This chapter argues that, within a categorical framework, the sharp divide does not\
-      \ arise. Knowledge is modeled as sections over covers of the same underlying structure τ, and the ``knower'' is treated\
+      \ arise. Knowledge is modeled as sections over covers of the same underlying structure τ, and the \"knower\" is treated\
       \ as an internal position within that structure. On this view, epistemology becomes an internal phenomenology of how\
       \ τ appears under different covers, and skepticism is constrained by the same coherence criteria that make knowledge\
       \ possible."
@@ -178,22 +178,21 @@ parts:
       \ an informal tension score—that will be made precise in the next chapters."
   - number: 23
     title: The Aesthetic Functional
-    abstract: "Chapter ch:pre-symbolic-resonance motivated categorical aesthetics by treating motifs as patterns that remain\
-      \ stable under controlled variation of perspective. This chapter turns that motivation into a working formalism: an\
-      \ *aesthetic functional* T that assigns a nonnegative tension value to a motif. Beauty is then modeled as low tension\
-      \ and, more structurally, as (stable) critical points of T."
+    abstract: "Chapter motivated categorical aesthetics by treating motifs as patterns that remain stable under controlled\
+      \ variation of perspective. This chapter turns that motivation into a working formalism: an *aesthetic functional* T\
+      \ that assigns a nonnegative tension value to a motif. Beauty is then modeled as low tension and, more structurally,\
+      \ as (stable) critical points of T."
   - number: 24
     title: Beauty as Invariance
-    abstract: "Chapter ch:aesthetic-functional introduced an aesthetic functional T that assigns nonnegative tension to motifs.\
-      \ This chapter explains why low-tension patterns often appear ``objective'' and cross-contextually stable: they tend\
-      \ to be *invariant* under families of admissible transformations (relabeling, re-encoding, and perspective change).\
-      \ In categorical terms, beauty tracks invariants and naturality rather than private associations."
+    abstract: "Chapter introduced an aesthetic functional T that assigns nonnegative tension to motifs. This chapter explains\
+      \ why low-tension patterns often appear \"objective\" and cross-contextually stable: they tend to be *invariant* under\
+      \ families of admissible transformations (relabeling, re-encoding, and perspective change). In categorical terms, beauty\
+      \ tracks invariants and naturality rather than private associations."
   - number: 25
     title: Elegance as Minimal Tension
-    abstract: "Beauty, as developed in Chapters ch:aesthetic-functional and ch:beauty-invariance, tracks low tension and invariance\
-      \ under admissible transformations. Elegance is a sharper notion: it concerns the *tradeoff* between coherence and structural\
-      \ economy. This chapter models elegance as Pareto-optimality in a space coordinatized by tension, complexity, and (optionally)\
-      \ information content."
+    abstract: "Beauty, as developed in Chapters and , tracks low tension and invariance under admissible transformations.\
+      \ Elegance is a sharper notion: it concerns the *tradeoff* between coherence and structural economy. This chapter models\
+      \ elegance as Pareto-optimality in a space coordinatized by tension, complexity, and (optionally) information content."
   - number: 26
     title: "Style, Motif, and Genre"
     abstract: "This chapter connects Part III's variational picture of aesthetics to familiar art-historical categories. We\
@@ -261,7 +260,7 @@ parts:
       \ two unbounded operators: **temporalization** (reference to arbitrarily distant past and future) and **public transmissibility**\
       \ (stable, shareable symbolic forms). These gains come at a cost: **mortality awareness** (conceptualizing personal\
       \ non-existence) and **mediated experience** (subsymbolic richness filtered through symbolic categories). The acquisition\
-      \ is irreversible—a forced temporal bargain. Heidegger's ``being-toward-death'' is reinterpreted as linguistic structure,\
+      \ is irreversible—a forced temporal bargain. Heidegger's \"being-toward-death\" is reinterpreted as linguistic structure,\
       \ and Genesis is read as an archetypal narrative of symbolic awakening."
   - number: 36
     title: The Subsymbolic Layer is Real
@@ -278,7 +277,7 @@ parts:
       \ flow P = lim_t' > t L(t'). Self-narrative S_self: [0, T_life] → L terminates at mortality—fixed point breaks! **Identity\
       \ Principle:** Local temporal coherence implies unique global storyline (sheaf condition on temporal gluing). Central\
       \ hypothesis: Symbolic language's DEFINING feature is unbounded temporal reach—enabling planning, cultural transmission,\
-      \ BUT forcing mortality awareness! [Formalizes temporal structure implicit in Chapter ch:what-language-adds]"
+      \ BUT forcing mortality awareness! [Formalizes temporal structure implicit in Chapter]"
   - number: 38
     title: "Language as Categorical Self-Enrichment"
     abstract: "Language emerges as **categorical self-enrichment**: the perspective category τ enriches itself into a symbolic\
@@ -297,11 +296,11 @@ parts:
       \ in terms of invariants and gluing rather than an external interpretation function."
   - number: 40
     title: "Reference, Indexicals, and Names"
-    abstract: "All reference is context-dependent: what appears ``fixed'' is actually **invariant under base change**. Context\
-      \ is modeled as a categorical base; indexicals (``I'', ``here'', ``now'') are reindexing functors; demonstratives are\
+    abstract: "All reference is context-dependent: what appears \"fixed\" is actually **invariant under base change**. Context\
+      \ is modeled as a categorical base; indexicals (\"I\", \"here\", \"now\") are reindexing functors; demonstratives are\
       \ pullbacks; anaphora are limits tracking co-reference; and rigid designation is invariance under chosen reindexings.\
-      \ This dissolves the puzzles of Frege (sense vs.\\ reference), Russell (descriptions), Kripke (rigid designators), and\
-      \ Kaplan (character vs.\\ content) into a single categorical framework where reference is a natural transformation respecting\
+      \ This dissolves the puzzles of Frege (sense vs. reference), Russell (descriptions), Kripke (rigid designators), and\
+      \ Kaplan (character vs. content) into a single categorical framework where reference is a natural transformation respecting\
       \ perspective shifts."
   - number: 41
     title: Pragmatics as Update Calculus
@@ -309,7 +308,7 @@ parts:
       \ on belief and discourse-state functors**. Assertions are Bayesian updates; questions are refinement operations (colimits);\
       \ commands create obligation functors; presuppositions are gluing conditions. Grice's conversational maxims emerge as\
       \ **naturality constraints** (label-independence), and common ground is formalized as shared sections. Pragmatics is\
-      \ not an ``extra'' layer on top of semantics but a categorical update calculus: structure-preserving state transitions."
+      \ not an \"extra\" layer on top of semantics but a categorical update calculus: structure-preserving state transitions."
   - number: 42
     title: Translation and Universal Bridgeability
     abstract: "Translation is modeled as **functorial correspondence between enriched categories**: when two languages share\
@@ -323,7 +322,7 @@ parts:
     abstract: "Semantic change is modeled as **monodromy accumulation**: parallel transport of meaning around loops fails\
       \ to return to the identity, producing drift. Ambiguity is diagnosed via loop holonomy, and four repair strategies are\
       \ identified: refine the cover, add bridge axioms, enforce flat transport, and check the tension budget. Historical\
-      \ examples (``awful'', ``gay'', ``decimate'') illustrate constrained drift; neologisms are sheaf extensions; etymology\
+      \ examples (\"awful\", \"gay\", \"decimate\") illustrate constrained drift; neologisms are sheaf extensions; etymology\
       \ is monodromy tracking. Prescriptivism fails because it violates naturality—meaning change is not arbitrary but categorically\
       \ constrained."
   - number: 44
@@ -345,9 +344,8 @@ parts:
     abstract: "This chapter treats prayer as a philosophical phenomenon: a dialogical practice that can be described without\
       \ committing to a particular theology. The proposal is structural: prayer can be modeled as a constraint-sensitive use\
       \ of language that searches for coherent continuations of commitments under naturality, gluing, label-independence,\
-      \ and publicity constraints. On this view, the felt ``response'' arises from constraint satisfaction within an internalized\
-      \ motif space, in continuity with the subsymbolic layer (Chapter ch:subsymbolic-real) and the learning dynamics discussed\
-      \ for LLMs (Chapter ch:llms-subsymbolic)."
+      \ and publicity constraints. On this view, the felt \"response\" arises from constraint satisfaction within an internalized\
+      \ motif space, in continuity with the subsymbolic layer (Chapter) and the learning dynamics discussed for LLMs (Chapter)."
 - number: V
   title: "Categorical Logic & Inference"
   abstract: "What is truth? **Boolean at micro scale, Bayesian at meso/macro**—logic is scale-dependent. Truth-bearers are\
@@ -424,8 +422,8 @@ parts:
   - number: 57
     title: "Kant's Categorical Imperative as Sheaf Gluing"
     abstract: "Kant's universalizability test can be formulated as a structural consistency criterion. Universalizability\
-      \ corresponds to existence of a global section in a sheaf of admissible enactments. ``Contradiction in conception''\
-      \ becomes a Cech obstruction; ``contradiction in will'' becomes a tension obstruction. Under τ-holomorphy, verification\
+      \ corresponds to existence of a global section in a sheaf of admissible enactments. \"Contradiction in conception\"\
+      \ becomes a Cech obstruction; \"contradiction in will\" becomes a tension obstruction. Under τ-holomorphy, verification\
       \ reduces to finitely many local checks."
   - number: 58
     title: "The No-Conflict Theorem"
@@ -500,7 +498,7 @@ parts:
       \ that realize them."
   - number: 69
     title: "Spheres, Bubbles, and Foams: Atmospheric Social Topology"
-    abstract: "This chapter gives a compact formalization of ``spheres''—drawing on Sloterdijk's *Sphären* trilogy —as socially\
+    abstract: "This chapter gives a compact formalization of \"spheres\"—drawing on Sloterdijk's *Sphären* trilogy —as socially\
       \ generated open sets in a recognition topology. Micro-spheres (bubbles), meso-spheres (globes), and macro plurality\
       \ (foams) differ by scale, overlap structure, and recognition density. The aim is to treat atmosphere and dwelling as\
       \ structural phenomena: patterns of interaction and boundary maintenance that support coherent social worlds."
@@ -528,7 +526,7 @@ parts:
     title: "Generations, Lineages, and Cultural Drift"
     abstract: "Cultural continuity requires transmission across time, and transmission is neither perfect nor cost-free. This\
       \ chapter models generations as compositional steps in a temporal chain of interpretation and practice. Cultural drift\
-      \ is then a predictable outcome of repeated composition under changing context, while ``generation gaps'' arise when\
+      \ is then a predictable outcome of repeated composition under changing context, while \"generation gaps\" arise when\
       \ adjacent cohorts must coordinate across partially incompatible norm-spaces. Lineages and institutions act as long-lived\
       \ carriers that stabilize transmission, and external memory (texts, rituals, built form) reduces loss when interpersonal\
       \ chains break."
@@ -537,7 +535,7 @@ parts:
     abstract: "Economic life is inseparable from social structure. Capital is not only stored money or productive assets;\
       \ it is a capacity to mobilize resources through institutions, knowledge, and network position. This chapter models\
       \ flows and inequality in terms of recognition graphs, mediation by roles and procedures, and feedback effects at hubs.\
-      \ It also sketches Sloterdijk's idea of a ``world interior of capital'' as a large-scale enclosure produced by ubiquitous\
+      \ It also sketches Sloterdijk's idea of a \"world interior of capital\" as a large-scale enclosure produced by ubiquitous\
       \ exchangeability."
   - number: 75
     title: Overload and Fragmentation in Modern Social Life
@@ -588,11 +586,11 @@ parts:
       \ for when artificial systems could count as minded."
   - number: 81
     title: "The Self as Story Functor: Narrative Identity"
-    abstract: "If a mind is an internal topos M (Chapter ch:minds-internal-topoi), then the ``self'' is not an extra substance\
-      \ but a reflexive structure inside M. This chapter models narrative identity as a functor from a category of lived episodes\
-      \ to the internal topos, and models character and personal growth as coherent revisions of that functor. The framework\
-      \ clarifies familiar puzzles (amnesia, duplication, split-brain, and no-self views) without reducing identity to a single\
-      \ datum such as memory or bodily continuity."
+    abstract: "If a mind is an internal topos M (Chapter), then the \"self\" is not an extra substance but a reflexive structure\
+      \ inside M. This chapter models narrative identity as a functor from a category of lived episodes to the internal topos,\
+      \ and models character and personal growth as coherent revisions of that functor. The framework clarifies familiar puzzles\
+      \ (amnesia, duplication, split-brain, and no-self views) without reducing identity to a single datum such as memory\
+      \ or bodily continuity."
   - number: 82
     title: "Consciousness as Global Section: Unity of Experience"
     abstract: "This chapter models the unity of consciousness as a structural property of the mind sheaf. Local processes\
@@ -623,7 +621,7 @@ parts:
     title: "Free Will and Branching: The Category of Possible Actions"
     abstract: "The free-will debate often conflates two questions: whether physical evolution is deterministic, and whether\
       \ agents have genuine alternatives in deliberation. This chapter models alternatives as branching structure in a category\
-      \ of feasible actions relative to an agent's state and constraints. ``Could have done otherwise'' becomes a claim about\
+      \ of feasible actions relative to an agent's state and constraints. \"Could have done otherwise\" becomes a claim about\
       \ the availability of alternative action morphisms, and responsibility becomes the attribution of an action to an agent's\
       \ self-model together with reason-responsiveness, not a demand for metaphysical randomness."
   - number: 87
@@ -666,5 +664,5 @@ parts:
     abstract: "Book VII concludes by synthesizing eight parts into a unified vision: categorical structure, taken as primary,\
       \ sharpens philosophical questions across ontology, phenomenology, aesthetics, language, logic, ethics, societies, and\
       \ mind. **Meaning** is defined as successful coordination across three interfaces—world, self, and society—where stability\
-      \ under translation, use, and repair constitutes the content. Normativity emerges from coherence constraints: ``ought''\
+      \ under translation, use, and repair constitutes the content. Normativity emerges from coherence constraints: \"ought\"\
       \ is tied to the possibility of coherent continuation. The framework is offered as a toolkit rather than a creed."

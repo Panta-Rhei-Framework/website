@@ -83,6 +83,12 @@ def latex_to_markdown(text):
     # Remove \nocite{...}
     s = re.sub(r'\\nocite\{[^}]*\}', '', s)
 
+    # Strip itemize/enumerate environment markers
+    s = re.sub(r'\\begin\{(itemize|enumerate)\}(\[nosep\])?', '', s)
+    s = re.sub(r'\\end\{(itemize|enumerate)\}', '', s)
+    # Strip \item markers
+    s = re.sub(r'\\item\b\s*', '', s)
+
     # Handle \texorpdfstring{latex}{plaintext} — use plaintext version (brace-aware)
     max_iters = 50
     while r'\texorpdfstring' in s and max_iters > 0:
@@ -209,6 +215,12 @@ def latex_to_markdown(text):
 
     s = re.sub(r'\$([^$]+)\$', convert_math, s)
 
+    # Handle \(...\) inline math delimiters (same conversion as $...$)
+    s = re.sub(r'\\\((.+?)\\\)', convert_math, s)
+
+    # Handle \[...\] display math delimiters
+    s = re.sub(r'\\\[(.+?)\\\]', convert_math, s)
+
     # Apply Greek letters outside math (for custom macros like \mittau)
     for cmd, char in sorted(GREEK.items(), key=lambda x: -len(x[0])):
         # Only replace if followed by non-alpha (word boundary)
@@ -245,11 +257,31 @@ def latex_to_markdown(text):
     # Tilde (non-breaking space)
     s = s.replace('~', ' ')
 
+    # LaTeX double-backtick quotes → Unicode double quotes (DOTALL for multi-line)
+    s = re.sub(r"``(.+?)''", r'"\1"', s, flags=re.DOTALL)
+
+    # Abbreviation trailing backslash (e.g.\ → e.g.)
+    s = re.sub(r'((?:e\.g|i\.e|cf|viz|vs|etc)\.)\\(?=\s|$)', r'\1', s)
+
     # Clean up remaining LaTeX commands that we missed
     s = re.sub(r'\\[a-z]+\{([^}]*)\}', r'\1', s)  # \cmd{text} → text
 
     # Remove remaining backslash-commands without braces
     s = re.sub(r'\\[a-zA-Z]+(?=[^a-zA-Z{]|$)', '', s)
+
+    # Strip ch:label cross-references AFTER \ref{} cleanup (Chapter ch:foo → Chapter)
+    s = re.sub(r'(Chapters?)\s+ch:[a-z0-9-]+(?:\s*[-–—]+\s*ch:[a-z0-9-]+)?', r'\1', s)
+    # Strip any remaining standalone ch:label references (e.g., "and ch:foo")
+    s = re.sub(r'\bch:[a-z0-9-]+', '', s)
+
+    # Strip def:label cross-references (Definition def:foo → Definition)
+    s = re.sub(r'(Definitions?)\s+def:[a-z0-9-]+', r'\1', s)
+
+    # Strip sec:label cross-references (Section sec:foo → Section)
+    s = re.sub(r'(Sections?)\s+sec:[a-z0-9-]+', r'\1', s)
+
+    # Strip thm:label, lem:label, prop:label cross-references
+    s = re.sub(r'(Theorems?|Lemmas?|Propositions?|Corollar(?:y|ies))\s+(?:thm|lem|prop|cor):[a-z0-9-]+', r'\1', s)
 
     # Clean up multiple spaces
     s = re.sub(r'  +', ' ', s)

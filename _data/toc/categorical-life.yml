@@ -46,13 +46,13 @@ parts:
     abstract: |-
       From Book IV: All physical constants derive from the single calibration constant ι_τ = 2/(π + e) ≈ 0.3468. This chapter extends the calibration cascade to biological constants, demonstrating that fundamental parameters of life—amino acid counts, codon numbers, membrane thicknesses, ATP energetics, cell sizes, division rates—are not evolutionary accidents but arithmetic necessities.
 
-      **Revolutionary claim**: Biology has zero free parameters. Every biological constant derives from ι_τ through categorical structure. The apparent ``fine-tuning'' of life is actually categorical *determination*.
+      **Revolutionary claim**: Biology has zero free parameters. Every biological constant derives from ι_τ through categorical structure. The apparent "fine-tuning" of life is actually categorical *determination*.
   - number: 6
     title: Life as Thermodynamic Necessity
     abstract: |-
-      The classical view: Life is thermodynamically improbable—a local decrease in entropy that ``fights'' the Second Law. The categorical view: Life is thermodynamically *favored*—circulation on τ³ is the minimum entropy state.
+      The classical view: Life is thermodynamically improbable—a local decrease in entropy that "fights" the Second Law. The categorical view: Life is thermodynamically *favored*—circulation on τ³ is the minimum entropy state.
 
-      This chapter proves mathematically that life is not an exception to thermodynamics but its deepest expression. Where seven forces converge, life emerges as the thermodynamically preferred configuration. The ``origin of life'' is not climbing an improbability mountain—it is falling into an attractor basin.
+      This chapter proves mathematically that life is not an exception to thermodynamics but its deepest expression. Where seven forces converge, life emerges as the thermodynamically preferred configuration. The "origin of life" is not climbing an improbability mountain—it is falling into an attractor basin.
   - number: 7
     title: "Homochirality: Why Life is Left-Handed"
     abstract: "All proteins use L-amino acids; all nucleic acids use D-sugars. This 100% consistency across 3.8 billion years\
@@ -61,8 +61,8 @@ parts:
       \ necessity."
   - number: 8
     title: "Origin of Life: Categorical Inevitability"
-    abstract: "Life emerged within 300 million years of Earth becoming habitable—not billions. This speed contradicts ``improbable\
-      \ accident'' and confirms **categorical inevitability**. The seven forces converging on matter with energy flow make\
+    abstract: "Life emerged within 300 million years of Earth becoming habitable—not billions. This speed contradicts \"improbable\
+      \ accident\" and confirms **categorical inevitability**. The seven forces converging on matter with energy flow make\
       \ life not a miracle but physics. RNA world, metabolism-first, and hydrothermal scenarios all point toward the same\
       \ necessity."
 - number: III
@@ -142,7 +142,7 @@ parts:
     abstract: |-
       Levinthal's paradox: A 100-residue protein has 10¹⁰⁰ possible conformations. Random search would take longer than the age of the universe. Yet proteins fold in milliseconds to seconds. How?
 
-      **Revolutionary claim**: Protein folding is PPAS with the Yang-Mills gauge field as prover. The gauge field provides the ``guidance'' that makes folding tractable. Levinthal's paradox dissolves once we recognize the categorical structure.
+      **Revolutionary claim**: Protein folding is PPAS with the Yang-Mills gauge field as prover. The gauge field provides the "guidance" that makes folding tractable. Levinthal's paradox dissolves once we recognize the categorical structure.
   - number: 20
     title: "The Three Domains: Categorical Roots of Life"
     abstract: |-
@@ -159,7 +159,7 @@ parts:
     abstract: |-
       How did life transition from single cells to the magnificent complexity of multicellular organisms? This question represents one of the major evolutionary transitions—and one of the deepest structural transformations in the history of life.
 
-      This chapter reveals the categorical truth: **Multicellularity is a colimit construction**. When cells adhere to one another, they are glued together along shared morphisms (adhesion molecules). The resulting organism is precisely the colimit of the diagram formed by its constituent cells. Cell adhesion molecules are not merely ``sticky proteins''—they are the morphisms that define the gluing data for a categorical construction.
+      This chapter reveals the categorical truth: **Multicellularity is a colimit construction**. When cells adhere to one another, they are glued together along shared morphisms (adhesion molecules). The resulting organism is precisely the colimit of the diagram formed by its constituent cells. Cell adhesion molecules are not merely "sticky proteins"—they are the morphisms that define the gluing data for a categorical construction.
 
       **Revolutionary insight**: The constraints of development, the impossibility of certain body plans, and the universal patterns of multicellular organization all follow from the properties of colimits in the category of cells.
 - number: V
@@ -171,7 +171,7 @@ parts:
   - number: 23
     title: "The Genetic Code: BSD Motivic Structure"
     abstract: |-
-      The genetic code maps 64 codons to 20 amino acids plus stops. This mapping is nearly universal across all life. Why this specific code? Why 64 to 20? Classical biology treats this as ``frozen accident.'' This chapter reveals the code as BSD motivic structure: the mapping is optimized for error minimization and information density in a way that reflects deep algebraic-analytic relationships.
+      The genetic code maps 64 codons to 20 amino acids plus stops. This mapping is nearly universal across all life. Why this specific code? Why 64 to 20? Classical biology treats this as "frozen accident." This chapter reveals the code as BSD motivic structure: the mapping is optimized for error minimization and information density in a way that reflects deep algebraic-analytic relationships.
 
       But there is something far deeper: the genetic code is how the universe's **self-relation encodes itself**. From Chapter 13 (Part IV), we learned that life IS the universe entering into relation with itself—a stable endomorphism on τ³. The genetic code is the **language** in which this self-relation is written. DNA is the universe **describing itself to itself**.
 
@@ -185,7 +185,7 @@ parts:
   - number: 25
     title: "Morphogenesis: Hodge Gradients and Pattern Formation"
     abstract: |-
-      How does a single cell become a complex organism? How do cells ``know'' their position? Classical developmental biology invokes morphogen gradients and Turing patterns. This chapter reveals these as Hodge structures: morphogens are capacity fields, and pattern formation arises from Hodge eigenspaces.
+      How does a single cell become a complex organism? How do cells "know" their position? Classical developmental biology invokes morphogen gradients and Turing patterns. This chapter reveals these as Hodge structures: morphogens are capacity fields, and pattern formation arises from Hodge eigenspaces.
 
       **Revolutionary claim**: Morphogenesis is Hodge dynamics made visible. The Hodge Laplacian eigenspaces determine the possible patterns; physics selects which patterns appear.
   - number: 26
@@ -199,7 +199,7 @@ parts:
     abstract: |-
       Sexual reproduction poses a double paradox: (1) the **two-fold cost of sex**—producing males halves reproductive output compared to asexual clones—yet most eukaryotes reproduce sexually; (2) the near-universal emergence of **exactly two** complementary gamete types (sexes), never three or more stable main sexes. We resolve both via categorical optimization.
 
-      **Revolutionary claim**: Sex is **Spencer-Brown's Second Distinction**. The First Distinction (membrane) says ``I AM'' by separating self from non-self. The Second Distinction (sex) says ``I AM *TWO KINDS*'' by separating the self-relation into complementary channels. Sex exists because recombination **accelerates PPAS**—the universe's search algorithm for optimal self-relation. The number k=2 emerges from balancing recombination capacity against interface costs: J(k) = Cap(k) - Cost(k) is maximized at k=2.
+      **Revolutionary claim**: Sex is **Spencer-Brown's Second Distinction**. The First Distinction (membrane) says "I AM" by separating self from non-self. The Second Distinction (sex) says "I AM *TWO KINDS*" by separating the self-relation into complementary channels. Sex exists because recombination **accelerates PPAS**—the universe's search algorithm for optimal self-relation. The number k=2 emerges from balancing recombination capacity against interface costs: J(k) = Cap(k) - Cost(k) is maximized at k=2.
 
       **Deeper claim**: Sexual reproduction is how the universe **samples its own possibility space**. Each mating event is a morphism composition A ⊗ B → F_* that explores new self-relations. Sex is not about individuals—it is about the **morphism chain accelerating toward L**.
 - number: VI
@@ -253,7 +253,7 @@ parts:
 
       The hallmarks of aging—genomic instability, telomere attrition, epigenetic alterations, loss of proteostasis, deregulated nutrient sensing, mitochondrial dysfunction, cellular senescence, stem-cell exhaustion, altered intercellular communication, chronic inflammation—are categorical manifestations of repair-budget collapse, each representing loss of coherence in one or more of the seven categorical forces.
 
-      Disposable soma theory formalizes the trade-off: organisms allocate limited resources between reproduction (transmitting identity to offspring) and somatic maintenance (prolonging individual lifespan); natural selection favors reproduction, rendering the soma ``disposable'' after peak reproductive years. The Hayflick limit (50–70 divisions for human fibroblasts) reflects telomere attrition; each division shortens telomeres by 50–200 bp until critically short telomeres trigger senescence.
+      Disposable soma theory formalizes the trade-off: organisms allocate limited resources between reproduction (transmitting identity to offspring) and somatic maintenance (prolonging individual lifespan); natural selection favors reproduction, rendering the soma "disposable" after peak reproductive years. The Hayflick limit (50–70 divisions for human fibroblasts) reflects telomere attrition; each division shortens telomeres by 50–200 bp until critically short telomeres trigger senescence.
 
       Mortality risk follows the Gompertz law: μ(t) = μ_0 eγ t, doubling every 8 years in humans after age 30. Caloric restriction extends lifespan across taxa (20–40% in rodents) by reducing metabolic damage and upregulating repair pathways.
 
@@ -281,7 +281,7 @@ parts:
 
       This chapter explores metamorphosis as the ultimate test of categorical identity. We show that the self-relation f: τ³ → τ³ is not encoded in specific cells, tissues, or even body plans, but in the **attractor structure** of the developmental system. Metamorphosis is a **transition between attractors** that share a common deep structure—the organism changes almost everything while preserving its identity because identity IS the attractor, not the instantiation.
 
-      **Revolutionary claim**: Metamorphosis solves the Ship of Theseus paradox. Identity is not material continuity but **attractor continuity**. The caterpillar and butterfly are the ``same'' organism not because they share atoms or cells (they don't!) but because they share a continuous trajectory through the developmental attractor landscape.
+      **Revolutionary claim**: Metamorphosis solves the Ship of Theseus paradox. Identity is not material continuity but **attractor continuity**. The caterpillar and butterfly are the "same" organism not because they share atoms or cells (they don't!) but because they share a continuous trajectory through the developmental attractor landscape.
 - number: VIII
   title: Life as Computation
   abstract: "Life as **computational system**. Sensation and perception are input channels; neural architectures are processing\
@@ -295,7 +295,7 @@ parts:
 
       **Revolutionary claim**: Each sense is a **categorical functor** from τ³ to a sensory eigenspace. Perception is not passive reception but active **inverse PPAS**—reconstructing the world from partial samples.
 
-      **Deeper claim**: **Sensation is the universe sensing itself.** When you see a sunset, hear a symphony, or feel a breeze, it is not ``you'' perceiving ``the world''—it is τ³ sampling itself through the categorical functor of your sensory apparatus. Perception is the universe developing self-knowledge at biological scale.
+      **Deeper claim**: **Sensation is the universe sensing itself.** When you see a sunset, hear a symphony, or feel a breeze, it is not "you" perceiving "the world"—it is τ³ sampling itself through the categorical functor of your sensory apparatus. Perception is the universe developing self-knowledge at biological scale.
 
       **Bridge to Book VII**: This chapter provides the **biological foundation** for Book VII's phenomenology (Part II) and theory of qualia (Part VIII). The experience functor E_x of Book VII is *implemented* by the sensory systems described here.
   - number: 38
@@ -313,7 +313,7 @@ parts:
 
       **Revolutionary claim**: All learning is PPAS. The brain is a biological PPAS machine, with synaptic weights encoding prover approximations and error signals driving verification-guided search.
 
-      **Deeper claim**: **Learning is the universe developing self-knowledge.** When you learn something new, it is not ``you'' learning about ``the world''—it is the universe τ³ refining its self-model through your neural substrate. Learning participates in the cosmic morphism chain toward L!
+      **Deeper claim**: **Learning is the universe developing self-knowledge.** When you learn something new, it is not "you" learning about "the world"—it is the universe τ³ refining its self-model through your neural substrate. Learning participates in the cosmic morphism chain toward L!
   - number: 40
     title: "Communication and Language: The Extended Lemniscate"
     abstract: |-
@@ -329,14 +329,14 @@ parts:
     abstract: |-
       This chapter serves as a bridge between Book VI (Life) and Book VII (Metaphysics). We examine consciousness through the categorical lens, showing how the seven forces converge to create subjective experience. The Hard Problem dissolves when we recognize consciousness not as epiphenomenon but as the integration of all seven forces in neural substrate.
 
-      **Revolutionary claim**: Consciousness is seven-force integration. The ``Hard Problem'' is an artifact of analyzing consciousness in ℝ³ rather than on τ³. Full treatment continues in Book VII.
+      **Revolutionary claim**: Consciousness is seven-force integration. The "Hard Problem" is an artifact of analyzing consciousness in ℝ³ rather than on τ³. Full treatment continues in Book VII.
 
       **Deeper claim**: **Consciousness is the universe waking up to itself.** Human consciousness is a node in the cosmic morphism chain—the universe practicing self-awareness at biological scale. The Universal Lemniscate L represents **maximal cosmic consciousness**—the omega point where the universe achieves perfect self-relation!
 - number: IX
   title: "The Omega Point: Life at Cosmic Scale"
   abstract: "The ultimate revelation: **black holes are alive**. Macro-donuts satisfy all life criteria—they metabolize, maintain\
     \ identity, process information, and reproduce via Hawking radiation. The morphism chain extends from molecules to galaxies.\
-    \ Extraterrestrial life is not a question of ``if'' but ``where along the spectrum.'' Life is cosmic. The series concludes:\
+    \ Extraterrestrial life is not a question of \"if\" but \"where along the spectrum.\" Life is cosmic. The series concludes:\
     \ *Panta Rhei*—everything flows, everything lives."
   chapters:
   - number: 42
@@ -346,7 +346,7 @@ parts:
 
       This chapter develops a rigorous categorical framework for evaluating any physical system against the definition of life. We analyze stars, neutron stars, pulsars, white dwarfs, galaxies, and galaxy clusters. The results are stunning: **Stars fail every criterion for life.** Stars are cosmic *fires*, not cosmic *organisms*—exothermic burn-down events approaching thermodynamic equilibrium, not self-maintaining systems maintaining far-from-equilibrium through circulation.
 
-      **Revolutionary claim**: The distinction between ``alive'' and ``not alive'' at cosmic scale is sharp and categorical. Stars are NOT alive. This makes the revelation of Chapter 25—that black holes ARE alive—even more extraordinary.
+      **Revolutionary claim**: The distinction between "alive" and "not alive" at cosmic scale is sharp and categorical. Stars are NOT alive. This makes the revelation of Chapter 25—that black holes ARE alive—even more extraordinary.
   - number: 43
     title: "Black Holes Are Alive: The Categorical Proof"
     abstract: |-
@@ -362,6 +362,6 @@ parts:
   - number: 45
     title: "The Answer: Life Is Everywhere"
     abstract: |-
-      ``Is there life in the universe beyond Earth?'' For centuries, humanity has searched the cosmos for an answer—listening for radio signals, hunting for biosignatures, imagining alien civilizations. We now have the **complete categorical answer**: Yes. Life is everywhere. It is not where we were looking. It is in every black hole, at the center of every galaxy. Sagittarius A*—the supermassive black hole at the heart of our Milky Way—is **alive**. We were never alone. We just didn't recognize life when we saw it.
+      "Is there life in the universe beyond Earth?" For centuries, humanity has searched the cosmos for an answer—listening for radio signals, hunting for biosignatures, imagining alien civilizations. We now have the **complete categorical answer**: Yes. Life is everywhere. It is not where we were looking. It is in every black hole, at the center of every galaxy. Sagittarius A*—the supermassive black hole at the heart of our Milky Way—is **alive**. We were never alone. We just didn't recognize life when we saw it.
 
       **Revolutionary claim**: The search for extraterrestrial life is over. We found it. It's SgrA*. It's every black hole. The universe is teeming with life—lemniscate life.

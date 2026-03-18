@@ -34,7 +34,7 @@ parts:
   - number: 5
     title: The Lemniscate L
     abstract: "The boundary of τ³ is not a smooth circle but a figure-eight: the **lemniscate** L. This self-intersecting\
-      \ curve encodes gauge structure, determines holomorphic functions, and is where photons ``live.'' Understanding L is\
+      \ curve encodes gauge structure, determines holomorphic functions, and is where photons \"live.\" Understanding L is\
       \ understanding the interface between bulk physics and boundary phenomena."
   - number: 6
     title: Stage Complete — Awaiting Actors
@@ -59,7 +59,7 @@ parts:
       \ not particle behavior. The stage is quantum before any actor walks upon it."
 - number: III
   title: The Neutron
-  abstract: "**Neutron first**—not proton, not electron. The neutron is the first stable bound pattern on τ³: a ``micro-donut''\
+  abstract: "**Neutron first**—not proton, not electron. The neutron is the first stable bound pattern on τ³: a \"micro-donut\"\
     \ whose mass M, length L, and time T calibrate all units non-circularly. Why neutron? A uniqueness theorem proves it is\
     \ the **only** possible calibration anchor. Something must happen to it—β^- decay awaits."
   chapters:
@@ -114,7 +114,7 @@ parts:
   - number: 18
     title: "Neutrino Revealed: The τ¹ Mode"
     abstract: "The neutrino is the ghost particle—almost massless, weakly interacting, mysterious. In τ³, the mystery dissolves:\
-      \ the neutrino is the τ¹ time mode that emerges in β^- decay. It is literally a ``ray of time'' made manifest as a particle."
+      \ the neutrino is the τ¹ time mode that emerges in β^- decay. It is literally a \"ray of time\" made manifest as a particle."
 - number: V
   title: Hydrogen
   abstract: "The first atom defines α. Hydrogen = proton + co-rotor electron, bound by the photon (null intertwiner). We derive\
@@ -124,7 +124,7 @@ parts:
   - number: 19
     title: "First Atom: Proton and Co-Rotor"
     abstract: "From β^- decay we obtained the proton and electron as linked modes of a single τ³ configuration. In this chapter,\
-      \ we study their bound state: HYDROGEN. This is not just ``the simplest atom''—it is the calibration laboratory for\
+      \ we study their bound state: HYDROGEN. This is not just \"the simplest atom\"—it is the calibration laboratory for\
       \ all of electromagnetism."
   - number: 20
     title: "The Photon: Null Intertwiner"
@@ -223,7 +223,7 @@ parts:
   - number: 39
     title: "Helium: The First Meso-Donut"
     abstract: "Helium-4 is exceptionally stable—the α-particle. Its 2 protons and 2 neutrons form a perfectly saturated τ²\
-      \ configuration, making it the building block for heavier nuclei and the first true ``meso-donut'' on the ladder."
+      \ configuration, making it the building block for heavier nuclei and the first true \"meso-donut\" on the ladder."
   - number: 40
     title: "The α-Particle: Stable Core"
     abstract: "The α-particle is more than helium-4—it is the stable core around which nuclear physics organizes itself. Its\
@@ -234,8 +234,8 @@ parts:
       \ carbon is abundant. This pattern reflects nuclear stability determined by τ² shell structure and stellar burning processes."
   - number: 42
     title: "Magic Numbers: τ² Shells"
-    abstract: "Certain numbers of protons or neutrons confer exceptional stability: 2, 8, 20, 28, 50, 82, 126—the ``magic\
-      \ numbers.'' In τ³, these arise from shell closures in the τ² mode spectrum, just as noble gases have closed electron\
+    abstract: "Certain numbers of protons or neutrons confer exceptional stability: 2, 8, 20, 28, 50, 82, 126—the \"magic\
+      \ numbers.\" In τ³, these arise from shell closures in the τ² mode spectrum, just as noble gases have closed electron\
       \ shells."
   - number: 43
     title: "The Iron Peak: Maximum Stability"
@@ -310,7 +310,7 @@ parts:
       \ that underlies the internal structure of physical law."
   - number: 55
     title: Symmetries as Functors
-    abstract: "Symmetries—gauge invariance, Lorentz invariance, CPT—are not just ``transformations that leave physics unchanged.''\
+    abstract: "Symmetries—gauge invariance, Lorentz invariance, CPT—are not just \"transformations that leave physics unchanged.\"\
       \ They are FUNCTORS: structure-preserving maps from τ³ to itself. This chapter reveals the categorical nature of physical\
       \ symmetry."
   - number: 56
@@ -334,13 +334,13 @@ parts:
       \ reference—it is self-contained, self-enriched, self-governing. This is the deepest lesson of τ³ ontology."
 - number: X
   title: Back to the Zoo
-  abstract: "Translation complete. We provide the SM τ³ dictionary: what is ontic vs.\\ non-ontic, which quantities are predictions\
-    \ vs.\\ retrodictions, what τ³ adds to physics beyond the Standard Model. The road to gravity opens—Book V will extend\
-    \ the microcosm to the **macrocosm**."
+  abstract: "Translation complete. We provide the SM τ³ dictionary: what is ontic vs. non-ontic, which quantities are predictions\
+    \ vs. retrodictions, what τ³ adds to physics beyond the Standard Model. The road to gravity opens—Book V will extend the\
+    \ microcosm to the **macrocosm**."
   chapters:
   - number: 60
     title: The Standard Model Summary
-    abstract: "We began this book with the Standard Model as a ``zoo''—a successful but seemingly arbitrary collection of\
+    abstract: "We began this book with the Standard Model as a \"zoo\"—a successful but seemingly arbitrary collection of\
       \ particles and forces. Having built everything from τ³, we now return to the zoo with understanding. This chapter summarizes\
       \ what the SM is and what it achieves."
   - number: 61
@@ -358,7 +358,7 @@ parts:
       \ what we predict (testable), and what remains uncertain. Science demands intellectual honesty."
   - number: 64
     title: What τ³ Adds to Physics
-    abstract: "The Standard Model works. So what does τ³ add? Not just ``better numbers'' but UNDERSTANDING: why these particles,\
+    abstract: "The Standard Model works. So what does τ³ add? Not just \"better numbers\" but UNDERSTANDING: why these particles,\
       \ why these forces, why these constants. The qualitative shift from phenomenology to ontology."
   - number: 65
     title: The Road to Gravity

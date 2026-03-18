@@ -17,29 +17,29 @@ parts:
 
       The 1+3 decomposition: **τ³ is physical spacetime with radial = temporal and angular = spatial substrate**. The α-orbit (ultrametric, genealogical, strictly ordered) is the natural candidate for time/causality. The three solenoidal directions (π, π', π'') are the natural candidates for three spatial degrees of freedom. Gauge structure emerges automatically: U(1) from each solenoidal loop, U(1)² from the bi-solenoidal torus T², and SU(2) from unit quaternions in the spectral layer. The 3D space we experience emerges *locally* as the bulk interior of the T² fibres via Hartogs extension from the torus surface—not as an independent arena, but as holomorphic projection.
   - number: 2
-    title: "The Temporal Ignition: Why a ``Time Epoch'' Starts"
+    title: "The Temporal Ignition: Why a \"Time Epoch\" Starts"
     abstract: |-
-      The ``Big Bang'' is not a beginning from nothing—it is a phase transition. At the α_a point on the Cayley-Graph, the substrate crosses a threshold: patterns can now persist, worldlines can now be defined, proper time can now emerge. This chapter explains what changes at ignition and what conditions enable temporal physics.
+      The "Big Bang" is not a beginning from nothing—it is a phase transition. At the α_a point on the Cayley-Graph, the substrate crosses a threshold: patterns can now persist, worldlines can now be defined, proper time can now emerge. This chapter explains what changes at ignition and what conditions enable temporal physics.
 
-      The deep clarification: **``creation from nothing'' is a category error**. The Cayley-Graph substrate exists necessarily (as mathematical structures do); what ``begins'' at α_a is the **temporal regime**—the epoch where persistent patterns, worldlines, and proper time become definable. The substrate does not ``come into being.'' It transitions from a pre-pattern to a pattern-forming phase.
+      The deep clarification: **"creation from nothing" is a category error**. The Cayley-Graph substrate exists necessarily (as mathematical structures do); what "begins" at α_a is the **temporal regime**—the epoch where persistent patterns, worldlines, and proper time become definable. The substrate does not "come into being." It transitions from a pre-pattern to a pattern-forming phase.
 
-      The monoidal insight: **in τ³, the ``true step'' lives at second order**. In a monoidal structure, the first-order bases (α_1 = α, π_1 = π) are idempotent-like—they play the role of units, not increments. The *first genuine step* is the second orbit element: α_2 = ρ(α) e (radial) and π_2 = ρ(π) π (angular). These are the two complementary **incarnations of 2-ness** in τ³. The master invariant ι_τ = 2/(π + e) then represents the **holomorphic incarnation of inverse 2-ness**: inv_τ(2) = 1/2, which is precisely the critical exponent governing τ-balance. This is not numerology—it is structurally forced by τ-monoidality and the radial–angular spectral balance.
+      The monoidal insight: **in τ³, the "true step" lives at second order**. In a monoidal structure, the first-order bases (α_1 = α, π_1 = π) are idempotent-like—they play the role of units, not increments. The *first genuine step* is the second orbit element: α_2 = ρ(α) e (radial) and π_2 = ρ(π) π (angular). These are the two complementary **incarnations of 2-ness** in τ³. The master invariant ι_τ = 2/(π + e) then represents the **holomorphic incarnation of inverse 2-ness**: inv_τ(2) = 1/2, which is precisely the critical exponent governing τ-balance. This is not numerology—it is structurally forced by τ-monoidality and the radial–angular spectral balance.
   - number: 3
     title: High Energy and High Entropy at the Beginning
     abstract: |-
-      Standard cosmology tells us the Big Bang was a state of ``low entropy'' that has been increasing ever since. This chapter challenges that story. On τ³, the early universe was **high energy** (dense Cayley-Graph) and **high entropy** (maximal branching freedom). The apparent ``low entropy'' is an artifact of confusing global and local measures. This distinction is crucial for understanding the arrow of time.
+      Standard cosmology tells us the Big Bang was a state of "low entropy" that has been increasing ever since. This chapter challenges that story. On τ³, the early universe was **high energy** (dense Cayley-Graph) and **high entropy** (maximal branching freedom). The apparent "low entropy" is an artifact of confusing global and local measures. This distinction is crucial for understanding the arrow of time.
 
       The key holomorphic insight: **global entropy** is decreasing along the α-orbit (constraint crystallization), while **local entropy** increases (second law). These are not contradictions—the local arrow operates within constraints progressively imposed by the global arrow. Complexity emerges where these two arrows intersect: locally rare, globally favored.
 
-      The τ-thermodynamic arrow: **macro-structures that compress and synchronize DOFs are favored**. As τ-ζ/CR constraints propagate, the number of admissible global configurations shrinks—more structure, more long-range correlation. This is why matter flows ``inward'' to BH horizons rather than dispersing: it is structurally easier for neutrons/stars to join large macro-tori than for a BH to decompose back into unsynchronized fibres. The universe's evolution accumulates DOFs onto synchronized horizons; the endpoint is not heat death but *holomorphic condensation* onto the lemniscate L.
+      The τ-thermodynamic arrow: **macro-structures that compress and synchronize DOFs are favored**. As τ-ζ/CR constraints propagate, the number of admissible global configurations shrinks—more structure, more long-range correlation. This is why matter flows "inward" to BH horizons rather than dispersing: it is structurally easier for neutrons/stars to join large macro-tori than for a BH to decompose back into unsynchronized fibres. The universe's evolution accumulates DOFs onto synchronized horizons; the endpoint is not heat death but *holomorphic condensation* onto the lemniscate L.
 
       The three-entropy distinction: **S_Cayley (combinatorial paths), S_spec (character-mode spread on L), and S_CR (holomorphic constraint freedom)** are three independent entropy measures in τ³. The physical second law operates at the S_Cayley level (emergent thermodynamics). But S_CR—the number of globally holomorphic extensions compatible with the current now-surface data—*decreases* along the α-orbit. As more primes enter play and more τ-CR cross-relations bite, fewer global configurations remain admissible. The set of holomorphically consistent histories *shrinks*. Thus: S_CR(early) > S_CR(late). The universe holomorphically self-organizes toward fewer but more deeply structured global patterns—precisely the opposite of heat death.
   - number: 4
     title: "Reheating / Inflation Re-Read as Refinement and Pattern Birth"
     abstract: |-
-      Standard cosmology uses vocabulary like ``inflation,'' ``reheating,'' ``recombination.'' These terms carry ontological baggage from the expanding-space picture. This chapter provides a translation dictionary: what these words mean in τ³ language. We do not yet explain the mechanisms (that awaits Part II's photon ontology)—we only establish the epoch-level semantics.
+      Standard cosmology uses vocabulary like "inflation," "reheating," "recombination." These terms carry ontological baggage from the expanding-space picture. This chapter provides a translation dictionary: what these words mean in τ³ language. We do not yet explain the mechanisms (that awaits Part II's photon ontology)—we only establish the epoch-level semantics.
 
-      The key liberation: **the horizon and flatness problems dissolve**. They are not solved by adding an inflaton field—they never existed. The early universe was always connected in graph terms; τ³ has fixed topology with no curvature parameter to tune. ``Inflation'' becomes rapid refinement of the readout, not exponential expansion of space into nothing.
+      The key liberation: **the horizon and flatness problems dissolve**. They are not solved by adding an inflaton field—they never existed. The early universe was always connected in graph terms; τ³ has fixed topology with no curvature parameter to tune. "Inflation" becomes rapid refinement of the readout, not exponential expansion of space into nothing.
   - number: 5
     title: "Boundary Data I: The CMB as a Temporal-Epoch Constraint Surface"
     abstract: |-
@@ -56,56 +56,56 @@ parts:
   - number: 7
     title: "Contract With the Rest of the Book: The Cosmic Stack API"
     abstract: "Part I has established the foundations: epochs, boundary data, and the conceptual vocabulary for the Macrocosm.\
-      \ This final chapter of Part I defines the ``API''—the interface between what Part I fixes and what later Parts must\
+      \ This final chapter of Part I defines the \"API\"—the interface between what Part I fixes and what later Parts must\
       \ deliver. It is a contract: Part I provides the architecture; Parts II–VIII provide the implementations."
 - number: II
   title: Cosmic Light and the Dark Sector
   abstract: "Photons are **null intertwiners**, not travelers through space. Operational distance emerges from radar-time\
     \ exchange; redshift is refinement drift, not Doppler motion. We dismantle Λ/dark energy as separate ontic ingredients—the\
-    \ ``vacuum'' needs no void, expansion needs no scale factor. The distance ladder is reread categorically."
+    \ \"vacuum\" needs no void, expansion needs no scale factor. The distance ladder is reread categorically."
   chapters:
   - number: 8
     title: "The Macro Readout: Operational Distance in τ³"
     abstract: "Before making any global claims about the cosmos, we must lock down the **measurement interface**. What does\
-      \ ``distance'' mean operationally? In τ³, distance is not a property of space—it is a **readout** from null exchange.\
+      \ \"distance\" mean operationally? In τ³, distance is not a property of space—it is a **readout** from null exchange.\
       \ This chapter establishes radar distance as the canonical operational definition, grounding all subsequent cosmological\
       \ discussion."
   - number: 9
     title: "Photons Are Not Travellers: Null Transport as Ontology"
     abstract: |-
-      The orthodox picture: a photon is emitted, travels through space, and is absorbed. But what does ``travel'' mean for an entity with zero proper time? In τ³, the photon is not a traveller—it is a **null coupling event** connecting emitter and absorber. This chapter establishes the Photon Ontology Axiom and its consequences.
+      The orthodox picture: a photon is emitted, travels through space, and is absorbed. But what does "travel" mean for an entity with zero proper time? In τ³, the photon is not a traveller—it is a **null coupling event** connecting emitter and absorber. This chapter establishes the Photon Ontology Axiom and its consequences.
 
       The categorical distinction: massive particles have **toroidal τ² bulk structure** plus boundary character; photons have **no bulk structure at all**—they are pure boundary character excitations on the lemniscate. This is why photons are massless: there is no τ² breathing resistance because there is no τ² bulk to resist. Nothing ontic travels between emitter and absorber.
 
-      The free electron paradox: **a ``free'' electron is also boundary-only**—it has no bulk τ² torus of its own, only boundary character on the H-torus (helicity torus of the vacuum). This is why β^- decay emits an electron: the neutron's bulk torus reconfigures, and the released character mode becomes a free boundary excitation. The free electron cannot simply ``join'' any nucleus because it lacks bulk structure to merge—it must find a nucleus whose boundary configuration admits the additional character. This boundary-only status of free leptons explains why electron capture requires precise energy-momentum matching: the boundary mode must fit the target nucleus's holomorphic extension.
+      The free electron paradox: **a "free" electron is also boundary-only**—it has no bulk τ² torus of its own, only boundary character on the H-torus (helicity torus of the vacuum). This is why β^- decay emits an electron: the neutron's bulk torus reconfigures, and the released character mode becomes a free boundary excitation. The free electron cannot simply "join" any nucleus because it lacks bulk structure to merge—it must find a nucleus whose boundary configuration admits the additional character. This boundary-only status of free leptons explains why electron capture requires precise energy-momentum matching: the boundary mode must fit the target nucleus's holomorphic extension.
   - number: 10
     title: "Redshift as Refinement Drift: Deriving z Without Λ"
     abstract: |-
       If photons are null couplings (Chapter II.2), not travelers through expanding space, then what is redshift? In τ³, redshift is a **refinement mismatch** between emission and absorption readouts. This chapter derives the redshift formula mechanically, shows how it linearizes to the Hubble regime , and explains why SN time dilation is the same phenomenon. No cosmological constant is needed.
 
-      The crucial ontological point: **nothing travels between emitter and absorber**. There is no photon ``in flight'' whose wavelength ``stretches'' during transit. The null coupling is instantaneous from its own perspective (ds² = 0); the redshift is the mismatch between the emitter's chart and the absorber's chart at their respective epochs. ``Expanding space'' is a coordinate story, not an ontic process.
+      The crucial ontological point: **nothing travels between emitter and absorber**. There is no photon "in flight" whose wavelength "stretches" during transit. The null coupling is instantaneous from its own perspective (ds² = 0); the redshift is the mismatch between the emitter's chart and the absorber's chart at their respective epochs. "Expanding space" is a coordinate story, not an ontic process.
   - number: 11
     title: "The Distance Ladder Re-Read: What We Are Actually Calibrating"
     abstract: "The cosmic distance ladder is humanity's greatest achievement in measuring the universe. This chapter does\
       \ not challenge the procedures—they work. It reinterprets what each rung actually measures: not distances through expanding\
-      \ space, but **refinement-calibrated null exchanges**. Where the ladder shows ``tensions,'' we see chart mismatches\
+      \ space, but **refinement-calibrated null exchanges**. Where the ladder shows \"tensions,\" we see chart mismatches\
       \ that τ³ naturally accommodates."
   - number: 12
-    title: "``Dark Energy'' as a Readout Artifact: What Observations Actually Force"
-    abstract: "The cosmological constant Λ is invoked to explain ``cosmic acceleration.'' But what do observations actually\
+    title: "\"Dark Energy\" as a Readout Artifact: What Observations Actually Force"
+    abstract: "The cosmological constant Λ is invoked to explain \"cosmic acceleration.\" But what do observations actually\
       \ force? This chapter carefully separates what expansion/redshift data require from what lensing and rotation curves\
-      \ require. In τ³, ``dark energy'' is not a substance—it is a feature of the refinement function. We explain what this\
+      \ require. In τ³, \"dark energy\" is not a substance—it is a feature of the refinement function. We explain what this\
       \ means and explicitly hand off the remaining dark sector puzzles to Parts IV and V."
   - number: 13
     title: "Vacuum Without Void: Ground State in τ³ (and Why the 10¹²⁰ Disaster Never Forms)"
     abstract: |-
       In orthodox physics, "vacuum energy" is simultaneously indispensable (as a quantum ground-state effect) and catastrophic (as a gravitational source term). In τ³, this tension dissolves: there is no ontic spacetime container whose "empty" state can be filled with an extensive energy density. What remains are real, measurable boundary readouts—Casimir forces, Lamb shifts, and mode shifts—reinterpreted as constraint and spectrum effects of null-structure and chart refinement, not as a universal gravitating fluid.
 
-      The categorical clarification: **``vacuum'' is not ``nothing''—it is the baseline constraint regime**. The 10¹²⁰ catastrophe arises from treating vacuum as an ontic substance that must gravitate. In τ³, only *deltas* from baseline are physical readouts. A uniform offset that changes nothing is not a source term. The disaster is a category error, not a fine-tuning crisis.
+      The categorical clarification: **"vacuum" is not "nothing"—it is the baseline constraint regime**. The 10¹²⁰ catastrophe arises from treating vacuum as an ontic substance that must gravitate. In τ³, only *deltas* from baseline are physical readouts. A uniform offset that changes nothing is not a source term. The disaster is a category error, not a fine-tuning crisis.
   - number: 14
     title: "Contract With Parts III–V: Fixed Inputs, Deferred Mechanisms"
     abstract: |-
-      Part II has established the operational and ontological foundations for cosmic light and the dark sector. This final chapter of Part II defines the ``API''— the interface between what Part II fixes and what later Parts must deliver. It is a contract: Part II provides the readout framework; Parts III–V provide the physics that operates within it.
+      Part II has established the operational and ontological foundations for cosmic light and the dark sector. This final chapter of Part II defines the "API"— the interface between what Part II fixes and what later Parts must deliver. It is a contract: Part II provides the readout framework; Parts III–V provide the physics that operates within it.
 
       The neutrino ontology preview: **neutrinos are τ¹ time-rays with residual T² projection**. In β^- decay, the neutron torus splits into an H-donut (proton + electron co-rotor) retaining full T² fiber, and a ν time-ray moving primarily along τ¹ with only a *tiny* attached T² micro-torus. Neutrino mass arises from this residual torus projection: m_ν |ε_T|² where ε_T measures the surviving T² character. The three flavors correspond to three inequivalent CR characters on the lemniscate, each with slightly different |ε_T|²—giving the three mass eigenvalues. Oscillations are interference of these residual character modes as the time-ray propagates.
 - number: III
@@ -116,7 +116,7 @@ parts:
   chapters:
   - number: 15
     title: "Gravity Without Spacetime Substance: Geometry as Readout"
-    abstract: "Part II established light as null exchange readout, dissolving ``expanding space'' and ``dark energy substance.''\
+    abstract: "Part II established light as null exchange readout, dissolving \"expanding space\" and \"dark energy substance.\"\
       \ Part III now addresses gravity. The key insight: gravity is not an interaction **within** spacetime—it **is** the\
       \ geometric structure of the τ³ readout itself. This chapter establishes the Gravity Readout Principle and the vocabulary\
       \ for what follows."
@@ -130,7 +130,7 @@ parts:
     abstract: |-
       To do gravity quantitatively, we need the mathematical machinery of differential geometry: metric, connection, curvature. This chapter builds the minimum tensor toolkit from the τ³ side, as an **emergent calculus** of the readout structure. Global holonomy and Wilson loops are deferred to Part IV.
 
-      The τ-Einstein perspective: **mass appears as curvature because mass is localized constraint pattern**. A meso-donut (neutron, nucleus) is a region where τ-CR demands nonzero ``radial stiffness'' in the character modes—this stiffness is what the Einstein equation interprets as stress-energy, and what the readout interface presents as spacetime curvature. G_τ = κ_τ T_τ is not a postulate; it is the natural statement that constraint intensity manifests as geometric readout response.
+      The τ-Einstein perspective: **mass appears as curvature because mass is localized constraint pattern**. A meso-donut (neutron, nucleus) is a region where τ-CR demands nonzero "radial stiffness" in the character modes—this stiffness is what the Einstein equation interprets as stress-energy, and what the readout interface presents as spacetime curvature. G_τ = κ_τ T_τ is not a postulate; it is the natural statement that constraint intensity manifests as geometric readout response.
   - number: 18
     title: "Linear Gravity: The Weak-Field / Newtonian Readout Regime"
     abstract: "Most gravitational phenomena we experience—falling apples, planetary orbits, GPS corrections—live in the weak-field\
@@ -139,9 +139,9 @@ parts:
   - number: 19
     title: "What Increases Near c: Constraint Energy, Not Mass"
     abstract: |-
-      Special relativity is usually taught as a story about ``time slowing down'' and ``mass increasing.'' In τ³, neither is ontic. The ontic object (the τ² breathing resistance we already call *mass*) is invariant. What grows near c is the *constraint budget* required to keep the same object compatible with null exchange readout. That exploding constraint multiplier is γ(v).
+      Special relativity is usually taught as a story about "time slowing down" and "mass increasing." In τ³, neither is ontic. The ontic object (the τ² breathing resistance we already call *mass*) is invariant. What grows near c is the *constraint budget* required to keep the same object compatible with null exchange readout. That exploding constraint multiplier is γ(v).
 
-      The deep reframe: **gravity does not couple to ``mass''—it couples to the full constraint ledger T_μν**. Energy density, momentum flux, pressure, and shear are all constraint terms. The ``extra gravity of kinetic energy'' is not mysterious—it is simply what it means for constraint bookkeeping to gravitate.
+      The deep reframe: **gravity does not couple to "mass"—it couples to the full constraint ledger T_μν**. Energy density, momentum flux, pressure, and shear are all constraint terms. The "extra gravity of kinetic energy" is not mysterious—it is simply what it means for constraint bookkeeping to gravitate.
   - number: 20
     title: "Nonlinear Gravity: Einstein Equations as Global Consistency Conditions"
     abstract: |-
@@ -155,25 +155,25 @@ parts:
     abstract: |-
       Causality in general relativity is encoded in null structure: light cones separate past from future. In τ³, this structure takes on deeper meaning. The present surface Σ_τ emerges as a global separator, and horizons are boundaries where the null structure changes character. The Riemann Hypothesis, translated into this setting, becomes a statement about the balanced coherence of this separation—the stability of the temporal present.
 
-      The profound connection: **the RH is a stability statement**. The critical line Re(s) = 1/2 is the balance point where past and future null regimes meet in perfect equilibrium. If zeros lay off this line, the present surface would have ``defects''—regions where temporal coherence fails. That all zeros lie on the critical line means the temporal universe has a globally coherent, stable ``now.''
+      The profound connection: **the RH is a stability statement**. The critical line Re(s) = 1/2 is the balance point where past and future null regimes meet in perfect equilibrium. If zeros lay off this line, the present surface would have "defects"—regions where temporal coherence fails. That all zeros lie on the critical line means the temporal universe has a globally coherent, stable "now."
 
       The τ-free energy principle: **horizons are spectral equilibria of F(ι_τ)**. Define F(ι_τ) = π(ι_τ - 1/π)² + e(ι_τ - 1/e)², where the π-sector (angular/solenoidal) pulls toward 1/π and the e-sector (radial/ultrametric) pulls toward 1/e. The unique minimum is ι_τ^* = 2/(π+e). At this equilibrium, past-directed ultrametric contraction and future-directed solenoidal proliferation are in perfect balance. The now-surface *is* this spectral equilibrium locus—a thermodynamic horizon where τ-lightcones become pinned.
 
-      The holomorphic Cauchy-surface principle: **past and future ``emanate'' from the now-surface**—not ontically (the Cayley graph is eternal), but holomorphically. Fixing spectral data (character modes) on Σ_τ determines the τ-Einstein-ζ dynamics in both α-directions: the ``future segment'' of any Cayley path is generated, and the ``past segment'' is constrained, in a single holomorphic sweep. This is precisely what a Cauchy surface does in PDE theory: boundary data on the surface determines the solution on both sides. The present is not ``sandwiched between'' past and future—it is the *structural source* from which both retarded (future) and advanced (past) behavior propagate via holomorphic extension.
+      The holomorphic Cauchy-surface principle: **past and future "emanate" from the now-surface**—not ontically (the Cayley graph is eternal), but holomorphically. Fixing spectral data (character modes) on Σ_τ determines the τ-Einstein-ζ dynamics in both α-directions: the "future segment" of any Cayley path is generated, and the "past segment" is constrained, in a single holomorphic sweep. This is precisely what a Cauchy surface does in PDE theory: boundary data on the surface determines the solution on both sides. The present is not "sandwiched between" past and future—it is the *structural source* from which both retarded (future) and advanced (past) behavior propagate via holomorphic extension.
   - number: 22
     title: "No Point Masses: Density Caps and the End of GR Singularities"
-    abstract: "The most famous pathologies of general relativity are not ``mysteries of nature'' but artifacts of an ontic\
-      \ mistake: treating mass as point-like stuff *inside* space. In τ³, mass is never point-like and never ``contained in\
-      \ space''; mass *is* a bounded region of τ³ that resists the global refinement/expansion flow. With the neutron as calibration\
+    abstract: "The most famous pathologies of general relativity are not \"mysteries of nature\" but artifacts of an ontic\
+      \ mistake: treating mass as point-like stuff *inside* space. In τ³, mass is never point-like and never \"contained in\
+      \ space\"; mass *is* a bounded region of τ³ that resists the global refinement/expansion flow. With the neutron as calibration\
       \ anchor, τ³ comes with a categorical lower bound on resolvable volume per unit mass, hence a maximal physical density.\
       \ The GR singularities disappear not by clever regularization, but because the substrate forbids the idealization that\
       \ creates them."
   - number: 23
-    title: "Two-Channel Relaxation: Geometry vs.\\ Topology"
+    title: "Two-Channel Relaxation: Geometry vs. Topology"
     abstract: |-
-      One of the deepest structural differences between τ³ and orthodox spacetime ontology is this: the universe has *two* ontic channels to shed holomorphic tension. Standard physics largely admits only one (geometry), and is therefore cornered into singularities or ``new ingredients'' when geometric relaxation saturates. In τ³, the second channel is topological, and it changes the game.
+      One of the deepest structural differences between τ³ and orthodox spacetime ontology is this: the universe has *two* ontic channels to shed holomorphic tension. Standard physics largely admits only one (geometry), and is therefore cornered into singularities or "new ingredients" when geometric relaxation saturates. In τ³, the second channel is topological, and it changes the game.
 
-      The profound implication: **singularities are geometry-only artifacts**. When geometric relaxation saturates—when ``doing more curvature'' would require infinite density—the topological channel provides the escape valve that GR lacks. Black holes are not ``geometry breaking down''; they are topology taking over. The macro-donut is the answer to the question geometry cannot ask.
+      The profound implication: **singularities are geometry-only artifacts**. When geometric relaxation saturates—when "doing more curvature" would require infinite density—the topological channel provides the escape valve that GR lacks. Black holes are not "geometry breaking down"; they are topology taking over. The macro-donut is the answer to the question geometry cannot ask.
   - number: 24
     title: "Contract With Parts IV–V: Geometry vs Topology vs Astrophysics"
     abstract: "Part III has established the geometry of gravity as τ³ readout. This closing chapter makes explicit what has\
@@ -199,31 +199,31 @@ parts:
   - number: 27
     title: "Macro-Donuts Are Handles: Black Hole Topology"
     abstract: |-
-      Black holes are not ``holes in a substance''—they are macro-donut configurations that induce genuine handle topology in the temporal epoch. This chapter develops the central ontological claim of Part IV: the τ² torus structure at microscopic scales has macroscopic analogs, and these are what we call black holes.
+      Black holes are not "holes in a substance"—they are macro-donut configurations that induce genuine handle topology in the temporal epoch. This chapter develops the central ontological claim of Part IV: the τ² torus structure at microscopic scales has macroscopic analogs, and these are what we call black holes.
 
       A mature macro-donut is a **one-parameter object**: mass only. Spin is not a free parameter but a universal property (rotation at c). This is radically simpler than the Kerr-Newman family suggests.
 
-      The RG picture: **macro-holonomy is the coarse-grained product of many meso-holonomies**. As density increases, individual meso-donuts (neutrons) lose their distinctness; their Wilson loops merge into a single massive network on a single macro-T². The macro-donut holonomy g_BH is literally the RG-collapsed product of all the h_n from the constituent meso-donuts. This is ``it's donuts all the way down, and all the way up.''
+      The RG picture: **macro-holonomy is the coarse-grained product of many meso-holonomies**. As density increases, individual meso-donuts (neutrons) lose their distinctness; their Wilson loops merge into a single massive network on a single macro-T². The macro-donut holonomy g_BH is literally the RG-collapsed product of all the h_n from the constituent meso-donuts. This is "it's donuts all the way down, and all the way up."
 
-      The ontic geometry: **BH interior = τ-future half-space of its now-surface**. The macro-donut horizon is an ontic 2D surface with nothing spatial ``within'' it—no exotic singularity, no interior bulk, just the τ-future direction of the torus. Cross the horizon inward and you enter the regime where all τ-future flows are compelled toward the lemniscate attractor at ω × L. The ``inside'' is literally the τ-future cone of the horizon; the ``outside'' is what the horizon's τ-past looks back into.
+      The ontic geometry: **BH interior = τ-future half-space of its now-surface**. The macro-donut horizon is an ontic 2D surface with nothing spatial "within" it—no exotic singularity, no interior bulk, just the τ-future direction of the torus. Cross the horizon inward and you enter the regime where all τ-future flows are compelled toward the lemniscate attractor at ω × L. The "inside" is literally the τ-future cone of the horizon; the "outside" is what the horizon's τ-past looks back into.
   - number: 28
     title: "Connections, Holonomy, and Wilson Loops"
     abstract: |-
-      In a handled universe, the act of ``going around'' becomes measurable. This chapter develops the mathematical machinery: connections specify how to transport objects around loops, holonomy measures the failure to return unchanged, and Wilson loops provide gauge-invariant observables. In τ³, these are not abstract mathematics—they are physics.
+      In a handled universe, the act of "going around" becomes measurable. This chapter develops the mathematical machinery: connections specify how to transport objects around loops, holonomy measures the failure to return unchanged, and Wilson loops provide gauge-invariant observables. In τ³, these are not abstract mathematics—they are physics.
 
-      The deep connection to quantum numbers: **spin-12 is literally meso-holonomy**. A neutron's spinor behavior—sign flip under 2π rotation, return to identity under 4π—corresponds to its meso-donut having holonomy h_n = -1 ∈ SU(2) around its local frame loop. Quantum numbers are not labels attached to particles; they are *holonomy eigenvalues* of the donut structure itself. This makes spin a geometric/topological property, not a mysterious ``intrinsic'' attribute.
+      The deep connection to quantum numbers: **spin-12 is literally meso-holonomy**. A neutron's spinor behavior—sign flip under 2π rotation, return to identity under 4π—corresponds to its meso-donut having holonomy h_n = -1 ∈ SU(2) around its local frame loop. Quantum numbers are not labels attached to particles; they are *holonomy eigenvalues* of the donut structure itself. This makes spin a geometric/topological property, not a mysterious "intrinsic" attribute.
 
-      The macro τ-zeta as Wilson-loop generating function: **summing over all BH donuts yields an Euler product**. Define ζ_τmacro(s) = _p (1 - W(g_p) M_p^-s)^-1, where p labels macro-prime BHs, g_p is the holonomy around BH_p, and W(g_p) = Tr\,ρ(g_p) is the Wilson loop observable. The logarithmic expansion ζ_τmacro = _p,k k^-1 W_BH_p(k) M_p^-ks is literally a sum over *all winding numbers around all BH donuts*. The critical surface where this series balances is the τ-now/horizon—``the present is where the universe's macro-prime black holes factorise reality just enough, but not too much.''
+      The macro τ-zeta as Wilson-loop generating function: **summing over all BH donuts yields an Euler product**. Define ζ_τmacro(s) = _p (1 - W(g_p) M_p^-s)^-1, where p labels macro-prime BHs, g_p is the holonomy around BH_p, and W(g_p) = Tr\,ρ(g_p) is the Wilson loop observable. The logarithmic expansion ζ_τmacro = _p,k k^-1 W_BH_p(k) M_p^-ks is literally a sum over *all winding numbers around all BH donuts*. The critical surface where this series balances is the τ-now/horizon—"the present is where the universe's macro-prime black holes factorise reality just enough, but not too much."
   - number: 29
     title: "Flux Without Sources and the No-Monopole Constraint"
     abstract: |-
-      Handles support global flux patterns even when no local monopole sources exist. This is not a defect of the theory—it is global consistency. This chapter develops the deep connection between topology and flux, explaining why monopoles are unnecessary and how handles ``hold'' flux without sources.
+      Handles support global flux patterns even when no local monopole sources exist. This is not a defect of the theory—it is global consistency. This chapter develops the deep connection between topology and flux, explaining why monopoles are unnecessary and how handles "hold" flux without sources.
 
       The key insight: in a handled universe, **topology does the work that monopoles would do**. Flux is a global consistency condition, not a local source effect.
   - number: 30
     title: "The Cosmic Super-Duck: The Cosmic Web as Wilson Skeleton"
     abstract: |-
-      If the cosmic web looks like field lines and behaves like field lines, then it is a field-line skeleton—a Wilson/flux structure of the handled temporal universe. This chapter promotes the cosmic web from ``emergent accident'' to **topological boundary condition**.
+      If the cosmic web looks like field lines and behaves like field lines, then it is a field-line skeleton—a Wilson/flux structure of the handled temporal universe. This chapter promotes the cosmic web from "emergent accident" to **topological boundary condition**.
 
       The key claim: **matter does not create the skeleton; it condenses onto a pre-existing flux pattern**.
   - number: 31
@@ -231,10 +231,10 @@ parts:
     abstract: |-
       Part II defined what lensing is when photons are not travellers. This chapter asks a narrower question: what new signatures appear once the temporal universe is handled? Handles contribute lensing effects beyond standard geometric deflection—topological imprints that can diagnose the handle structure.
 
-      The categorical reframe: **lensing is not ``photon bending by mass''—it is null-constraint matching through a connection environment**. The photon has no bulk structure to ``bend.'' What we observe is how the null coupling between emitter and absorber is modified by the intervening holonomy. Handles add discrete topological contributions that geometry alone cannot produce.
+      The categorical reframe: **lensing is not "photon bending by mass"—it is null-constraint matching through a connection environment**. The photon has no bulk structure to "bend." What we observe is how the null coupling between emitter and absorber is modified by the intervening holonomy. Handles add discrete topological contributions that geometry alone cannot produce.
   - number: 32
     title: "Gravitational Waves as Readout: The Ontology of GW in τ³"
-    abstract: "In orthodox language, gravitational waves are ``ripples of spacetime'' sourced by accelerating masses. In τ³,\
+    abstract: "In orthodox language, gravitational waves are \"ripples of spacetime\" sourced by accelerating masses. In τ³,\
       \ the story becomes cleaner: gravitational waves are not a second kind of electromagnetic radiation, nor a flux of travelling\
       \ gravitons. They are a *propagating readout disturbance* of the geometric channel, often entangled with the *topological\
       \ channel* (holonomy/handles) whenever the source involves macro-donuts (black holes) or other non-trivial temporal\
@@ -253,7 +253,7 @@ parts:
   chapters:
   - number: 34
     title: The Galaxy as a Relational Object
-    abstract: "In τ³, a galaxy is not primarily a ``cloud of matter held together by gravity in empty space.'' It is a long-lived\
+    abstract: "In τ³, a galaxy is not primarily a \"cloud of matter held together by gravity in empty space.\" It is a long-lived\
       \ *relational pattern*—a stable meso/macro readout regime of constraints, transport, and topology. This chapter defines\
       \ the object we will study in the rest of Part V."
   - number: 35
@@ -265,7 +265,7 @@ parts:
   - number: 36
     title: "The Cosmic Web as Boundary Condition, Not Afterthought"
     abstract: |-
-      The cosmic web is not merely ``what gravity produced from noise.'' In the τ³ stack, it is a boundary condition: a flux/Wilson organization that precedes and shapes galaxy feeding, alignments, and merger pathways.
+      The cosmic web is not merely "what gravity produced from noise." In the τ³ stack, it is a boundary condition: a flux/Wilson organization that precedes and shapes galaxy feeding, alignments, and merger pathways.
 
       If the structure looks like a field-line lattice and behaves like a field-line lattice, we allow ourselves to call it what it is: a **flux skeleton**.
 
@@ -275,35 +275,35 @@ parts:
     abstract: |-
       Rotation curves are not balances of inward pull and outward inertia. They are readouts of geodesic closure plus holonomy-structured coupling to the central macro-donut and its loop environment. This chapter is an application layer: it classifies phenomenology rather than re-deriving fundamentals.
 
-      The key τ³ insight: **flat rotation curves require no dark matter**. The ``missing mass'' is a category error—what is missing is not mass but the recognition that geodesic closure depends on the **integrated holonomy structure**, not just enclosed mass. The macro-donut's topological environment extends beyond the visible disk and shapes orbital dynamics at all radii.
+      The key τ³ insight: **flat rotation curves require no dark matter**. The "missing mass" is a category error—what is missing is not mass but the recognition that geodesic closure depends on the **integrated holonomy structure**, not just enclosed mass. The macro-donut's topological environment extends beyond the visible disk and shapes orbital dynamics at all radii.
   - number: 38
     title: "The Compact-Object Ladder"
     abstract: |-
-      White dwarf, neutron star, black hole: the classical ladder is real—but its meaning changes. In τ³, the ladder is a sequence of *degree-of-freedom closures* and *channel openings* (geometric vs topological), not a story of ``gravity crushing matter into points.''
+      White dwarf, neutron star, black hole: the classical ladder is real—but its meaning changes. In τ³, the ladder is a sequence of *degree-of-freedom closures* and *channel openings* (geometric vs topological), not a story of "gravity crushing matter into points."
 
-      The meso-saturation principle: **Fe-56 is the ceiling of the meso-donut ladder**. With 224 surface sites and 56 bulk baryonic seats at half-filling, iron is the *minimal* hollow torus whose aspect ratio matches ι_τ. Above Fe-56, no more binding energy can be extracted by nuclear fusion—the meso-phase is saturated. Further compression cannot ``bind tighter''; it must open the topological channel and transition to the macro-donut regime. The compact-object ladder begins exactly where the nuclear binding ladder ends.
+      The meso-saturation principle: **Fe-56 is the ceiling of the meso-donut ladder**. With 224 surface sites and 56 bulk baryonic seats at half-filling, iron is the *minimal* hollow torus whose aspect ratio matches ι_τ. Above Fe-56, no more binding energy can be extracted by nuclear fusion—the meso-phase is saturated. Further compression cannot "bind tighter"; it must open the topological channel and transition to the macro-donut regime. The compact-object ladder begins exactly where the nuclear binding ladder ends.
   - number: 39
     title: Chandrasekhar as a Relational Threshold
     abstract: |-
       A hard mass scale is not an empirical coincidence. In τ³, Chandrasekhar's limit appears as a *categorical threshold* at which an electron-mode closure can no longer remain self-consistent under the global refinement/expansion readout.
 
-      The reframe: **the limit is not ``gravity winning''—it is mode exhaustion**. Above M_Ch, no valid electron-mode configuration exists. The system does not ``collapse under gravity''; it *must* transition to a new closure regime (neutron modes) because the old regime has become categorically inconsistent. The threshold is relational, not mechanical.
+      The reframe: **the limit is not "gravity winning"—it is mode exhaustion**. Above M_Ch, no valid electron-mode configuration exists. The system does not "collapse under gravity"; it *must* transition to a new closure regime (neutron modes) because the old regime has become categorically inconsistent. The threshold is relational, not mechanical.
   - number: 40
     title: "TOV, Neutron-Star Interiors, and Pulsar Clocks"
     abstract: |-
       The Tolman–Oppenheimer–Volkoff limit is usually narrated as gravity's final triumph. In τ³, it becomes a *rotational/topological consistency threshold* for a finite meso-donut ensemble: beyond it, the ensemble cannot remain spherical-aggregate and must complete into a macro-donut.
 
-      The reframe of ``degeneracy pressure'': **Pauli exclusion is an admissibility constraint, not a ``force.''** Fermions cannot occupy the same quantum state—this is not pressure ``pushing back'' but the categorical impossibility of certain configurations. What orthodox physics calls ``pressure support'' is τ³ saying: these configurations are simply not admissible. At TOV, even this admissibility structure cannot maintain spherical form.
+      The reframe of "degeneracy pressure": **Pauli exclusion is an admissibility constraint, not a "force."** Fermions cannot occupy the same quantum state—this is not pressure "pushing back" but the categorical impossibility of certain configurations. What orthodox physics calls "pressure support" is τ³ saying: these configurations are simply not admissible. At TOV, even this admissibility structure cannot maintain spherical form.
 
-      The phase-space picture: **the τ-TOV limit is a separatrix in (ρ_τ, C_τ) phase space**. Define dimensionless coordinates: x = ρ_τ/ρ_c (density relative to critical) and y = C_τ (holonomy coherence). Three fixed points exist: (i) gas-like phase at (0,0) (micro-primes, unstable saddle), (ii) neutron-star phase at (x_* 1, y_*) (meso-donuts, stable equilibrium), and (iii) black-hole phase at (1 + b/a, 1) (macro-donut attractor, full coherence). The τ-TOV / ``now-surface'' is the *separatrix* between NS and BH basins of attraction—the critical curve where continued accretion destroys the meso fixed point via saddle-node bifurcation, and the only remaining attractor is the macro-donut.
+      The phase-space picture: **the τ-TOV limit is a separatrix in (ρ_τ, C_τ) phase space**. Define dimensionless coordinates: x = ρ_τ/ρ_c (density relative to critical) and y = C_τ (holonomy coherence). Three fixed points exist: (i) gas-like phase at (0,0) (micro-primes, unstable saddle), (ii) neutron-star phase at (x_* 1, y_*) (meso-donuts, stable equilibrium), and (iii) black-hole phase at (1 + b/a, 1) (macro-donut attractor, full coherence). The τ-TOV / "now-surface" is the *separatrix* between NS and BH basins of attraction—the critical curve where continued accretion destroys the meso fixed point via saddle-node bifurcation, and the only remaining attractor is the macro-donut.
 
-      The τ-mass axiom: **rest energy equals rotational energy on the T² fibre**, E_rot = mc². For a torus with geometric factor κ_I(ι_τ) and CR-frequency factor κ_ω(ι_τ), this demands κ_I κ_ω = 2. No new scale appears—the constraint ties geometry to holomorphy. At the micro level (neutron), this fixes the torus shape; at the macro level (BH), it says every macro-donut is a ``macro-neutron'' with v_1 = v_2 = c on both torus cycles.
+      The τ-mass axiom: **rest energy equals rotational energy on the T² fibre**, E_rot = mc². For a torus with geometric factor κ_I(ι_τ) and CR-frequency factor κ_ω(ι_τ), this demands κ_I κ_ω = 2. No new scale appears—the constraint ties geometry to holomorphy. At the micro level (neutron), this fixes the torus shape; at the macro level (BH), it says every macro-donut is a "macro-neutron" with v_1 = v_2 = c on both torus cycles.
 
       The quantization constraint: **for a bi-rotating neutron torus with integer winding numbers k_1, k_2 along the two cycles**, the energy condition E_1 + E_2 = m_n c² with relativistic dispersion E_i = ℏ c\, k_i/R_i yields k_1/R_1 + k_2/R_2 = 1/λ_C, where λ_C = ℏ/(m_n c) is the Compton wavelength. For the symmetric mode k_1 = k_2 = 1, R_1 = R_2 = R, this gives R = 2λ_C ≈ 2.6\,fm—the correct nuclear scale emerges from pure kinematics. The Compton wavelength is not imposed; it *follows* from quantized holomorphic character modes on the meso-donut.
   - number: 41
     title: "Collapse to the Macro-Donut"
     abstract: |-
-      A black hole is not a hole, not a point, and not a singularity. It is the *completed macro-donut* that results when the topological channel opens and a compact object resolves holomorphic tension by a genus transition. This chapter defines the formation sequence and the meaning of ``non-Kerr → Kerr'' maturation.
+      A black hole is not a hole, not a point, and not a singularity. It is the *completed macro-donut* that results when the topological channel opens and a compact object resolves holomorphic tension by a genus transition. This chapter defines the formation sequence and the meaning of "non-Kerr → Kerr" maturation.
 
       The entropy channel principle: **rotation is the only large-scale degree of freedom available once nuclear binding saturates**. At Fe-56 saturation, the system cannot reduce energy by fusing heavier nuclei. Radial compression without toroidal circulation violates τ-CR balance. The only entropically favored path is to dump gravitational free energy into *coherent angular motion*— spin-up of the collapsing core. This is why neutron stars and black holes are fast rotators: the T² fiber must circulate near c to satisfy holomorphic constraints at maximal compression.
 
@@ -311,31 +311,31 @@ parts:
   - number: 42
     title: "Accretion, Jets, Synchrotron, and Neutrinos"
     abstract: |-
-      Most of what we *see* from black holes is not ``from inside.'' It is the luminous boundary ecology of the macro-donut: inflow, shear, reconnection-like mode switching, and topologically aligned outflow channels. This chapter gives the τ³ ontology of accretion and jets.
+      Most of what we *see* from black holes is not "from inside." It is the luminous boundary ecology of the macro-donut: inflow, shear, reconnection-like mode switching, and topologically aligned outflow channels. This chapter gives the τ³ ontology of accretion and jets.
 
-      The toroidal circulation principle: **jets are the polar exhaust of T²-aligned flow**. The macro-donut's rapid toroidal circulation (surface speed c) imposes a preferred axis. Material entering the boundary ecology must either join the equatorial circulation or be expelled along the poles—the only directions not blocked by the circulating T² modes. Jets are not ``magnetically collimated outflows''; they are the *topologically mandated* exhaust channels of a rotating macro-donut. The jet axis *is* the donut's symmetry axis.
+      The toroidal circulation principle: **jets are the polar exhaust of T²-aligned flow**. The macro-donut's rapid toroidal circulation (surface speed c) imposes a preferred axis. Material entering the boundary ecology must either join the equatorial circulation or be expelled along the poles—the only directions not blocked by the circulating T² modes. Jets are not "magnetically collimated outflows"; they are the *topologically mandated* exhaust channels of a rotating macro-donut. The jet axis *is* the donut's symmetry axis.
 
-      The donut-hole vortex mechanism: **jets and gamma-ray bursts are matter caught near the donut-hole, violently accelerated by macroscopic T² rotation**. The 2-torus has a geometrically distinguished tubular hole through its center. Material approaching this hole encounters the most extreme rotational shear—the macro-neutron vortex rotating at c on both cycles. Rather than ``escaping from inside the BH,'' jet material is *external* matter entrained by this vortex and funneled along the axis of the hole. The collimation, energy, and spin-alignment of jets are not anomalies requiring special magnetic configurations; they are the *natural* consequence of a T² rotor's geometry. The donut-hole axis is the only direction where the rotating surface does not block outflow.
+      The donut-hole vortex mechanism: **jets and gamma-ray bursts are matter caught near the donut-hole, violently accelerated by macroscopic T² rotation**. The 2-torus has a geometrically distinguished tubular hole through its center. Material approaching this hole encounters the most extreme rotational shear—the macro-neutron vortex rotating at c on both cycles. Rather than "escaping from inside the BH," jet material is *external* matter entrained by this vortex and funneled along the axis of the hole. The collimation, energy, and spin-alignment of jets are not anomalies requiring special magnetic configurations; they are the *natural* consequence of a T² rotor's geometry. The donut-hole axis is the only direction where the rotating surface does not block outflow.
   - number: 43
     title: Quasars and AGN as Lifecycle Phases
-    abstract: "Quasars are not ``special monsters.'' They are predictable *lifecycle phases* of galaxies centered on growing\
+    abstract: "Quasars are not \"special monsters.\" They are predictable *lifecycle phases* of galaxies centered on growing\
       \ macro-donuts: episodes where boundary ecology, inflow geometry, and loop-structure alignment maximize luminous throughput."
   - number: 44
     title: "Binary Black Holes, Mergers, and Gravitational-Wave Readout"
     abstract: |-
-      Binary black holes are stable in τ³ for a simple reason: their dynamics are not a tug-of-war of ``inward pull vs centrifugal escape,'' but the evolution of a coupled topological–geometric system of two macro-donuts embedded in shared loop structure. Gravitational waves are the readout of this coupled reconfiguration—not a separate ontic field with its own quanta.
+      Binary black holes are stable in τ³ for a simple reason: their dynamics are not a tug-of-war of "inward pull vs centrifugal escape," but the evolution of a coupled topological–geometric system of two macro-donuts embedded in shared loop structure. Gravitational waves are the readout of this coupled reconfiguration—not a separate ontic field with its own quanta.
 
-      The categorical claim: **there are no gravitons**. Gravitational waves are strain patterns—readouts of geometric and topological reconfiguration—not particles of a quantized field. Gravity is in a different ontic category from gauge bosons. Asking ``what is the graviton?'' is asking the wrong question.
+      The categorical claim: **there are no gravitons**. Gravitational waves are strain patterns—readouts of geometric and topological reconfiguration—not particles of a quantized field. Gravity is in a different ontic category from gauge bosons. Asking "what is the graviton?" is asking the wrong question.
 
       The entropy arrow: **τ-BH area is monotone non-decreasing**. In τ³, black holes never evaporate—they only ever grow. Hawking-like radiation is a local boundary effect, not a mechanism for disassembling macro-donuts. The deep arrow of time favors structure collapsing *upward* into ever larger macro-tori: neutrons → stellar BH → galactic BH → cluster BH → → universal BH = L. The cosmological endpoint is holomorphic condensation onto a single lemniscate boundary, not heat death.
   - number: 45
     title: "The EHT Re-Read: The Ring Is the Donut"
     abstract: |-
-      The EHT ring is the macro-donut's luminous boundary ecology. It is not a ``photon sphere'' of test particles orbiting in a curved vacuum. This chapter translates EHT observables (size, thickness, polarization, variability) into the τ³ ontology of a rotating, completed macro-donut embedded in loop structure.
+      The EHT ring is the macro-donut's luminous boundary ecology. It is not a "photon sphere" of test particles orbiting in a curved vacuum. This chapter translates EHT observables (size, thickness, polarization, variability) into the τ³ ontology of a rotating, completed macro-donut embedded in loop structure.
 
-      The deep insight: the EHT shadow is **topological silence, not trapped light**. The completed macro-donut is a post-chronal object—it has exited the temporal epoch. Since photons are null couplings between emitter and absorber (Part II), and there are no temporal absorbers in the post-chronal core, there is nothing to couple with. The darkness is not ``light that cannot escape''—it is the absence of any coupling partner. The ring is where coupling resumes at the temporal boundary.
+      The deep insight: the EHT shadow is **topological silence, not trapped light**. The completed macro-donut is a post-chronal object—it has exited the temporal epoch. Since photons are null couplings between emitter and absorber (Part II), and there are no temporal absorbers in the post-chronal core, there is nothing to couple with. The darkness is not "light that cannot escape"—it is the absence of any coupling partner. The ring is where coupling resumes at the temporal boundary.
 
-      The shocking reframe: **the bright donut in EHT images *is* the black hole itself**—not a photon halo around something hidden in the center. In τ³, a τ-Kerr black hole is a **rotating toroidal horizon** with finite hole radius R_hole > 0, not a sphere crushed by collapse. The EHT observational features match this picture precisely: (i) the bright asymmetric ring is bi-solenoidal rotation of the toroidal horizon, (ii) the central darkness is the projected interior of the donut-hole where few photon paths reach us, (iii) photon trajectories bunch into an annulus wrapping the major circle of the torus, (iv) jet alignments pass through the core channel of the donut-hole. What EHT captured is not ``the environment of the BH'' but the *luminous, rotating, toroidal horizon itself*—topology revealing itself observationally.
+      The shocking reframe: **the bright donut in EHT images *is* the black hole itself**—not a photon halo around something hidden in the center. In τ³, a τ-Kerr black hole is a **rotating toroidal horizon** with finite hole radius R_hole > 0, not a sphere crushed by collapse. The EHT observational features match this picture precisely: (i) the bright asymmetric ring is bi-solenoidal rotation of the toroidal horizon, (ii) the central darkness is the projected interior of the donut-hole where few photon paths reach us, (iii) photon trajectories bunch into an annulus wrapping the major circle of the torus, (iv) jet alignments pass through the core channel of the donut-hole. What EHT captured is not "the environment of the BH" but the *luminous, rotating, toroidal horizon itself*—topology revealing itself observationally.
   - number: 46
     title: "Synthesis: From Galaxies to the Universal Black Hole"
     abstract: |-
@@ -345,21 +345,21 @@ parts:
   - number: 47
     title: "Core Collapse and Supernovae: Opening the Topological Channel"
     abstract: |-
-      A core-collapse supernova is not merely a ``gravitational implosion.'' In τ³, it is the moment the system *opens the topological channel*: a discrete genus transition becomes available, and geometric tension is suddenly allowed to relax topologically. This is why the event is violent, fast, and dominated by time-like exhaust (neutrinos).
+      A core-collapse supernova is not merely a "gravitational implosion." In τ³, it is the moment the system *opens the topological channel*: a discrete genus transition becomes available, and geometric tension is suddenly allowed to relax topologically. This is why the event is violent, fast, and dominated by time-like exhaust (neutrinos).
 
       The spin-up mechanism: **the iron core already enters collapse as a spinning multi-donut**. As Fe-domains grow (Ising-on-the-donut alignment), macroscopic Wilson loops form on the T² projections. These loops couple via τ-Einstein to the outer plasma, and angular momentum redistributes inward. When the core crosses τ-TOV, the Fe-donuts weld into a single rapidly rotating macro-donut—the proto-neutron star—whose T² surface runs near c. The remnant's millisecond period is not an accident; it is the τ-CR-mandated endpoint of Fe-core collapse.
 
-      The τ-algebraic structure of Fe-56: **iron is where additive and multiplicative 2-ness saturate simultaneously**. In τ-orbit algebra, π_56 = \ρ(π_2 × π_2 × π_2)\ ∧ π_2 ∧ π_2 ∧ π_2, yielding 56 = 7 × 2³ where the additive sector (× plus ρ) produces 7 and the multiplicative sector (∧) produces 2³ = 8. This is not coincidence—Fe-56 is the *meso-saturation point*: the smallest nucleus where both monoidal directions of the π-orbit are fully locked. Beyond iron, further fusion absorbs energy rather than releasing it; the only path ``upward'' is toward the macro-donut (BH) phase. Fe-56 sits at the categorical transition between nuclear structure and gravitational collapse.
+      The τ-algebraic structure of Fe-56: **iron is where additive and multiplicative 2-ness saturate simultaneously**. In τ-orbit algebra, π_56 = \ρ(π_2 × π_2 × π_2)\ ∧ π_2 ∧ π_2 ∧ π_2, yielding 56 = 7 × 2³ where the additive sector (× plus ρ) produces 7 and the multiplicative sector (∧) produces 2³ = 8. This is not coincidence—Fe-56 is the *meso-saturation point*: the smallest nucleus where both monoidal directions of the π-orbit are fully locked. Beyond iron, further fusion absorbs energy rather than releasing it; the only path "upward" is toward the macro-donut (BH) phase. Fe-56 sits at the categorical transition between nuclear structure and gravitational collapse.
   - number: 48
     title: "The TOV Limit Re-read: Rotational Tension and the Neutron-to-Donut Transition"
     abstract: |-
-      The TOV limit is usually presented as a ``gravity wins over pressure'' threshold. In τ³, it is cleaner: a rotational/tensional bound on how long a neutron-star configuration can remain a spherical aggregate of micro-donuts before topological closure becomes inevitable. The ``collapse'' is a phase transition: spherical aggregate → macro-donut.
+      The TOV limit is usually presented as a "gravity wins over pressure" threshold. In τ³, it is cleaner: a rotational/tensional bound on how long a neutron-star configuration can remain a spherical aggregate of micro-donuts before topological closure becomes inevitable. The "collapse" is a phase transition: spherical aggregate → macro-donut.
 
-      The RG perspective: **τ-TOV is the critical Cayley energy density ρ_τcrit** above which meso-holonomies *must* fuse into a single macro-holonomy. Below this threshold, the τ-QFT partition function has a stable minimum where neutron donuts remain distinct. Above it, no such minimum exists—the only attractor is a single macro-donut with holonomy g_BH. The language ``pressure vs gravity'' is dictionary; the structure is RG flow in holonomy space.
+      The RG perspective: **τ-TOV is the critical Cayley energy density ρ_τcrit** above which meso-holonomies *must* fuse into a single macro-holonomy. Below this threshold, the τ-QFT partition function has a stable minimum where neutron donuts remain distinct. Above it, no such minimum exists—the only attractor is a single macro-donut with holonomy g_BH. The language "pressure vs gravity" is dictionary; the structure is RG flow in holonomy space.
   - number: 49
     title: "Non-Kerr as Formation Phase: Completing the Macro-Donut"
     abstract: "In orthodox GR, Kerr vs non-Kerr is often treated as a parameter-space question. In τ³, it is a lifecycle statement:\
-      \ ``non-Kerr'' is the incomplete formation phase, where residual time-like modes and internal degrees are still being\
+      \ \"non-Kerr\" is the incomplete formation phase, where residual time-like modes and internal degrees are still being\
       \ shed. The mature macro-donut is rigid: rotation at c (bi-cyclic), and the only invariant parameter is mass/energy."
   - number: 50
     title: "Cluster Mergers and the Bullet Cluster Re-Read: Handles at Scale"
@@ -376,42 +376,42 @@ parts:
   - number: 51
     title: "The Classical Illusion: Why Straight Lines Seem Natural"
     abstract: |-
-      ``Newton's apple'' is not the fundamental case—it is a highly engineered boundary phenomenon. In τ³, straight-line inertial motion is not ontic; it is a coarse readout produced by large-radius limits, weak coupling, and environmental regularity. This chapter establishes why classical mechanics *works* without being *true*.
+      "Newton's apple" is not the fundamental case—it is a highly engineered boundary phenomenon. In τ³, straight-line inertial motion is not ontic; it is a coarse readout produced by large-radius limits, weak coupling, and environmental regularity. This chapter establishes why classical mechanics *works* without being *true*.
 
-      The Hartogs origin of 3D space: **experienced three-dimensional Cartesian space emerges locally as the bulk interior of the T² fibres**. Ontically, all physics lives on the torus surface (the bi-solenoidal boundary); the ``solid'' 3D interior is a holomorphic Hartogs extension from that surface. The ``classical illusion'' is doubly illusory: not only are straight lines coarse samplings of large-radius geodesics, but the 3D arena itself is a projected shadow of 2D torus data. What we call ``volume'' is character-mode density on T²; what we call ``bulk matter'' is dense Hartogs projection filling the interior with apparent solidity.
+      The Hartogs origin of 3D space: **experienced three-dimensional Cartesian space emerges locally as the bulk interior of the T² fibres**. Ontically, all physics lives on the torus surface (the bi-solenoidal boundary); the "solid" 3D interior is a holomorphic Hartogs extension from that surface. The "classical illusion" is doubly illusory: not only are straight lines coarse samplings of large-radius geodesics, but the 3D arena itself is a projected shadow of 2D torus data. What we call "volume" is character-mode density on T²; what we call "bulk matter" is dense Hartogs projection filling the interior with apparent solidity.
   - number: 52
     title: "Closed-Orbit Inertia: The Universal Geodesic Readout"
-    abstract: "If inertial motion is closed-orbit motion, then ``centripetal force'' is not a cause—it is a label. This chapter\
+    abstract: "If inertial motion is closed-orbit motion, then \"centripetal force\" is not a cause—it is a label. This chapter\
       \ establishes the minimal orbit-language we will reuse: Kepler, binaries, rings, and the solar system as calibrated\
       \ case study."
   - number: 53
     title: "Kepler From Rotational Flux: Orbits as Field-Line Integrals"
     abstract: "Kepler's laws are not empirical coincidences; they are the planetary readout of a rotating central body. The\
       \ key invariant is not transmitted angular velocity, but a closed-orbit integral: each allowed orbit carries a fixed\
-      \ ``rotational-flux budget'' in the readout language."
+      \ \"rotational-flux budget\" in the readout language."
   - number: 54
     title: "The Solar System as Calibration Lab: Precision Orbits Without Ontic Forces"
-    abstract: "The solar system is the cleanest arena where ``classical'' precision lives. We treat it as a calibrated readout:\
+    abstract: "The solar system is the cleanest arena where \"classical\" precision lives. We treat it as a calibrated readout:\
       \ what is measured, what is inferred, and how the τ³ orbit invariant reproduces observed regularities. This chapter\
       \ establishes the falsification criteria for Part VI's claims."
   - number: 55
     title: "Sol as a Rotational Dynamo: Sunspots as Loop-Closure Events"
     abstract: |-
-      Planets live inside a star's boundary system. In τ³, ``magnetism'' is the natural loop-structure of a rotating plasma boundary. Sunspots are macroscopic signatures of constraint concentration and loop closure—not mysterious ``magnetic field'' anomalies.
+      Planets live inside a star's boundary system. In τ³, "magnetism" is the natural loop-structure of a rotating plasma boundary. Sunspots are macroscopic signatures of constraint concentration and loop closure—not mysterious "magnetic field" anomalies.
 
-      The unifying principle: **magnetic reconnection is topological reconfiguration**. When orthodox MHD speaks of ``field lines breaking and reconnecting,'' τ³ translates this as loop structure undergoing topological transition. Flares and CMEs are violent reconfigurations of the Sun's loop topology—the topological channel releasing accumulated constraint tension in discrete events.
+      The unifying principle: **magnetic reconnection is topological reconfiguration**. When orthodox MHD speaks of "field lines breaking and reconnecting," τ³ translates this as loop structure undergoing topological transition. Flares and CMEs are violent reconfigurations of the Sun's loop topology—the topological channel releasing accumulated constraint tension in discrete events.
   - number: 56
     title: "Flares, CMEs, Solar Wind: Boundary Relaxation and Space Weather"
     abstract: |-
-      A flare is not ``a hot explosion.'' It is rapid release of stored constraint-tension in a loop structure. A CME is a boundary reconfiguration that exports structure; the solar wind is the steady boundary flow. These are the forcing terms for magnetospheres, aurorae, and atmospheric chemistry.
+      A flare is not "a hot explosion." It is rapid release of stored constraint-tension in a loop structure. A CME is a boundary reconfiguration that exports structure; the solar wind is the steady boundary flow. These are the forcing terms for magnetospheres, aurorae, and atmospheric chemistry.
 
-      The two-channel perspective: **flares and CMEs are topological channel events**. While ordinary solar processes relax via the geometric channel (continuous heat flow, radiation), flares represent accumulated loop tension that can only release through discrete topological reconfiguration. The ``reconnection'' language of MHD is the orthodox approximation to what τ³ recognizes as topological mode-switching—the second relaxation channel operating at macroscopic scale.
+      The two-channel perspective: **flares and CMEs are topological channel events**. While ordinary solar processes relax via the geometric channel (continuous heat flow, radiation), flares represent accumulated loop tension that can only release through discrete topological reconfiguration. The "reconnection" language of MHD is the orthodox approximation to what τ³ recognizes as topological mode-switching—the second relaxation channel operating at macroscopic scale.
   - number: 57
     title: "Magnetospheres and Aurorae: Where Stellar and Planetary Boundaries Meet"
     abstract: |-
       Aurorae are not decorative lights—they are the visible interface of loop-structure coupling: stellar boundary flux meets planetary boundary structure. This chapter develops magnetospheres as coupled boundary systems and aurora as the readout of that coupling.
 
-      The key insight: **aurorae are not ``particles hitting atmosphere''**. They are the visible manifestation of where stellar boundary flow (solar wind carrying loop structure) couples to planetary boundary structure (intrinsic loop system) and that coupling transfers energy to atmospheric modes. The colors encode the coupling—oxygen green, nitrogen blue—not ``particle impacts.''
+      The key insight: **aurorae are not "particles hitting atmosphere"**. They are the visible manifestation of where stellar boundary flow (solar wind carrying loop structure) couples to planetary boundary structure (intrinsic loop system) and that coupling transfers energy to atmospheric modes. The colors encode the coupling—oxygen green, nitrogen blue—not "particle impacts."
   - number: 58
     title: "Atmospheres as Coupled Boundary Layers: Radiation, Particles, and Chemistry"
     abstract: "An atmosphere is not a passive gas shell—it is an active boundary layer that converts stellar inputs into chemistry,\
@@ -419,23 +419,23 @@ parts:
       \ particles + cosmic rays + surface reservoirs, all feeding into the atmospheric state."
   - number: 59
     title: "Weather and Climate: Coarse Flows on a Coupled Boundary Layer"
-    abstract: "Weather is not ``random air motion.'' It is the macroscopic readout of constrained flows: radiative forcing,\
+    abstract: "Weather is not \"random air motion.\" It is the macroscopic readout of constrained flows: radiative forcing,\
       \ phase transitions, rotation (Coriolis readout), and boundary friction. In τ³, atmospheric dynamics is the archetype\
       \ of how coherent large-scale motion emerges without invoking ontic straight-line inertia."
   - number: 60
     title: "Oceans, Tides, and Rotation: The Planet as a Driven Resonator"
     abstract: |-
-      Large bodies of liquid are planetary-scale integrators: they store energy, transport heat, and create memory. Tides are not merely ``Moon pulls water''—they are global boundary resonances in a rotating system with coupled gravitational/topological readout.
+      Large bodies of liquid are planetary-scale integrators: they store energy, transport heat, and create memory. Tides are not merely "Moon pulls water"—they are global boundary resonances in a rotating system with coupled gravitational/topological readout.
 
-      In τ³ terms: tides are **resonant responses to closed geodesic forcing**. The orbit is not a balance of forces but a geodesic family; tidal coupling is how the ocean ``feels'' this orbital structure.
+      In τ³ terms: tides are **resonant responses to closed geodesic forcing**. The orbit is not a balance of forces but a geodesic family; tidal coupling is how the ocean "feels" this orbital structure.
   - number: 61
     title: "Rare Phases on Planets: Bridge to Part VII"
-    abstract: "Most of the universe is plasma, vacuum, or degenerate matter. The ``ordinary'' solid-liquid-gas phases we inhabit\
+    abstract: "Most of the universe is plasma, vacuum, or degenerate matter. The \"ordinary\" solid-liquid-gas phases we inhabit\
       \ are cosmologically rare. This chapter identifies what makes planetary surface conditions unusual and prepares the\
       \ transition to Part VII's treatment of condensed matter as the arena for complexity."
   - number: 62
     title: "Synthesis: From Planetary Readout to Relational Condensed Matter"
-    abstract: "Part VI explained why the ``classical world'' looks classical: closed-orbit inertia, stable boundary forcing,\
+    abstract: "Part VI explained why the \"classical world\" looks classical: closed-orbit inertia, stable boundary forcing,\
       \ and long-lived coupled layers. But the real engine of complexity is the emergence of rare phases under boundary constraints.\
       \ This chapter hands off the API to Part VII: condensed matter as the next ontological layer in the macrocosm stack."
 - number: VII
@@ -453,7 +453,7 @@ parts:
   - number: 64
     title: "Heat Is Electromagnetism: Radiation, Conduction, Convection Re-read"
     abstract: |-
-      In τ³, heat is not ``random motion of particles.'' Heat is electromagnetic energy exchange between coupled matter configurations, read out in three coarse modes: radiation, conduction, and convection. This chapter establishes the ontology of thermal energy transfer.
+      In τ³, heat is not "random motion of particles." Heat is electromagnetic energy exchange between coupled matter configurations, read out in three coarse modes: radiation, conduction, and convection. This chapter establishes the ontology of thermal energy transfer.
 
       The CR projection factor: **(3/4)² appears wherever EM couples to τ³ mode space**. The total CR mode-space has four quaternionic components \1, i, j, k\. Electromagnetic coupling—including thermal EM exchange—lives in the three-dimensional spin subspace , j, k\. The fraction of CR modes that participate in any given EM channel is thus 3/4, and *squared* amplitudes give (3/4)² = 9/16. This same factor appears in: the hydrogen co-rotor's magnetic moment projection, the τ-TOV critical density formula (only 3 spin modes resist 4-mode gravity), and the neutron β-decay rate. Heat transfer inherits this: the EM fraction of total mode activity is (3/4)².
   - number: 65
@@ -465,49 +465,49 @@ parts:
   - number: 66
     title: "The Phase Diagram of Reality: States of Matter and Phase Transitions"
     abstract: |-
-      States of matter are not ``what things are made of'' but what constraint-patterns remain admissible under a given thermodynamic budget. Phase transitions are categorical reassignments of admissibility—often involving the topological channel.
+      States of matter are not "what things are made of" but what constraint-patterns remain admissible under a given thermodynamic budget. Phase transitions are categorical reassignments of admissibility—often involving the topological channel.
 
       The two-channel framework illuminates phase transitions: **ordinary transitions use the geometric channel** (melting, boiling—constraint reconfiguration at fixed topology), while **rare transitions use the topological channel** (superconductivity, superfluidity—discrete jumps in connectivity or winding). The phase diagram is a map of admissibility regimes, with both channels operative at different boundaries.
   - number: 67
     title: "Solids as Constraint-Lattices: Crystals, Defects, and Elasticity"
     abstract: |-
-      A solid is not ``matter at rest.'' In τ³, a solid is a stable constraint-lattice: a configuration where adjacency relationships persist under small perturbations. What we call elasticity is the medium's local response to constraint deformation; what we call defects are local singularities in the constraint structure that enable plasticity, diffusion, and ultimately complexity.
+      A solid is not "matter at rest." In τ³, a solid is a stable constraint-lattice: a configuration where adjacency relationships persist under small perturbations. What we call elasticity is the medium's local response to constraint deformation; what we call defects are local singularities in the constraint structure that enable plasticity, diffusion, and ultimately complexity.
 
       The deep connection: **dislocations are lattice holonomy**. A dislocation has a nonzero Burgers vector—walk around it in a closed loop and you fail to close by b. This is holonomy in the constraint lattice, directly analogous to Part IV's macro-scale holonomy. Topological defects in solids and topological handles in spacetime are the same categorical structure at different scales.
   - number: 68
     title: "Electrons in Solids: Bands, Metals, and Insulators"
     abstract: |-
-      The band picture becomes clean in τ³ once we stop imagining electrons as little balls moving through a lattice. What distinguishes a metal from an insulator is not ``mobility in space''—it is the admissibility of charge-carrying modes under the medium's constraint structure.
+      The band picture becomes clean in τ³ once we stop imagining electrons as little balls moving through a lattice. What distinguishes a metal from an insulator is not "mobility in space"—it is the admissibility of charge-carrying modes under the medium's constraint structure.
 
-      The ontological clarification: **electrons do not ``move through'' the lattice**. There are no trajectories, no collisions in the classical sense. What determines conduction is whether charge-carrying modes are admissible at the occupancy boundary (Fermi level). Resistance is not ``electron scattering''—it is mode damping by constraint roughness. The free electron gas is a computational fiction, not ontic truth.
+      The ontological clarification: **electrons do not "move through" the lattice**. There are no trajectories, no collisions in the classical sense. What determines conduction is whether charge-carrying modes are admissible at the occupancy boundary (Fermi level). Resistance is not "electron scattering"—it is mode damping by constraint roughness. The free electron gas is a computational fiction, not ontic truth.
   - number: 69
     title: "Macro-Magnetism in Matter: Domains, Hysteresis, and No Monopoles"
     abstract: |-
-      Magnetism is not the ``stepchild'' of electromagnetism in τ³. It is the macroscopic organization of admissible circulating modes and their holonomy. Once magnetism is phrased as admissible circulation, the absence of magnetic monopoles is not a mystery but a constraint statement: circulation has no endpoints.
+      Magnetism is not the "stepchild" of electromagnetism in τ³. It is the macroscopic organization of admissible circulating modes and their holonomy. Once magnetism is phrased as admissible circulation, the absence of magnetic monopoles is not a mystery but a constraint statement: circulation has no endpoints.
 
       The deep τ-CR mechanism: **ferromagnetism in iron arises from global τ-CR phase alignment**. In Fe-56 (the meso-saturation nucleus from Chapter ch:V14-core-collapse-supernova), each atom's 3d shell electrons couple via exchange to establish local circulation coherence. When neighboring Fe atoms align their τ-phases, they form a **globally τ-holomorphic pattern**—zero CR energy, full baryon saturation, and maximal holonomy coherence. This is an Ising model on the T² fiber: each Fe-donut has a discrete phase degeneracy, and ferromagnetic ordering selects a global phase. The order parameter for macroscopic magnetization M *is* this global phase alignment. Below the Curie temperature, the system spontaneously breaks the T² phase symmetry; above T_C, thermal fluctuations restore the degeneracy and magnetization vanishes.
   - number: 70
     title: "Superconductors and Superfluids: Topological Channels in Matter"
     abstract: |-
-      The ``rare phases'' become inevitable once we recognize the second relaxation channel: topological reconfiguration. Superconductivity and superfluidity are not exotic anomalies—they are matter discovering protected circulation modes that bypass the usual dissipative pathways. Zero resistance is not magical; it is the absence of admissible dissipation.
+      The "rare phases" become inevitable once we recognize the second relaxation channel: topological reconfiguration. Superconductivity and superfluidity are not exotic anomalies—they are matter discovering protected circulation modes that bypass the usual dissipative pathways. Zero resistance is not magical; it is the absence of admissible dissipation.
 
       The unifying τ³ principle: **topological protection means forbidden transitions**. Phase coherence creates a global constraint; breaking coherence requires crossing an energy gap. Below critical temperature, dissipative pathways are simply not admissible—the system has no choice but to flow without loss. Superconductivity and superfluidity are the charge and mass versions of the same constraint physics.
 
-      The He-4 superfluidity mechanism: **He-4 is the minimal τ-donut**—the first N=4 nuclear polygon satisfying (π/N) ≥ 1 - ι_τ, with its 8 character modes locked into a single highly symmetric irreducible representation on the torus. This perfect local symmetry means there are *no low-energy local defect modes* to pin or scatter. When many He-4 donuts come together, the global minimum of the τ-CR functional is achieved when all donuts share a **common phase** along their shared Cayley edges. Mass flow then becomes not ``particles bouncing'' but **phase gradients sliding** across a coherent network of minimal donuts— precisely the superfluid picture. The critical temperature T_λ is where thermal fluctuations overcome the CR phase-locking energy; below T_λ, global coherence is entropically favored and frictionless flow emerges automatically.
+      The He-4 superfluidity mechanism: **He-4 is the minimal τ-donut**—the first N=4 nuclear polygon satisfying (π/N) ≥ 1 - ι_τ, with its 8 character modes locked into a single highly symmetric irreducible representation on the torus. This perfect local symmetry means there are *no low-energy local defect modes* to pin or scatter. When many He-4 donuts come together, the global minimum of the τ-CR functional is achieved when all donuts share a **common phase** along their shared Cayley edges. Mass flow then becomes not "particles bouncing" but **phase gradients sliding** across a coherent network of minimal donuts— precisely the superfluid picture. The critical temperature T_λ is where thermal fluctuations overcome the CR phase-locking energy; below T_λ, global coherence is entropically favored and frictionless flow emerges automatically.
   - number: 71
     title: "Glass and Amorphous Matter: Frozen Topology"
-    abstract: "Glass is not merely a solid that ``failed to crystallize.'' In τ³, glass is a phase where the system becomes\
+    abstract: "Glass is not merely a solid that \"failed to crystallize.\" In τ³, glass is a phase where the system becomes\
       \ kinetically trapped in a topological constraint class: rigid because reconfiguration would require global constraint\
       \ surgery, not because constituents are static. The glass transition is not a phase transition—it is a dynamical arrest."
   - number: 72
     title: "Rare Couplings: Transduction Pathways in Matter"
-    abstract: "So-called ``special effects'' stop being special once heat is understood as coarse-grained electromagnetic\
+    abstract: "So-called \"special effects\" stop being special once heat is understood as coarse-grained electromagnetic\
       \ exchange and matter as an admissibility engine. Piezoelectricity, triboluminescence, and sonoluminescence are transduction\
       \ pathways: ways to convert constraint work into boundary radiation. They are rare not because physics forbids them,\
       \ but because the required symmetries and defect structures are themselves rare."
   - number: 73
     title: "Semiconductors: Controlled Admissibility"
-    abstract: "In τ³, a semiconductor is not defined by ``a small band gap'' alone. It is defined by controllability: a phase\
+    abstract: "In τ³, a semiconductor is not defined by \"a small band gap\" alone. It is defined by controllability: a phase\
       \ where admissibility can be tuned predictably by impurities, fields, and geometry. This controllability enables engineered\
       \ transduction—reliable conversion between charge modes, photons, and heat— which underlies modern technology and, ultimately,\
       \ life-like agency."
@@ -516,7 +516,7 @@ parts:
     abstract: |-
       Complex chemistry and liquid water may be locally rare, but in the τ³ time-story they are not ontological accidents. They are natural attractors of constraint refinement: structures that exploit the universe's dual relaxation channels while maintaining local persistence. This chapter hands off to Book VI by stating what physics must provide: stable solvents, catalytic pathways, information-bearing structures, and bounded dissipation.
 
-      The key non-anthropic insight: **global entropy is decreasing** in the holomorphic sense. Complexity (and eventually life) is the natural way the universe ``flows downhill'' along this global gradient—locally rare, but globally probable.
+      The key non-anthropic insight: **global entropy is decreasing** in the holomorphic sense. Complexity (and eventually life) is the natural way the universe "flows downhill" along this global gradient—locally rare, but globally probable.
 - number: VIII
   title: "Correspondence, Closure, and Frontier Physics"
   abstract: "The master correspondence map: τ³ orthodox physics. QFT without unification mythology; SR/GR as readout dialects.\
@@ -528,7 +528,7 @@ parts:
     abstract: |-
       After seven Parts developing τ³ from first principles through cosmology, particles, and matter, we pause to consolidate. This chapter presents the comprehensive correspondence map: how every orthodox concept finds its τ³ counterpart. The map is not merely translational—it reveals why the orthodox formulation works where it does and why it struggles where it does.
 
-      The Euler identity in τ-form: **_τ(iπ/2) = i is the multiplicative equalizer**, expressing that the canonical τ-holomorphic character sends a quarter-turn along the π-orbit to the imaginary generator. No zero, no -1, no addition—pure rotation. This is Euler's identity rewritten for a framework that intentionally removed 0 from its core monoidal structure: ``quarter-turn = jump from α to π.'' The ``mysterious'' equation eiπ + 1 = 0 becomes a natural compatibility law between the exponential monoid (∧), the additive-multiplicative monoid (×), and the orthogonal α/π geometry.
+      The Euler identity in τ-form: **_τ(iπ/2) = i is the multiplicative equalizer**, expressing that the canonical τ-holomorphic character sends a quarter-turn along the π-orbit to the imaginary generator. No zero, no -1, no addition—pure rotation. This is Euler's identity rewritten for a framework that intentionally removed 0 from its core monoidal structure: "quarter-turn = jump from α to π." The "mysterious" equation eiπ + 1 = 0 becomes a natural compatibility law between the exponential monoid (∧), the additive-multiplicative monoid (×), and the orthogonal α/π geometry.
   - number: 76
     title: QFT as Boundary Readout
     abstract: |-
@@ -540,7 +540,7 @@ parts:
     abstract: |-
       Special and general relativity are among physics' greatest achievements. In τ³, they are not fundamental ontology but chart-level consequences of constraint structure. Time dilation is tension readout; the Lorentz factor measures constraint gradient; spacetime curvature is chart distortion from constraint density. This chapter re-reads relativity through the τ³ lens.
 
-      The categorical orthogonality: **α-orbit (radial) and π-orbit (angular) are automatically orthogonal via the × monoidal product**. Define A ⊥ B ⇔ A × B = A or A × B = B. Then α_m ⊥ π_n for all m,n (since α_m × π_n = π_n), while distinct π's are never orthogonal (product gives π_m+n, neither factor). This mirrors ``radial directions are orthogonal to angular directions'' on a discrete polar coordinate system—with α as origin, ω as north pole, and the α/π-orbits as discrete radius/angle. Relativity's orthogonal time-space decomposition is thus a chart-level readout of categorical orthogonality in the underlying τ-structure.
+      The categorical orthogonality: **α-orbit (radial) and π-orbit (angular) are automatically orthogonal via the × monoidal product**. Define A ⊥ B ⇔ A × B = A or A × B = B. Then α_m ⊥ π_n for all m,n (since α_m × π_n = π_n), while distinct π's are never orthogonal (product gives π_m+n, neither factor). This mirrors "radial directions are orthogonal to angular directions" on a discrete polar coordinate system—with α as origin, ω as north pole, and the α/π-orbits as discrete radius/angle. Relativity's orthogonal time-space decomposition is thus a chart-level readout of categorical orthogonality in the underlying τ-structure.
   - number: 78
     title: "Λ, Dark Sector, and Vacuum"
     abstract: "The cosmological constant problem, dark matter, and dark energy are the defining puzzles of contemporary physics.\
@@ -551,22 +551,22 @@ parts:
     abstract: |-
       General Relativity is not replaced in τ³; it is re-read. Its differential geometry is a chart-level calculus for macroscopic constraint curvature. And precisely where GR becomes singular, τ³ opens the second relaxation channel: topology. This chapter clarifies what GR captures, what it misses, and why.
 
-      Dirac's Large Number Hypothesis, vindicated: **the effective gravitational coupling G_τ,eff grows with cosmic age as more CR modes lock into coherent bands**. In τ³, the ``gravitational constant'' is not a fixed parameter but a **spectral response coefficient**—specifically, G_τ(K) K(K+1)(2K+1)/336 O(K³) for large K, where K is the half-bandwidth of CR modes coherently aligned on the largest macro-donut. As cosmic α-time advances, structure formation proceeds: micro-donuts fuse to meso, meso to macro (stellar BH), macro to cluster BH, toward the universal lemniscate ω × L. Each step up the ladder means more CR modes locked into one spectrally aligned band, hence larger K, hence larger G_τ,eff. Dirac was conceptually right: large dimensionless numbers are not accidents but track cosmic structure. What was missing was a substrate where ``constants'' are naturally mode-counts rather than fixed parameters in a continuum field equation. τ³ provides exactly that.
+      Dirac's Large Number Hypothesis, vindicated: **the effective gravitational coupling G_τ,eff grows with cosmic age as more CR modes lock into coherent bands**. In τ³, the "gravitational constant" is not a fixed parameter but a **spectral response coefficient**—specifically, G_τ(K) K(K+1)(2K+1)/336 O(K³) for large K, where K is the half-bandwidth of CR modes coherently aligned on the largest macro-donut. As cosmic α-time advances, structure formation proceeds: micro-donuts fuse to meso, meso to macro (stellar BH), macro to cluster BH, toward the universal lemniscate ω × L. Each step up the ladder means more CR modes locked into one spectrally aligned band, hence larger K, hence larger G_τ,eff. Dirac was conceptually right: large dimensionless numbers are not accidents but track cosmic structure. What was missing was a substrate where "constants" are naturally mode-counts rather than fixed parameters in a continuum field equation. τ³ provides exactly that.
   - number: 80
     title: Closure and Backreaction
     abstract: |-
-      In orthodox language, ``quantum'' and ``gravity'' are two theories that must be unified. In τ³, there is no such separation: micro modes and macro geometry/topology are two charts on one categorical substrate. Closure is enforced ontically, not by ad hoc patching.
+      In orthodox language, "quantum" and "gravity" are two theories that must be unified. In τ³, there is no such separation: micro modes and macro geometry/topology are two charts on one categorical substrate. Closure is enforced ontically, not by ad hoc patching.
 
-      The seed-crystal principle: **τ³ is a minimal categorical ``atom'' from which the standard topos zoo emerges as internal models**. Presheaf topoi, Grothendieck topoi, realizability topoi, classifying topoi—all the huge botanical gardens of logic and geometry—can be grown as *internal* structures inside τ³. The usual direction is inverted: instead of ``start with ZFC → build Set → build topoi on top,'' τ³ proposes ``start with a tiny categorical seed → host ZFC-like models inside that.'' The topos zoo becomes derived phenomena on the seed crystal, not foundations underneath it.
+      The seed-crystal principle: **τ³ is a minimal categorical "atom" from which the standard topos zoo emerges as internal models**. Presheaf topoi, Grothendieck topoi, realizability topoi, classifying topoi—all the huge botanical gardens of logic and geometry—can be grown as *internal* structures inside τ³. The usual direction is inverted: instead of "start with ZFC → build Set → build topoi on top," τ³ proposes "start with a tiny categorical seed → host ZFC-like models inside that." The topos zoo becomes derived phenomena on the seed crystal, not foundations underneath it.
   - number: 81
     title: "ΛCDM Re-read: Category Error, Correct Procedures"
     abstract: |-
-      ΛCDM is not ``stupid''; it is a brilliant set of procedures built on a mismatched ontology. In τ³, the same procedures remain useful, but the primitives are re-typed: vacuum energy becomes boundary bookkeeping, dark matter becomes topology plus transport, and dark energy becomes refinement drift.
+      ΛCDM is not "stupid"; it is a brilliant set of procedures built on a mismatched ontology. In τ³, the same procedures remain useful, but the primitives are re-typed: vacuum energy becomes boundary bookkeeping, dark matter becomes topology plus transport, and dark energy becomes refinement drift.
 
       The systematic category error: **ΛCDM treats structural effects as substances**. See an effect → invent a substance: acceleration → dark energy, missing mass → dark matter, cosmic constant → vacuum energy. But effects can arise from structure without requiring substances. The resolution is not to find the particles—it is to recognize that the effects are real but their ontic interpretation is wrong. Keep the procedures, change the primitives.
   - number: 82
     title: "Frontier Physics Map: Partial Truths and Missing Closure"
-    abstract: "The frontier programs were not ``wrong instincts.'' Most were right partial moves toward holomorphy, discreteness,\
+    abstract: "The frontier programs were not \"wrong instincts.\" Most were right partial moves toward holomorphy, discreteness,\
       \ or global invariance. What was missing was a closure substrate that ties micro and macro together ontically and makes\
       \ global gluing unavoidable rather than optional."
   - number: 83
@@ -577,7 +577,7 @@ parts:
   - number: 84
     title: "Falsifiable Seams: Discriminating Tests"
     abstract: "A framework that cannot be distinguished from its rivals is not science but rebranding. This chapter identifies\
-      \ specific ``seams''—observable differences where τ³ predictions diverge from orthodox physics. These are the experiments\
+      \ specific \"seams\"—observable differences where τ³ predictions diverge from orthodox physics. These are the experiments\
       \ and observations that could falsify τ³."
   - number: 85
     title: Synthesis and Horizon
