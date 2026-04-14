@@ -1,56 +1,38 @@
-# 🌊 Panta Rhei Books — First Edition Website
+<p align="center">
+  <strong>Panta Rhei — Website (First Edition)</strong><br>
+  <em>Transitional Archival Surface — Superseded</em>
+</p>
 
-This repository currently hosts the **live public website for the first edition** of the **Panta Rhei Books** series.
+---
 
-🔗 Live website: [panta-rhei-books.org](https://panta-rhei-books.org)
+> **This repository preserves a transitional earlier website surface associated with the First Edition.**
+>
+> The live website now lives in **[site](https://github.com/Panta-Rhei-Research/site)** at [panta-rhei.site](https://panta-rhei.site).
+>
+> The archived First Edition website materials now live in **[books](https://github.com/Panta-Rhei-Research/books)**.
 
-## What this repository is
+---
 
-This repository contains the Jekyll-based public site for the **first edition** of the seven-volume **Panta Rhei Books** series.
+## What happened
 
-It is currently the live website because the previous hosted author-page setup has been retired, and the first-edition public surface now runs directly from GitHub Pages.
+The `website` repository contained the source for the first-edition book website at `panta-rhei-books.org`. With the launch of the Second Edition and the canonical Atlas website at [panta-rhei.site](https://panta-rhei.site), this repository's role has been superseded.
 
-## Transitional status
+The research program now publishes through:
 
-This repository is a **transitional live surface**.
+- **[site](https://github.com/Panta-Rhei-Research/site)** — the canonical public website (Atlas) at [panta-rhei.site](https://panta-rhei.site)
+- **[books](https://github.com/Panta-Rhei-Research/books)** — canonical publication and archival home, including first-edition materials
 
-For the next short period, it remains the public home of the **first edition website** while the broader **Panta Rhei framework Atlas** is being built and prepared for launch.
+## Where to go
 
-After the second-edition Atlas launches:
+| If you want to... | Go to... |
+|---|---|
+| Visit the live website | [panta-rhei.site](https://panta-rhei.site) |
+| Browse the First Edition archive | [panta-rhei.site/publications/archived/first-edition/](https://panta-rhei.site/publications/archived/first-edition/) |
+| See publication materials | [**books**](https://github.com/Panta-Rhei-Research/books) |
+| Explore the site source | [**site**](https://github.com/Panta-Rhei-Research/site) |
 
-- this repository will no longer be the main public website
-- the primary framework website will move to the `site` repository
-- this repository will be retained as a **historical first-edition archive**
+## Status
 
-## Relationship to the broader framework
+This repository is **archived**. No new commits will be made. Issues and PRs are closed.
 
-The first-edition website is part of the public history of the project, but it is **not** the final long-term framework surface.
-
-The broader public architecture of the project is being developed across the Panta Rhei organization, including:
-
-- [`site`](https://github.com/Panta-Rhei-Framework/site) — the future framework Atlas delivery surface
-- [`books`](https://github.com/Panta-Rhei-Framework/books) — canonical build lane
-- [`topics`](https://github.com/Panta-Rhei-Framework/topics) — topic projection lane
-- [`results`](https://github.com/Panta-Rhei-Framework/results) — results atlas lane
-- [`papers`](https://github.com/Panta-Rhei-Framework/papers) — official paper surface
-- [`formalization`](https://github.com/Panta-Rhei-Framework/formalization) — official formalization surface
-
-## Scope of this repository
-
-This repository is specifically for the **first-edition public website** and its direct website assets.
-
-It should not be treated as the long-term source-of-truth repo for the broader Panta Rhei Atlas architecture.
-
-## Long-term plan
-
-Once the new framework-first public site goes live:
-
-- the public domain routing will move to the new Atlas surface
-- this repository will remain available as a preserved first-edition website archive
-- the README and repo metadata can then be updated again to reflect archive status explicitly
-
-## Related links
-
-- 🌐 First-edition website: [panta-rhei-books.org](https://panta-rhei-books.org)
-- 🧭 Organization landing page: [Panta-Rhei-Framework](https://github.com/Panta-Rhei-Framework)
-- 🚀 Future public site surface: [`site`](https://github.com/Panta-Rhei-Framework/site)
+The domain `panta-rhei-books.org` redirects to [panta-rhei.site/publications/](https://panta-rhei.site/publications/).
